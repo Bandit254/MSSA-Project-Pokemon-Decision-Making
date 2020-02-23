@@ -18,8 +18,8 @@ The picture below is my initial entity relationship diagram for the database I w
 ![ERD](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/02.%20Database%20Entity%20Relationship%20Designs/CADProject%20-%2020200209%20-%20ZSilvis%20-%20ERD.jpg)
 
 ## Project Data
-There are many sources for Pokemon data, and there is a lot of it. The folder "03. Project Data (Excel and CSV" will contain all of the raw data that I 
+There are many sources for Pokemon data, and there is a lot of it. The folder "03. Project Data (Excel and CSV" will contain all of the raw data that I need to complete this project. Although the current competitive rules only allows for a subset of the 400 Pokemon available in Sword and Shield to participate in offical battles, I want to include data on all Poke
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTMzNzA5NCwtMTU0NTg0NzI3MCwtNj
+eyJoaXN0b3J5IjpbMjAzMzIyMTU3OSwtMTU0NTg0NzI3MCwtNj
 M0NTY2MjcwXX0=
 -->
