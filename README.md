@@ -13,10 +13,12 @@ Therefore, the motivation behind this project is to build a web application that
 For more information on the background and motivation behind this project, see the paper and presentation in folder "01. Project Proposal and Presentation."
 
 ## Entity Relationship Diagrams
-The picture below is my initial entity relationship diagram for the database I will build to support my application. I used Draw.io. The JPEG and PDF version of the ERD can also be found in folder "02. Datab."
+The picture below is my initial entity relationship diagram for the database I will build to support my application. I used Draw.io. The JPEG and PDF version of the ERD can also be found in folder "02. Database Entity Relationship Diagrams."
+
+![ERD](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/02.%20Database%20Entity%20Relationship%20Designs/CADProject%20-%2020200209%20-%20ZSilvis%20-%20ERD.jpg)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDkwNDE1MDQsLTE1NDU4NDcyNzAsLT
-YzNDU2NjI3MF19
+eyJoaXN0b3J5IjpbLTYzMjExMDQ3NywtMTU0NTg0NzI3MCwtNj
+M0NTY2MjcwXX0=
 -->
