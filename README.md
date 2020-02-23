@@ -8,9 +8,9 @@ While most people are familiar with the trading cards, the anime series, and the
 
 While the most recent generation of games (Sword and Shield, the 8th Generation) have made it far easier to build competitively viable Pokemon teams, that has not made competitive battles any easier. Each Pokemon has a wide range of moves, stats, abilities, and items that players must consider in order to be successful, and with more players than ever eager to learn the competitive scene it is becoming more difficult to find and exploit an advantage in the game. 
 
-Therefore, the motivation behind this project is to build a web application that aids players as they analyze pokemon individually, build teams, and prepare for batt
+Therefore, the motivation behind this project is to build a web application that aids players as they analyze pokemon individually, build teams, and prepare for battles against their opponents. This application will enable players to examine the impact of adding a pokemon 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MDkyNzAzMywtMTU0NTg0NzI3MCwtNj
-M0NTY2MjcwXX0=
+eyJoaXN0b3J5IjpbMjE0MTA1ODU0LC0xNTQ1ODQ3MjcwLC02Mz
+Q1NjYyNzBdfQ==
 -->
