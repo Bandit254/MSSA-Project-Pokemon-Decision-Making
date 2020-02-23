@@ -1,6 +1,7 @@
 # MSSA Project: Pokémon Decision Making
-Project completed as part of the MSSA Cloud Application Developer Program. A web application to assist competitive Pokémon battlers in building their teams and selecting strategies during battle.
+The Microsoft Software and Systems Academy (MSSA) is a program designed to teach trans
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDU4NDcyNzAsLTYzNDU2NjI3MF19
+eyJoaXN0b3J5IjpbLTEyNDQ2MzUxNTgsLTE1NDU4NDcyNzAsLT
+YzNDU2NjI3MF19
 -->
