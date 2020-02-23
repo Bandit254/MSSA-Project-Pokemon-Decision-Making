@@ -2,7 +2,7 @@
 The Microsoft Software and Systems Academy (MSSA) is a program designed to teach transitioning servicemembers and veterans the skills necessary for moving into the IT field. I am attending the MSSA program for Cloud Application Development (CAD) hosted by Embry-Riddle Aeronautical University (ERAU) in San Diego, CA. All students are required to complete a personal project as part of the 19-week course. This repository hosts all of the files and documents necessary for the completion of my project.
 
 ## Project Motivation / Background
-I have been playing Pokemon on-and-off since 5th grade. I came to the game late compared to my friends who were immediately swept up by the first generation of games in the late 1990s, but it has stuck with me longer.
+I have been playing Pokémon on-and-off since 5th grade. I came to the game late compared to my friends who were immediately swept up by the first generation of games in the late 1990s, but it has stuck with me longer.
 
 While most people are familiar with the trading cards, the anime series, and the story mode of the Pokémon video games, the competitive scene for Pokémon has been relatively unknown until recently. The rules for competitive Pokémon battles are far more complex than the regular story mode,  which has the effect of turning a simple children's game into a difficult game of strategy and information management. One former world champion describes the  competitive version of Pokémon as a mixture of chess, poker, and rock-paper-scissors.
 
@@ -12,9 +12,11 @@ Therefore, the motivation behind this project is to build a web application that
 
 For more information on the background and motivation behind this project, see the paper and presentation in folder "01. Project Proposal and Presentation."
 
+## Entity Relationship Diagrams
+The 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjQyNjcwMjUsLTE1NDU4NDcyNzAsLT
-YzNDU2NjI3MF19
+eyJoaXN0b3J5IjpbLTI5NzA1MDkzNywtMTU0NTg0NzI3MCwtNj
+M0NTY2MjcwXX0=
 -->
