@@ -4,9 +4,9 @@ The Microsoft Software and Systems Academy (MSSA) is a program designed to teach
 ## Project Motivation / Background
 I have been playing Pokemon on-and-off since 5th grade. I came to the game late compared to my friends who were immediately swept up by the first generation of games in the late 1990s, but it has stuck with me longer.
 
-
+While most people are familiar with the trading cards, the anime series, and the story mode of the Pokemon video games, the competitive scene for Pokemon has been relatively unknown until recently. The rules for competitive battling 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTM2NzIxNTUsLTE1NDU4NDcyNzAsLT
-YzNDU2NjI3MF19
+eyJoaXN0b3J5IjpbLTgzNDcxOTg5NywtMTU0NTg0NzI3MCwtNj
+M0NTY2MjcwXX0=
 -->
