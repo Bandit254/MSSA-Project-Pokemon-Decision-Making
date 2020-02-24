@@ -25,8 +25,13 @@ I will use T-SQL and Microsoft SQL Server to build the primary database for this
 
 ## Website Wire Frames
 Below are a few of the wire frame designs I have made for the application's website. These are not all of the pages I have designed, nor are they final designs. I used [https://pencil.evolus.vn/](https://pencil.evolus.vn/) to create the wire frames. I also included a diagram that I sketched in OneNote. 
+
+![Content Hub](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/05.%20Website%20Wire%20Frame%20Diagrams/ContentHubPage%20%2823FEB2020%29.jpg)
  
+ ![Create a Team](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/05.%20Website%20Wire%20Frame%20Diagrams/CreateTeamPage%20%2823FEB2020%29.jpg)
+
+![Analyze Team](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/05.%20Website%20Wire%20Frame%20Diagrams/AnalyzeTeamPage%20%2823FEB2020%29.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDE4MjU1MzksMTY3NTczODc0OSwtMT
-U0NTg0NzI3MCwtNjM0NTY2MjcwXX0=
+eyJoaXN0b3J5IjpbLTQwODE2NjM4NCwtMTc0MTgyNTUzOSwxNj
+c1NzM4NzQ5LC0xNTQ1ODQ3MjcwLC02MzQ1NjYyNzBdfQ==
 -->
