@@ -21,8 +21,10 @@ The picture below is my initial entity relationship diagram for the database I w
 There are many sources for Pokémon data, and there is a lot of it. The folder "03. Project Data (Excel and CSV" will contain all of the raw data that I need to complete this project. Although the current competitive rules only allows for a subset of the 400 Pokémon available in Sword and Shield to participate in official battles, I want to include data on all Pokémon from all generations in order to make the application accommodating to future rules changes and new game releases. 
 
 ## Building the Database
-I will use T-SQL and Microsoft SQL Server to build the primary database for this project. The folder "04. SQL Solution and Qu
+I will use T-SQL and Microsoft SQL Server to build the primary database for this project. The folder "04. SQL Solution and Queries" contains all of the queries I have written to build the database (so far).
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzk1MDg3MSwtMTU0NTg0NzI3MCwtNj
-M0NTY2MjcwXX0=
+eyJoaXN0b3J5IjpbMjAwMTI5MzcwLC0xNTQ1ODQ3MjcwLC02Mz
+Q1NjYyNzBdfQ==
 -->
