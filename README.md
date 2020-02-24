@@ -23,8 +23,10 @@ There are many sources for Pokémon data, and there is a lot of it. The folder "
 ## Building the Database
 I will use T-SQL and Microsoft SQL Server to build the primary database for this project. The folder "04. SQL Solution and Queries" contains all of the queries I have written to build the database (so far).
 
-
+## Website Wire Frames
+Below are a few of the wire frame designs I have made for the application's website. These are not all of the pages I have designed, nor are they final designs. I used [https://pencil.evolus.vn/](https://pencil.evolus.vn/) to create the wire frames.
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMTI5MzcwLC0xNTQ1ODQ3MjcwLC02Mz
-Q1NjYyNzBdfQ==
+eyJoaXN0b3J5IjpbMTY3NTczODc0OSwtMTU0NTg0NzI3MCwtNj
+M0NTY2MjcwXX0=
 -->
