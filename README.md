@@ -35,6 +35,5 @@ Below are a few of the wire frame designs I have made for the application's webs
 ## Source Code From Other Projects
 Although I have not yet incorporated course from other projects, there are two projects that I am likely to draw upon: the Pokémon Showdown battle simulator and the Veekun Project. Both projects' source code is stored in folders XX and YY, respectively. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMjc0NDE1OCwtMTc0MTgyNTUzOSwxNj
-c1NzM4NzQ5LC0xNTQ1ODQ3MjcwLC02MzQ1NjYyNzBdfQ==
+eyJoaXN0b3J5IjpbMTUyMjc0NDE1OF19
 -->
