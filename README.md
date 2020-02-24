@@ -33,9 +33,8 @@ Below are a few of the wire frame designs I have made for the application's webs
 ![Analyze Team](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/05.%20Website%20Wire%20Frame%20Diagrams/AnalyzeTeamPage%20%2823FEB2020%29.jpg)
 
 ## Source Code From Other Projects
-
-Although I have not yet incorporated course fro
+Although I have not yet incorporated course from other projects, there are two projects that I am likely to draw upon: the Pokémon Showdown battle simulator and the Veekun Project. Both projects' source code is stored in folders XX and YY, respectively. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjQxNDYzNywtMTc0MTgyNTUzOSwxNj
+eyJoaXN0b3J5IjpbMTUyMjc0NDE1OCwtMTc0MTgyNTUzOSwxNj
 c1NzM4NzQ5LC0xNTQ1ODQ3MjcwLC02MzQ1NjYyNzBdfQ==
 -->
