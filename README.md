@@ -2,14 +2,16 @@
 The Microsoft Software and Systems Academy (MSSA) is a program designed to teach transitioning servicemembers and veterans the skills necessary for moving into the IT field. I am attending the MSSA program for Cloud Application Development (CAD) hosted by Embry-Riddle Aeronautical University (ERAU) in San Diego, CA. All students are required to complete a personal project as part of the 19-week course. This repository hosts all of the files and documents necessary for the completion of my project.
 
 ## Table of Contents
-
+(The table of content will be updated as the project progresses)
  1. Project Motivation / Background
  2. Entity Relationship Diagram
  3. Project Data
  4. Building the Database
  5. Website Wire Frames
  6. Outside Source Code
- 7. User St
+ 7. User Stories
+ 8. Use Cases
+ 9. Requirements
 
 ## Project Motivation / Background
 I have been playing Pokémon on-and-off since 5th grade. I came to the game late compared to my friends who were immediately swept up by the first generation of games in the late 1990s, but it has stuck with me longer.
@@ -96,6 +98,6 @@ The full list of the system requirements are found in folder "08. Requirements",
  16. The system shall provide a method for users to track information that has been revealed during battle, both by the user and by the opponent
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2NTI0MTYzLC01NDEzNjMzNDgsLTEwND
-UzNTkzNjAsMTU5MTAyMTcyLDE1MjI3NDQxNThdfQ==
+eyJoaXN0b3J5IjpbLTExMjQzNTY0OTcsLTU0MTM2MzM0OCwtMT
+A0NTM1OTM2MCwxNTkxMDIxNzIsMTUyMjc0NDE1OF19
 -->
