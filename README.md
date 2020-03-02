@@ -42,7 +42,9 @@ The following are some of the user stories that are guiding my design:
  2.  As a player who has played Pokémon games for a long time but has very little experience with competitive Pokémon battles, I need a program that will help me analyze whether or not the Pokémon teams I have built playing the story mode are competitively viable. I also need to be able to learn how the moves I normally select for my Pokémon will need to change in order to be successful in a competitive Pokémon battle.
  3.  As a competitive Pokémon battler with a short history in the game, I need a program that will help me develop an intuition for the most likely 4-Pokémon team that my opponent will select to face me so that I can make the best 4-Pokémon of my own. I need to be able to see all of the possible combinations available and have the program help me determine which team combinations are best.
  4. As an experienced competitive Pokémon battler, I need a program that provides me with a way to easily customize Pokémon and teams so that I can quickly prototype new teams and stay ahead of my opponents. I want to be able to save the team and Pokémon combinations that I create so that I can easily refer to them in the future. I also need a program that will provide me with detailed statistics on the most common Pokémon/moves/abilities/items/types in use across the entire competitive scene so that I can plan my teams to be successful against those combinations.
-
+ 5. As Pokémon player engaged in a Pokémon battle using competitive rules (whether an actual competition or a friendly/casual match), I need a program that will help me track the information that I have revealed to my opponent and that my opponent has revealed to me so that I can make more precise decisions in battle without having to memorize everything that has occurred in a battle. I would also like a way to store and display my record in all matches and the teams I used in those matches.
+## Use Cases
+based on the user stories, I have developed this initial list of use cases
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDUyOTAyNjMsMTUyMjc0NDE1OF19
+eyJoaXN0b3J5IjpbLTE5Nzg4ODE4MCwxNTIyNzQ0MTU4XX0=
 -->
