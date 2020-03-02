@@ -60,6 +60,11 @@ based on the user stories, I have developed this initial list of use cases:
 These use-cases are represented by the Use-Case Diagram below:
 ![Use-Case Diagram](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/07.%20Use%20Cases/CAD%20Project%20Use-Case%20Diagram.jpg)
 
+## Requirements
+The full list of the system requirements are found in folder "08. Requirements", but the major requirements are listed below:
+
+ 1. <![endif]--> **The system shall provide a method to allow users to create accounts**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTc2MjA3MDcsMTUyMjc0NDE1OF19
+eyJoaXN0b3J5IjpbNzUzMzM4MTA4LDE1MjI3NDQxNThdfQ==
 -->
