@@ -44,7 +44,11 @@ The following are some of the user stories that are guiding my design:
  4. As an experienced competitive Pokémon battler, I need a program that provides me with a way to easily customize Pokémon and teams so that I can quickly prototype new teams and stay ahead of my opponents. I want to be able to save the team and Pokémon combinations that I create so that I can easily refer to them in the future. I also need a program that will provide me with detailed statistics on the most common Pokémon/moves/abilities/items/types in use across the entire competitive scene so that I can plan my teams to be successful against those combinations.
  5. As Pokémon player engaged in a Pokémon battle using competitive rules (whether an actual competition or a friendly/casual match), I need a program that will help me track the information that I have revealed to my opponent and that my opponent has revealed to me so that I can make more precise decisions in battle without having to memorize everything that has occurred in a battle. I would also like a way to store and display my record in all matches and the teams I used in those matches.
 ## Use Cases
-based on the user stories, I have developed this initial list of use cases
+based on the user stories, I have developed this initial list of use cases:
+ 1. <![endif]--> Given a new user to the program, when the new user selects the option to create an account, then the program will provide the fields and options necessary for account creation and store the user’s information in their new profile.
+ 2. <![endif]--> Given a returning user, when the user selects the option to log-in, then the program will verify the user’s credentials and (if valid) allow the user access to the program.
+ 3. <![endif]--> Given user input about one or more of the following criteria ­­-- Pokémon name, Pokémon number, type, move(s), ability, stats -- when the user chooses the option to search based on those criteria then the system shall display all Pokémon that meet the user’s criteria.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzg4ODE4MCwxNTIyNzQ0MTU4XX0=
+eyJoaXN0b3J5IjpbMTI1NDQxMjg3NiwxNTIyNzQ0MTU4XX0=
 -->
