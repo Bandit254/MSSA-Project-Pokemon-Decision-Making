@@ -1,6 +1,11 @@
 # MSSA Project: Pokémon Decision Making
 The Microsoft Software and Systems Academy (MSSA) is a program designed to teach transitioning servicemembers and veterans the skills necessary for moving into the IT field. I am attending the MSSA program for Cloud Application Development (CAD) hosted by Embry-Riddle Aeronautical University (ERAU) in San Diego, CA. All students are required to complete a personal project as part of the 19-week course. This repository hosts all of the files and documents necessary for the completion of my project.
 
+## Table of Contents
+
+ 1. Project Motivation / Background
+ 2. Entity Rela
+
 ## Project Motivation / Background
 I have been playing Pokémon on-and-off since 5th grade. I came to the game late compared to my friends who were immediately swept up by the first generation of games in the late 1990s, but it has stuck with me longer.
 
@@ -86,6 +91,6 @@ The full list of the system requirements are found in folder "08. Requirements",
  16. The system shall provide a method for users to track information that has been revealed during battle, both by the user and by the opponent
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MTM2MzM0OCwtMTA0NTM1OTM2MCwxNT
-kxMDIxNzIsMTUyMjc0NDE1OF19
+eyJoaXN0b3J5IjpbLTMwODE2NTk2MywtNTQxMzYzMzQ4LC0xMD
+Q1MzU5MzYwLDE1OTEwMjE3MiwxNTIyNzQ0MTU4XX0=
 -->
