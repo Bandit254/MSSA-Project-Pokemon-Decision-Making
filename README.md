@@ -11,8 +11,11 @@ While the most recent generation of games (Sword and Shield, the 8th Generation)
 Therefore, the motivation behind this project is to build a web application that aids players as they analyze Pokémon individually, build teams, and prepare for battles against their opponents. This application will enable players to examine combinations and interactions that they might otherwise miss (or not have time to calculate for themselves). It will also help players keep track of the information they have revealed to their opponents and vice versa during in the course of a competitive match.
 
 For more information on the background and motivation behind this project, see the paper and presentation in folder "01. Project Proposal and Presentation."
+![System Phase 1](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/01.%20Project%20Proposal%20and%20Presentation/Phase%201.jpg)
 
+![System Phase 2](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/01.%20Project%20Proposal%20and%20Presentation/Phase%202.jpg)
 
+![System Phase 3](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/01.%20Project%20Proposal%20and%20Presentation/Phase%203.jpg)
 
 ## Entity Relationship Diagrams
 The picture below is my initial entity relationship diagram for the database I will build to support my application. I used Draw.io. The JPEG and PDF version of the ERD can also be found in folder "02. Database Entity Relationship Diagrams."
@@ -83,6 +86,6 @@ The full list of the system requirements are found in folder "08. Requirements",
  16. The system shall provide a method for users to track information that has been revealed during battle, both by the user and by the opponent
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDUzNTkzNjAsMTU5MTAyMTcyLDE1Mj
-I3NDQxNThdfQ==
+eyJoaXN0b3J5IjpbODgyNDE3NDg0LC0xMDQ1MzU5MzYwLDE1OT
+EwMjE3MiwxNTIyNzQ0MTU4XX0=
 -->
