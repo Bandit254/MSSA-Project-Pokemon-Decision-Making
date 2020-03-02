@@ -63,8 +63,13 @@ These use-cases are represented by the Use-Case Diagram below:
 ## Requirements
 The full list of the system requirements are found in folder "08. Requirements", but the major requirements are listed below:
 
- 1. <![endif]--> **The system shall provide a method to allow users to create accounts**
+ 1. The system shall provide a method to allow users to create accounts
+ 2. The system shall provide a method to allow users to log in
+ 3. The system shall provide a method for users to display their account information
+ 4. The system shall provide a method to update user accounts
+ 5. The system shall provide a consistent navigation/display experience throughout
+ 6. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUzMzM4MTA4LDE1MjI3NDQxNThdfQ==
+eyJoaXN0b3J5IjpbLTExMDE5NzMyMiwxNTIyNzQ0MTU4XX0=
 -->
