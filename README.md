@@ -68,8 +68,14 @@ The full list of the system requirements are found in folder "08. Requirements",
  3. The system shall provide a method for users to display their account information
  4. The system shall provide a method to update user accounts
  5. The system shall provide a consistent navigation/display experience throughout
- 6. 
+ 6. The system shall provide a method to for users to share their custom Pokémon and teams
+ 7. The system shall provide a method for users to search for specific Pokémon
+ 8. The system shall provide a method to display the standard attributes, or ranges of attributes, available to a specified Pokémon
+ 9. The system shall provide a method for users to edit and save a custom version of a Pokémon
+ 10. The system shall provide a method for users to create and save a team of 6- Pokémon
+ 11. The system shall provide a method for users to search for specific Pokémon teams that have been marked as public
+ 12. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDE5NzMyMiwxNTIyNzQ0MTU4XX0=
+eyJoaXN0b3J5IjpbLTIxNjI4NDE4MCwxNTIyNzQ0MTU4XX0=
 -->
