@@ -4,7 +4,12 @@ The Microsoft Software and Systems Academy (MSSA) is a program designed to teach
 ## Table of Contents
 
  1. Project Motivation / Background
- 2. Entity Rela
+ 2. Entity Relationship Diagram
+ 3. Project Data
+ 4. Building the Database
+ 5. Website Wire Frames
+ 6. Outside Source Code
+ 7. User St
 
 ## Project Motivation / Background
 I have been playing Pokémon on-and-off since 5th grade. I came to the game late compared to my friends who were immediately swept up by the first generation of games in the late 1990s, but it has stuck with me longer.
@@ -91,6 +96,6 @@ The full list of the system requirements are found in folder "08. Requirements",
  16. The system shall provide a method for users to track information that has been revealed during battle, both by the user and by the opponent
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODE2NTk2MywtNTQxMzYzMzQ4LC0xMD
-Q1MzU5MzYwLDE1OTEwMjE3MiwxNTIyNzQ0MTU4XX0=
+eyJoaXN0b3J5IjpbMjE2NTI0MTYzLC01NDEzNjMzNDgsLTEwND
+UzNTkzNjAsMTU5MTAyMTcyLDE1MjI3NDQxNThdfQ==
 -->
