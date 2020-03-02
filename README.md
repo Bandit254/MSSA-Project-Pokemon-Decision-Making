@@ -15,7 +15,7 @@ For more information on the background and motivation behind this project, see t
 ## Entity Relationship Diagrams
 The picture below is my initial entity relationship diagram for the database I will build to support my application. I used Draw.io. The JPEG and PDF version of the ERD can also be found in folder "02. Database Entity Relationship Diagrams."
 
-![ERD](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/02.%20Database%20Entity%20Relationship%20Designs/CADProject%20-%2020200209%20-%20ZSilvis%20-%20ERD.jpg)
+![ERD](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/02.%20Database%20Entity%20Relationship%20Diagrams/CADProject%20-%2020200209%20-%20ZSilvis%20-%20ERD.jpg)
 
 ## Project Data
 There are many sources for Pokémon data, and there is a lot of it. The folder "03. Project Data (Excel and CSV" will contain all of the raw data that I need to complete this project. Although the current competitive rules only allows for a subset of the 400 Pokémon available in Sword and Shield to participate in official battles, I want to include data on all Pokémon from all generations in order to make the application accommodating to future rules changes and new game releases. 
@@ -25,8 +25,15 @@ I will use T-SQL and Microsoft SQL Server to build the primary database for this
 
 ## Website Wire Frames
 Below are a few of the wire frame designs I have made for the application's website. These are not all of the pages I have designed, nor are they final designs. I used [https://pencil.evolus.vn/](https://pencil.evolus.vn/) to create the wire frames. I also included a diagram that I sketched in OneNote. 
+
+![Content Hub](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/05.%20Website%20Wire%20Frame%20Diagrams/ContentHubPage%20%2823FEB2020%29.jpg)
  
+ ![Create a Team](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/05.%20Website%20Wire%20Frame%20Diagrams/CreateTeamPage%20%2823FEB2020%29.jpg)
+
+![Analyze Team](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/05.%20Website%20Wire%20Frame%20Diagrams/AnalyzeTeamPage%20%2823FEB2020%29.jpg)
+
+## Source Code From Other Projects
+Although I have not yet incorporated course from other projects, there are two projects that I am likely to draw upon: the Pokémon Showdown battle simulator and the Veekun Project. Both projects' source code is stored in folders XX and YY, respectively. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDE4MjU1MzksMTY3NTczODc0OSwtMT
-U0NTg0NzI3MCwtNjM0NTY2MjcwXX0=
+eyJoaXN0b3J5IjpbMTUyMjc0NDE1OF19
 -->
