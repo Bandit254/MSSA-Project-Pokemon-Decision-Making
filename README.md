@@ -12,6 +12,8 @@ Therefore, the motivation behind this project is to build a web application that
 
 For more information on the background and motivation behind this project, see the paper and presentation in folder "01. Project Proposal and Presentation."
 
+
+
 ## Entity Relationship Diagrams
 The picture below is my initial entity relationship diagram for the database I will build to support my application. I used Draw.io. The JPEG and PDF version of the ERD can also be found in folder "02. Database Entity Relationship Diagrams."
 
@@ -81,5 +83,6 @@ The full list of the system requirements are found in folder "08. Requirements",
  16. The system shall provide a method for users to track information that has been revealed during battle, both by the user and by the opponent
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MTAyMTcyLDE1MjI3NDQxNThdfQ==
+eyJoaXN0b3J5IjpbLTEwNDUzNTkzNjAsMTU5MTAyMTcyLDE1Mj
+I3NDQxNThdfQ==
 -->
