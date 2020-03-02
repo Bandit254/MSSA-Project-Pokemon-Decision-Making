@@ -72,10 +72,14 @@ The full list of the system requirements are found in folder "08. Requirements",
  7. The system shall provide a method for users to search for specific Pokémon
  8. The system shall provide a method to display the standard attributes, or ranges of attributes, available to a specified Pokémon
  9. The system shall provide a method for users to edit and save a custom version of a Pokémon
- 10. The system shall provide a method for users to create and save a team of 6- Pokémon
+ 10. The system shall provide a method for users to create and save a team of 6-Pokémon
  11. The system shall provide a method for users to search for specific Pokémon teams that have been marked as public
- 12. 
+ 12. The system shall provide a method for users to analyze the strengths and weaknesses of a 6-Pokémon team
+ 13. The system shall provide a method for users to observe all of the 4-Pokémon teams that can be generated from a 6-Pokémon team
+ 14. The system shall provide a method for a user to specify an opponent’s 6-Pokémon team and then generate the user’s optional 6-Pokémon team to use against the opponent
+ 15.  The system shall provide a method for users to predict which 4-Pokémon team an opponent will use in a battle against the user, and then to generate the optimal 4-Pokémon team to counter the opponent’s expected team
+ 16. The system shall provide a method for users to track information that has been revealed during battle, both by the user and by the opponent
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNjI4NDE4MCwxNTIyNzQ0MTU4XX0=
+eyJoaXN0b3J5IjpbMTU5MTAyMTcyLDE1MjI3NDQxNThdfQ==
 -->
