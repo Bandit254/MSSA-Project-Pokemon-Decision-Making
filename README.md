@@ -3,9 +3,9 @@ Competitive Pokémon, while based on a children's game, is an extremely complex 
 
 ## Table of Contents
 (The table of content will be updated as the project progresses)
- 1. Project Motivation / Background
- 2. Entity Relationship Diagram
- 3. Project Data
+ 1. [Project Motivation / Background](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#project-motivation--background)
+ 2. [Entity Relationship Diagram](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#entity-relationship-diagrams)
+ 3. [Project Data](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#project-data)
  4. Building the Database
  5. Website Wire Frames
  6. Outside Source Code
@@ -98,7 +98,7 @@ The full list of the system requirements are found in folder "08. Requirements",
  16. The system shall provide a method for users to track information that has been revealed during battle, both by the user and by the opponent
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjc4NzU0NTgsLTExMjQzNTY0OTcsLT
-U0MTM2MzM0OCwtMTA0NTM1OTM2MCwxNTkxMDIxNzIsMTUyMjc0
-NDE1OF19
+eyJoaXN0b3J5IjpbLTEzODQ4NjU4NjAsLTE2Mjc4NzU0NTgsLT
+ExMjQzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NTM1OTM2MCwxNTkx
+MDIxNzIsMTUyMjc0NDE1OF19
 -->
