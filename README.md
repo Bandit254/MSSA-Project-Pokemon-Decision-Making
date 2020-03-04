@@ -1,5 +1,5 @@
 # MSSA Project: Pokémon Decision Making
-Competitive Pokémon, while based on a children's game, is an extremely complex game that requires both skill and intuition. Competitive matches combine elements from poker, chess, game theory, and an extremely complicated version of rock-paper-scissors (if rock-paper-scissors was played with 18 different implements). This project will build a web application that will assist competitive Pokémon players analyze the vast amount choices available to them as they build a team, provide metrics with which to rank their teams, manage the information that they and their opponents have revealed to each other in-game, and generate both unconditional and conditional opponent strategies. These features will help players make better decisions and increase their likelihood of victory. To complete this project, I am relying on the skills I am learning in C#, ASP.NET / MVC, and T-SQL through the MSSA Program.
+Competitive Pokémon, while based on a children's game, is an extremely complex game that requires both skill and intuition. Competitive matches combine elements from poker, chess, game theory, and an extremely complicated version of rock-paper-scissors (if rock-paper-scissors was played with 18 different implements). This project will build a web application to assist competitive Pokémon players analyze the vast amount choices available to them as they build a team, provide metrics with which to rank their teams, manage the information that they and their opponents have revealed to each other in-game, and generate both unconditional and conditional opponent strategies. These features will help players make better decisions and increase their likelihood of victory. To complete this project, I am relying on the skills I am learning in C#, ASP.NET / MVC, and T-SQL through the MSSA Program.
 
 ## Table of Contents
 (The table of content will be updated as the project progresses)
@@ -98,7 +98,7 @@ The full list of the system requirements are found in folder "08. Requirements",
  16. The system shall provide a method for users to track information that has been revealed during battle, both by the user and by the opponent
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MzA0ODg4OCwtMTEyNDM1NjQ5NywtNT
-QxMzYzMzQ4LC0xMDQ1MzU5MzYwLDE1OTEwMjE3MiwxNTIyNzQ0
-MTU4XX0=
+eyJoaXN0b3J5IjpbLTE2Mjc4NzU0NTgsLTExMjQzNTY0OTcsLT
+U0MTM2MzM0OCwtMTA0NTM1OTM2MCwxNTkxMDIxNzIsMTUyMjc0
+NDE1OF19
 -->
