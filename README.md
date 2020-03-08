@@ -112,18 +112,18 @@ Requirement ID| Requirement Description | Verification Method | Test ID
   8.| The system shall provide a method to display the standard attributes, or ranges of attributes, available to a specified Pokémon | Demonstration |  48
  9. | The system shall provide a method for users to edit and save a custom version of a Pokémon | Demonstration |  56
  10. | The system shall provide a method for users to create and save a team of 6- Pokémon | Demonstration |  72
- 11. |  |  |  
- |  |  |  
-  |  |  |  
-  |  |  |  
+ 11. | The system shall provide a method for users to search for specific Pokémon teams that have been marked as public |Demonstration  |  79
+12. | The system shall provide a method for users to analyze the strengths and weaknesses of a 6- Pokémon team | Demonstration |84 
+ 13. | The system shall provide a method for users to observe all of the 4-Pokémon teams that can be generated from a 6-Pokémon team | Demonstration |  92
+ 14. |  |  |  
   |  |  |  
   |  |  |  
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0NTgyMTQsLTE5NTA3MzMzNDYsLTE0Nz
-kyNDkyNTgsLTE2Mjc4NzU0NTgsLTExMjQzNTY0OTcsLTU0MTM2
-MzM0OCwtMTA0NTM1OTM2MCwxNTkxMDIxNzIsMTUyMjc0NDE1OF
-19
+eyJoaXN0b3J5IjpbMzY3NDk1MjAxLC0xOTUwNzMzMzQ2LC0xND
+c5MjQ5MjU4LC0xNjI3ODc1NDU4LC0xMTI0MzU2NDk3LC01NDEz
+NjMzNDgsLTEwNDUzNTkzNjAsMTU5MTAyMTcyLDE1MjI3NDQxNT
+hdfQ==
 -->
