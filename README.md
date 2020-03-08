@@ -12,6 +12,7 @@ Competitive Pokémon, while based on a children's game, is an extremely complex 
  7. [User Stories](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#user-stories)
  8. [Use Cases](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#use-cases)
  9. [Requirements](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#requirements)
+ 10. Testing Plan 
 
 ## Project Motivation / Background
 I have been playing Pokémon on-and-off since 5th grade. I came to the game late compared to my friends who were immediately swept up by the first generation of games in the late 1990s, but it has stuck with me longer.
@@ -98,7 +99,7 @@ The full list of the system requirements are found in folder "08. Requirements",
  16. The system shall provide a method for users to track information that has been revealed during battle, both by the user and by the opponent
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzkyNDkyNTgsLTE2Mjc4NzU0NTgsLT
-ExMjQzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NTM1OTM2MCwxNTkx
-MDIxNzIsMTUyMjc0NDE1OF19
+eyJoaXN0b3J5IjpbLTE5NTA3MzMzNDYsLTE0NzkyNDkyNTgsLT
+E2Mjc4NzU0NTgsLTExMjQzNTY0OTcsLTU0MTM2MzM0OCwtMTA0
+NTM1OTM2MCwxNTkxMDIxNzIsMTUyMjc0NDE1OF19
 -->
