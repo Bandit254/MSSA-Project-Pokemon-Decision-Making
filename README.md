@@ -115,14 +115,14 @@ Requirement ID| Requirement Description | Verification Method | Test ID
  11. | The system shall provide a method for users to search for specific Pokémon teams that have been marked as public |Demonstration  |  79
 12. | The system shall provide a method for users to analyze the strengths and weaknesses of a 6- Pokémon team | Demonstration |84 
  13. | The system shall provide a method for users to observe all of the 4-Pokémon teams that can be generated from a 6-Pokémon team | Demonstration |  92
- 14. |  |  |  
-  |  |  |  
-  |  |  |  
+ 14. | The system shall provide a method for a user to specify an opponent’s 6- Pokémon team and then generate the user’s optional 6- Pokémon team to use against the opponent | Demonstration | 95 
+ 15. | The system shall provide a method for users to predict which 4-Pokémon team an opponent will use in a battle against the user, and then to generate the optimal 4-Pokémon team to counter the opponent’s expected team | Demonstration |  97
+ 16. | The system shall provide a method for users to track information that has been revealed during battle, both by the user and by the opponent | Demonstration |  98
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY3NDk1MjAxLC0xOTUwNzMzMzQ2LC0xND
+eyJoaXN0b3J5IjpbNjE5MDUxNDM0LC0xOTUwNzMzMzQ2LC0xND
 c5MjQ5MjU4LC0xNjI3ODc1NDU4LC0xMTI0MzU2NDk3LC01NDEz
 NjMzNDgsLTEwNDUzNTkzNjAsMTU5MTAyMTcyLDE1MjI3NDQxNT
 hdfQ==
