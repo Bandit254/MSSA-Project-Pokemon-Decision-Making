@@ -98,8 +98,11 @@ The full list of the system requirements are found in folder "08. Requirements",
  15.  The system shall provide a method for users to predict which 4-Pokémon team an opponent will use in a battle against the user, and then to generate the optimal 4-Pokémon team to counter the opponent’s expected team
  16. The system shall provide a method for users to track information that has been revealed during battle, both by the user and by the opponent
 
+## T
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTA3MzMzNDYsLTE0NzkyNDkyNTgsLT
-E2Mjc4NzU0NTgsLTExMjQzNTY0OTcsLTU0MTM2MzM0OCwtMTA0
-NTM1OTM2MCwxNTkxMDIxNzIsMTUyMjc0NDE1OF19
+eyJoaXN0b3J5IjpbLTQxOTQ1OTY3NCwtMTk1MDczMzM0NiwtMT
+Q3OTI0OTI1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQx
+MzYzMzQ4LC0xMDQ1MzU5MzYwLDE1OTEwMjE3MiwxNTIyNzQ0MT
+U4XX0=
 -->
