@@ -106,7 +106,7 @@ Requirement ID| Requirement Description | Verification Method | Test ID
  2. | The system shall provide a method to allow users to log in | Demonstration | 16 
  3. | The system shall provide a method for users to display their account information | Demonstration | 22 
  4. | The system shall provide a method to update user accounts |  Demonstration| 27 
-  |  |  |  
+ 5. | The system shall provide a consistent navigation/display experience throughout |  |  
  |  |  |  
   |  |  |  
   |  |  |  
@@ -115,14 +115,14 @@ Requirement ID| Requirement Description | Verification Method | Test ID
   |  |  |  
  |  |  |  
   |  |  |  
-  |  |  |  |
-  |  |  |  |
-|  |  |  |  |
+  |  |  |  
+  |  |  |  
+  |  |  |  
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDMyMzM1OSwtMTk1MDczMzM0NiwtMT
+eyJoaXN0b3J5IjpbMTgwMzE5Nzk0MCwtMTk1MDczMzM0NiwtMT
 Q3OTI0OTI1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQx
 MzYzMzQ4LC0xMDQ1MzU5MzYwLDE1OTEwMjE3MiwxNTIyNzQ0MT
 U4XX0=
