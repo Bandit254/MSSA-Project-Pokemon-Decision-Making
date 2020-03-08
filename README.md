@@ -102,6 +102,18 @@ The full list of the system requirements are found in folder "08. Requirements",
 Below are the requirements and testing tables for this project. 
 |Requirement ID| Requirement Description | Verification Method | Test ID
 |--|--|--|--|
+| 1. | The system shall provide a method to allow users to create accounts | Demonstration | 1 |
+|--|--|--|--|
+|  |  |  |  |
+|--|--|--|--|
+|  |  |  |  |
+|--|--|--|--|
+|  |  |  |  |
+|--|--|--|--|
+|  |  |  |  |
+|--|--|--|--|
+|  |  |  |  |
+|--|--|--|--|
 |  |  |  |  |
 |--|--|--|--|
 |  |  |  |  |
@@ -110,7 +122,7 @@ Below are the requirements and testing tables for this project.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDI1MjM1MywtMTk1MDczMzM0NiwtMT
+eyJoaXN0b3J5IjpbMTA3ODI0NTU0NiwtMTk1MDczMzM0NiwtMT
 Q3OTI0OTI1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQx
 MzYzMzQ4LC0xMDQ1MzU5MzYwLDE1OTEwMjE3MiwxNTIyNzQ0MT
 U4XX0=
