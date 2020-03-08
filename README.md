@@ -51,7 +51,7 @@ Below are a few of the wire frame designs I have made for the application's webs
 ![Analyze Team](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/05.%20Website%20Wire%20Frame%20Diagrams/AnalyzeTeamPage%20%2823FEB2020%29.jpg)
 
 ## Source Code From Other Projects
-Although I have not yet incorporated course from other projects, there are two projects that I am likely to draw upon: the Pokémon Showdown battle simulator and the Veekun Project. Both projects' source code is stored in folders XX and YY, respectively. 
+Although I have not yet incorporated course from other projects, there are two projects that I am likely to draw upon: the Pokémon Showdown battle simulator and the Veekun Project. Both projects' source code is stored in folders [XX](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/XX.%20Pokemon%20Showdown%20Source%20Files/pokemon-showdown-master) and [YY](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/YY.%20Veekun%20Project%20Source%20Files/pokedex-master), respectively. 
 
 ## User Stories
 The following are some of the user stories that are guiding my design:
@@ -122,7 +122,7 @@ Requirement ID| Requirement Description | Verification Method | Test ID
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDkzMjExMiwtMTk1MDczMzM0NiwtMT
+eyJoaXN0b3J5IjpbLTg1MTYwMTg2OCwtMTk1MDczMzM0NiwtMT
 Q3OTI0OTI1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQx
 MzYzMzQ4LC0xMDQ1MzU5MzYwLDE1OTEwMjE3MiwxNTIyNzQ0MT
 U4XX0=
