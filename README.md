@@ -106,9 +106,9 @@ Requirement ID| Requirement Description | Verification Method | Test ID
  2. | The system shall provide a method to allow users to log in | Demonstration | 16 
  3. | The system shall provide a method for users to display their account information | Demonstration | 22 
  4. | The system shall provide a method to update user accounts |  Demonstration| 27 
- 5. | The system shall provide a consistent navigation/display experience throughout |  |  
- |  |  |  
-  |  |  |  
+ 5. | The system shall provide a consistent navigation/display experience throughout | Inspection/Demonstration | 30 
+ 6.| The system shall provide a method to for users to share their custom Pokémon and teams | Demonstration | 37 
+  7.| The system shall provide a method for users to search for specific Pokémon | Demonstration |  
   |  |  |  
   |  |  |  
   |  |  |  
@@ -122,8 +122,8 @@ Requirement ID| Requirement Description | Verification Method | Test ID
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzE5Nzk0MCwtMTk1MDczMzM0NiwtMT
-Q3OTI0OTI1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQx
-MzYzMzQ4LC0xMDQ1MzU5MzYwLDE1OTEwMjE3MiwxNTIyNzQ0MT
-U4XX0=
+eyJoaXN0b3J5IjpbODM5MzUzNTIxLC0xOTUwNzMzMzQ2LC0xND
+c5MjQ5MjU4LC0xNjI3ODc1NDU4LC0xMTI0MzU2NDk3LC01NDEz
+NjMzNDgsLTEwNDUzNTkzNjAsMTU5MTAyMTcyLDE1MjI3NDQxNT
+hdfQ==
 -->
