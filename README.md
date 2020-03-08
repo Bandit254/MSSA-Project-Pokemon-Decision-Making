@@ -100,15 +100,12 @@ The full list of the system requirements are found in folder "08. Requirements",
 
 ## Test Plan
 Below are the requirements and testing tables for this project. 
-|Requirement ID| Requirement Description | Verification Method | Test ID
-|--|--|--|--|
-| 1. | The system shall provide a method to allow users to create accounts | Demonstration | 1 |
-|--|--|--|--|
-| 2. | The system shall provide a method to allow users to log in | Demonstration | 16 |
-|--|--|--|--|
-| 3. | The system shall provide a method for users to display their account information | Demonstration | 22 |
-|--|--|--|--|
-| 4. | The system shall provide a method to update user accounts |  Demonstration| 27 |
+Requirement ID| Requirement Description | Verification Method | Test ID
+--|--|--|--
+ 1. | The system shall provide a method to allow users to create accounts | Demonstration | 1 
+ 2. | The system shall provide a method to allow users to log in | Demonstration | 16 
+ 3. | The system shall provide a method for users to display their account information | Demonstration | 22 
+ 4. | The system shall provide a method to update user accounts |  Demonstration| 27 |
 |--|--|--|--|
 |  |  |  |  |
 |--|--|--|--|
@@ -137,8 +134,8 @@ Below are the requirements and testing tables for this project.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTM4NTgzNSwtMTk1MDczMzM0NiwtMT
-Q3OTI0OTI1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQx
-MzYzMzQ4LC0xMDQ1MzU5MzYwLDE1OTEwMjE3MiwxNTIyNzQ0MT
-U4XX0=
+eyJoaXN0b3J5IjpbLTE0MDcyMjA5NzUsLTE5NTA3MzMzNDYsLT
+E0NzkyNDkyNTgsLTE2Mjc4NzU0NTgsLTExMjQzNTY0OTcsLTU0
+MTM2MzM0OCwtMTA0NTM1OTM2MCwxNTkxMDIxNzIsMTUyMjc0ND
+E1OF19
 -->
