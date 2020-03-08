@@ -101,7 +101,7 @@ The full list of the system requirements are found in folder "[08. Requirements]
 ## Test Plan
 Below are the requirements verification and and testing tables for this project. Due to the large number of both requirements and tests, only a portion are included directly in this README; the full tables are located in folder "[09. Project Testing](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/09.%20Project%20Testing)."
 
-Requirements Verification Table:
+**Requirements Verification Table:**
 
 Requirement ID| Requirement Description | Verification Method | Test ID
 --|--|--|--
@@ -122,13 +122,20 @@ Requirement ID| Requirement Description | Verification Method | Test ID
  15. | The system shall provide a method for users to predict which 4-Pokémon team an opponent will use in a battle against the user, and then to generate the optimal 4-Pokémon team to counter the opponent’s expected team | Demonstration |  97
  16. | The system shall provide a method for users to track information that has been revealed during battle, both by the user and by the opponent | Demonstration |  98
 
-Tes
+**Test Plan Table:**
+
+  |  |  |
+--|--|--|--
+  |  |  |
+
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NTAxODU1LC0xOTUwNzMzMzQ2LC0xND
-c5MjQ5MjU4LC0xNjI3ODc1NDU4LC0xMTI0MzU2NDk3LC01NDEz
-NjMzNDgsLTEwNDUzNTkzNjAsMTU5MTAyMTcyLDE1MjI3NDQxNT
-hdfQ==
+eyJoaXN0b3J5IjpbLTEyNDgxNDM4OTYsLTE5NTA3MzMzNDYsLT
+E0NzkyNDkyNTgsLTE2Mjc4NzU0NTgsLTExMjQzNTY0OTcsLTU0
+MTM2MzM0OCwtMTA0NTM1OTM2MCwxNTkxMDIxNzIsMTUyMjc0ND
+E1OF19
 -->
