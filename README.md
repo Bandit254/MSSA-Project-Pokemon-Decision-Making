@@ -108,11 +108,11 @@ Requirement ID| Requirement Description | Verification Method | Test ID
  4. | The system shall provide a method to update user accounts |  Demonstration| 27 
  5. | The system shall provide a consistent navigation/display experience throughout | Inspection/Demonstration | 30 
  6.| The system shall provide a method to for users to share their custom Pokémon and teams | Demonstration | 37 
-  7.| The system shall provide a method for users to search for specific Pokémon | Demonstration |  
-  |  |  |  
-  |  |  |  
-  |  |  |  
-  |  |  |  
+  7.| The system shall provide a method for users to search for specific Pokémon | Demonstration |  40
+  8.| The system shall provide a method to display the standard attributes, or ranges of attributes, available to a specified Pokémon | Demonstration |  48
+ 9. | The system shall provide a method for users to edit and save a custom version of a Pokémon | Demonstration |  56
+ 10. | The system shall provide a method for users to create and save a team of 6- Pokémon | Demonstration |  72
+ 11. |  |  |  
  |  |  |  
   |  |  |  
   |  |  |  
@@ -122,8 +122,8 @@ Requirement ID| Requirement Description | Verification Method | Test ID
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM5MzUzNTIxLC0xOTUwNzMzMzQ2LC0xND
-c5MjQ5MjU4LC0xNjI3ODc1NDU4LC0xMTI0MzU2NDk3LC01NDEz
-NjMzNDgsLTEwNDUzNTkzNjAsMTU5MTAyMTcyLDE1MjI3NDQxNT
-hdfQ==
+eyJoaXN0b3J5IjpbMjg0NTgyMTQsLTE5NTA3MzMzNDYsLTE0Nz
+kyNDkyNTgsLTE2Mjc4NzU0NTgsLTExMjQzNTY0OTcsLTU0MTM2
+MzM0OCwtMTA0NTM1OTM2MCwxNTkxMDIxNzIsMTUyMjc0NDE1OF
+19
 -->
