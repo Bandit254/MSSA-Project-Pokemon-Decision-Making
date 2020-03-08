@@ -12,7 +12,7 @@ Competitive Pokémon, while based on a children's game, is an extremely complex 
  7. [User Stories](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#user-stories)
  8. [Use Cases](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#use-cases)
  9. [Requirements](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#requirements)
- 10. Testing Plan 
+ 10. [Test Plan](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#test-plan) 
 
 ## Project Motivation / Background
 I have been playing Pokémon on-and-off since 5th grade. I came to the game late compared to my friends who were immediately swept up by the first generation of games in the late 1990s, but it has stuck with me longer.
@@ -79,7 +79,7 @@ These use-cases are represented by the Use-Case Diagram below:
 ![Use-Case Diagram](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/07.%20Use%20Cases/CAD%20Project%20Use-Case%20Diagram.jpg)
 
 ## Requirements
-The full list of the system requirements are found in folder "08. Requirements", but the major requirements are listed below:
+The full list of the system requirements are found in folder "[08. Requirements](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/08.%20Requirements)", but the major requirements are listed below:
 
  1. The system shall provide a method to allow users to create accounts
  2. The system shall provide a method to allow users to log in
@@ -122,8 +122,8 @@ Requirement ID| Requirement Description | Verification Method | Test ID
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MzY0NjkzLC0xOTUwNzMzMzQ2LC0xND
-c5MjQ5MjU4LC0xNjI3ODc1NDU4LC0xMTI0MzU2NDk3LC01NDEz
-NjMzNDgsLTEwNDUzNTkzNjAsMTU5MTAyMTcyLDE1MjI3NDQxNT
-hdfQ==
+eyJoaXN0b3J5IjpbLTE5MDkzMjExMiwtMTk1MDczMzM0NiwtMT
+Q3OTI0OTI1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQx
+MzYzMzQ4LC0xMDQ1MzU5MzYwLDE1OTEwMjE3MiwxNTIyNzQ0MT
+U4XX0=
 -->
