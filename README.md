@@ -1,5 +1,18 @@
 # MSSA Project: Pokémon Decision Making
-The Microsoft Software and Systems Academy (MSSA) is a program designed to teach transitioning servicemembers and veterans the skills necessary for moving into the IT field. I am attending the MSSA program for Cloud Application Development (CAD) hosted by Embry-Riddle Aeronautical University (ERAU) in San Diego, CA. All students are required to complete a personal project as part of the 19-week course. This repository hosts all of the files and documents necessary for the completion of my project.
+Competitive Pokémon, while based on a children's game, is an extremely complex game that requires both skill and intuition. Competitive matches combine elements from poker, chess, game theory, and an extremely complicated version of rock-paper-scissors (if rock-paper-scissors was played with 18 different implements). This project will build a web application to assist competitive Pokémon players analyze the vast amount choices available to them as they build a team, provide metrics with which to rank their teams, manage the information that they and their opponents have revealed to each other in-game, and generate both unconditional and conditional opponent strategies. These features will help players make better decisions and increase their likelihood of victory. To complete this project, I am relying on the skills I am learning in C#, ASP.NET / MVC, and T-SQL through the MSSA Program.
+
+## Table of Contents
+(The table of content will be updated as the project progresses)
+ 1. [Project Motivation / Background](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#project-motivation--background)
+ 2. [Entity Relationship Diagram](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#entity-relationship-diagrams)
+ 3. [Project Data](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#project-data)
+ 4. [Building the Database](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#building-the-database)
+ 5. [Website Wire Frames](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#website-wire-frames)
+ 6. [Outside Source Code](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#source-code-from-other-projects)
+ 7. [User Stories](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#user-stories)
+ 8. [Use Cases](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#use-cases)
+ 9. [Requirements](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#requirements)
+ 10. Testing Plan 
 
 ## Project Motivation / Background
 I have been playing Pokémon on-and-off since 5th grade. I came to the game late compared to my friends who were immediately swept up by the first generation of games in the late 1990s, but it has stuck with me longer.
@@ -86,6 +99,7 @@ The full list of the system requirements are found in folder "08. Requirements",
  16. The system shall provide a method for users to track information that has been revealed during battle, both by the user and by the opponent
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MTM2MzM0OCwtMTA0NTM1OTM2MCwxNT
-kxMDIxNzIsMTUyMjc0NDE1OF19
+eyJoaXN0b3J5IjpbLTE5NTA3MzMzNDYsLTE0NzkyNDkyNTgsLT
+E2Mjc4NzU0NTgsLTExMjQzNTY0OTcsLTU0MTM2MzM0OCwtMTA0
+NTM1OTM2MCwxNTkxMDIxNzIsMTUyMjc0NDE1OF19
 -->
