@@ -127,12 +127,15 @@ Requirement ID| Requirement Description | Verification Method | Test ID
  Test ID | Requirement ID(s) | Test Procedure | Current Status | Last Time Tested |Build Version
 --|--|--|--|--|--
 1  | 1 | Integration / Security Test of the Account Creation Function | Not Tested |  |
-  |  |  |  |  |  
-  |  |  |  |  |  
-  |  |  |  |  |  
-  |  |  |  |  |  
-  |  |  |  |  |  
-  |  |  |  |  |  
+ 2 | 1.1 | Unit Test to ensure users provide a username | Not Tested |  |  
+ 3 |  |  | Not Tested |  |  
+ 4 |  |  | Not Tested |  |  
+ 5 |  |  | Not Tested |  |  
+ 6 |  |  | Not Tested |  |  
+ 7 |  |  | Not Tested |  | 
+ 8 |  |  | Not Tested |  |
+ 9 |  |  | Not Tested |  |
+    10 |  |  | Not Tested |  | 
 
 
 
@@ -140,8 +143,8 @@ Requirement ID| Requirement Description | Verification Method | Test ID
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzY4NjMxOTAsLTE5NTA3MzMzNDYsLT
-E0NzkyNDkyNTgsLTE2Mjc4NzU0NTgsLTExMjQzNTY0OTcsLTU0
-MTM2MzM0OCwtMTA0NTM1OTM2MCwxNTkxMDIxNzIsMTUyMjc0ND
-E1OF19
+eyJoaXN0b3J5IjpbMTM3NTYwODQ2NCwtMjAzNjg2MzE5MCwtMT
+k1MDczMzM0NiwtMTQ3OTI0OTI1OCwtMTYyNzg3NTQ1OCwtMTEy
+NDM1NjQ5NywtNTQxMzYzMzQ4LC0xMDQ1MzU5MzYwLDE1OTEwMj
+E3MiwxNTIyNzQ0MTU4XX0=
 -->
