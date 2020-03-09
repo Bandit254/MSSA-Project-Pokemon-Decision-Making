@@ -105,15 +105,15 @@ Below are the requirements verification and and testing tables for this project.
 
 Requirement ID| Requirement Description | Verification Method | Test ID
 --|--|--|--
- 1. | The system shall provide a method to allow users to create accounts | Demonstration | 1
- 2. | The system shall provide a method to allow users to log in | Demonstration | 16 
- 3. | The system shall provide a method for users to display their account information | Demonstration | 22 
- 4. | The system shall provide a method to update user accounts |  Demonstration| 27 
- 5. | The system shall provide a consistent navigation/display experience throughout | Inspection/Demonstration | 30 
- 6.| The system shall provide a method to for users to share their custom Pokémon and teams | Demonstration | 37 
-  7.| The system shall provide a method for users to search for specific Pokémon | Demonstration |  40
-  8.| The system shall provide a method to display the standard attributes, or ranges of attributes, available to a specified Pokémon | Demonstration |  48
- 6. | The system shall provide a method for users to edit and save a custom version of a Pokémon | Demonstration |  56
+1. | The system shall provide a method to allow users to create accounts | Demonstration | 1
+2. | The system shall provide a method to allow users to log in | Demonstration | 16 
+3. | The system shall provide a method for users to display their account information | Demonstration | 22 
+4. | The system shall provide a method to update user accounts |  Demonstration| 27 
+5. | The system shall provide a consistent navigation/display experience throughout | Inspection/Demonstration | 30 
+6.| The system shall provide a method to for users to share their custom Pokémon and teams | Demonstration | 37 
+7.| The system shall provide a method for users to search for specific Pokémon | Demonstration |  40
+8.| The system shall provide a method to display the standard attributes, or ranges of attributes, available to a specified Pokémon | Demonstration |  48
+6. | The system shall provide a method for users to edit and save a custom version of a Pokémon | Demonstration |  56
  7. | The system shall provide a method for users to create and save a team of 6- Pokémon | Demonstration |  72
  8. | The system shall provide a method for users to search for specific Pokémon teams that have been marked as public |Demonstration  |  79
 12. | The system shall provide a method for users to analyze the strengths and weaknesses of a 6- Pokémon team | Demonstration |84 
@@ -143,8 +143,8 @@ Requirement ID| Requirement Description | Verification Method | Test ID
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2NzI1NjkyLC0yMDM2ODYzMTkwLC0xOT
-UwNzMzMzQ2LC0xNDc5MjQ5MjU4LC0xNjI3ODc1NDU4LC0xMTI0
-MzU2NDk3LC01NDEzNjMzNDgsLTEwNDUzNTkzNjAsMTU5MTAyMT
-cyLDE1MjI3NDQxNThdfQ==
+eyJoaXN0b3J5IjpbLTEyNjI2Mzc0MjQsLTIwMzY4NjMxOTAsLT
+E5NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2Mjc4NzU0NTgsLTEx
+MjQzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NTM1OTM2MCwxNTkxMD
+IxNzIsMTUyMjc0NDE1OF19
 -->
