@@ -128,14 +128,14 @@ Requirement ID| Requirement Description | Verification Method | Test ID
 --|--|--|--|--|--
 1  | 1 | Integration / Security Test of the Account Creation Function | Not Tested |  |
  2 | 1.1 | Unit Test to ensure users provide a username | Not Tested |  |  
- 3 |  |  | Not Tested |  |  
- 4 |  |  | Not Tested |  |  
- 5 |  |  | Not Tested |  |  
- 6 |  |  | Not Tested |  |  
- 7 |  |  | Not Tested |  | 
- 8 |  |  | Not Tested |  |
+ 3 | 1.1.1, 2.1 | Unit Test to ensure a username is not already taken | Not Tested |  |  
+ 4 |1.2, 4.2  | Unit Test to ensure users provide an email | Not Tested |  |  
+ 5 |1.2.1, 4.2  | Unit Test to ensure the user's email is a valid email | Not Tested |  |  
+ 6 |1.2.2, 2.3.1.1, 4.2  | Unit Test to verify that the user's email is not already taken by another user | Not Tested |  |  
+ 7 | 1.3, 1.3.1 | Unit Test to ensure the user supplies a password | Not Tested |  | 
+ 8 | 1.3.2 | Usability Test of the ability to hide password entries | Not Tested |  |
  9 |  |  | Not Tested |  |
-    10 |  |  | Not Tested |  | 
+ 10 |  |  | Not Tested |  | 
 
 
 
@@ -143,8 +143,8 @@ Requirement ID| Requirement Description | Verification Method | Test ID
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTYwODQ2NCwtMjAzNjg2MzE5MCwtMT
-k1MDczMzM0NiwtMTQ3OTI0OTI1OCwtMTYyNzg3NTQ1OCwtMTEy
-NDM1NjQ5NywtNTQxMzYzMzQ4LC0xMDQ1MzU5MzYwLDE1OTEwMj
-E3MiwxNTIyNzQ0MTU4XX0=
+eyJoaXN0b3J5IjpbLTE5MTA0MjQxMDcsLTIwMzY4NjMxOTAsLT
+E5NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2Mjc4NzU0NTgsLTEx
+MjQzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NTM1OTM2MCwxNTkxMD
+IxNzIsMTUyMjc0NDE1OF19
 -->
