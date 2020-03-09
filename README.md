@@ -105,22 +105,22 @@ Below are the requirements verification and and testing tables for this project.
 
 Requirement ID| Requirement Description | Verification Method | Test ID
 --|--|--|--
-1. | The system shall provide a method to allow users to create accounts | Demonstration | 1
-2. | The system shall provide a method to allow users to log in | Demonstration | 16 
-3. | The system shall provide a method for users to display their account information | Demonstration | 22 
-4. | The system shall provide a method to update user accounts |  Demonstration| 27 
-5. | The system shall provide a consistent navigation/display experience throughout | Inspection/Demonstration | 30 
-6.| The system shall provide a method to for users to share their custom Pokémon and teams | Demonstration | 37 
-7.| The system shall provide a method for users to search for specific Pokémon | Demonstration |  40
-8.| The system shall provide a method to display the standard attributes, or ranges of attributes, available to a specified Pokémon | Demonstration |  48
-9. | The system shall provide a method for users to edit and save a custom version of a Pokémon | Demonstration |  56
-10. | The system shall provide a method for users to create and save a team of 6- Pokémon | Demonstration |  72
-11. | The system shall provide a method for users to search for specific Pokémon teams that have been marked as public |Demonstration  |  79
-12. | The system shall provide a method for users to analyze the strengths and weaknesses of a 6- Pokémon team | Demonstration |84 
-13. | The system shall provide a method for users to observe all of the 4-Pokémon teams that can be generated from a 6-Pokémon team | Demonstration |  92
-14. | The system shall provide a method for a user to specify an opponent’s 6- Pokémon team and then generate the user’s optional 6- Pokémon team to use against the opponent | Demonstration | 95 
-15. | The system shall provide a method for users to predict which 4-Pokémon team an opponent will use in a battle against the user, and then to generate the optimal 4-Pokémon team to counter the opponent’s expected team | Demonstration |  97
-16. | The system shall provide a method for users to track information that has been revealed during battle, both by the user and by the opponent | Demonstration |  98
+1 | The system shall provide a method to allow users to create accounts | Demonstration | 1
+2 | The system shall provide a method to allow users to log in | Demonstration | 16 
+3 | The system shall provide a method for users to display their account information | Demonstration | 22 
+4 | The system shall provide a method to update user accounts |  Demonstration| 27 
+5 | The system shall provide a consistent navigation/display experience throughout | Inspection/Demonstration | 30 
+6| The system shall provide a method to for users to share their custom Pokémon and teams | Demonstration | 37 
+7| The system shall provide a method for users to search for specific Pokémon | Demonstration |  40
+8| The system shall provide a method to display the standard attributes, or ranges of attributes, available to a specified Pokémon | Demonstration |  48
+9 | The system shall provide a method for users to edit and save a custom version of a Pokémon | Demonstration |  56
+10 | The system shall provide a method for users to create and save a team of 6- Pokémon | Demonstration |  72
+11 | The system shall provide a method for users to search for specific Pokémon teams that have been marked as public |Demonstration  |  79
+12 | The system shall provide a method for users to analyze the strengths and weaknesses of a 6- Pokémon team | Demonstration |84 
+13 | The system shall provide a method for users to observe all of the 4-Pokémon teams that can be generated from a 6-Pokémon team | Demonstration |  92
+14 | The system shall provide a method for a user to specify an opponent’s 6- Pokémon team and then generate the user’s optional 6- Pokémon team to use against the opponent | Demonstration | 95 
+15 | The system shall provide a method for users to predict which 4-Pokémon team an opponent will use in a battle against the user, and then to generate the optimal 4-Pokémon team to counter the opponent’s expected team | Demonstration |  97
+16 | The system shall provide a method for users to track information that has been revealed during battle, both by the user and by the opponent | Demonstration |  98
 
 **Test Plan Table:**
 
@@ -143,8 +143,8 @@ Requirement ID| Requirement Description | Verification Method | Test ID
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDU0MDI5MzcsLTIwMzY4NjMxOTAsLT
-E5NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2Mjc4NzU0NTgsLTEx
-MjQzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NTM1OTM2MCwxNTkxMD
-IxNzIsMTUyMjc0NDE1OF19
+eyJoaXN0b3J5IjpbLTE3ODEwODk2ODksLTEwMDU0MDI5MzcsLT
+IwMzY4NjMxOTAsLTE5NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2
+Mjc4NzU0NTgsLTExMjQzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NT
+M1OTM2MCwxNTkxMDIxNzIsMTUyMjc0NDE1OF19
 -->
