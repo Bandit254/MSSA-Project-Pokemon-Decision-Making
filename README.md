@@ -134,8 +134,8 @@ Requirement ID| Requirement Description | Verification Method | Test ID
  6 |1.2.2, 2.3.1.1, 4.2  | Unit Test to verify that the user's email is not already taken by another user | Not Tested |  |  
  7 | 1.3, 1.3.1 | Unit Test to ensure the user supplies a password | Not Tested |  | 
  8 | 1.3.2 | Usability Test of the ability to hide password entries | Not Tested |  |
- 9 |  |  | Not Tested |  |
- 10 |  |  | Not Tested |  | 
+ 9 | 1.3.3, 4.3.3 | Unit Test to ensure passwords meet strength criteria | Not Tested |  |
+ 10 | 1.3.3.1, 4.3.3 | Unit Test to verify passwords are at least 15 characters in length | Not Tested |  | 
 
 
 
@@ -143,8 +143,8 @@ Requirement ID| Requirement Description | Verification Method | Test ID
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTA0MjQxMDcsLTIwMzY4NjMxOTAsLT
-E5NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2Mjc4NzU0NTgsLTEx
-MjQzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NTM1OTM2MCwxNTkxMD
-IxNzIsMTUyMjc0NDE1OF19
+eyJoaXN0b3J5IjpbNzg5OTY4OTAzLC0yMDM2ODYzMTkwLC0xOT
+UwNzMzMzQ2LC0xNDc5MjQ5MjU4LC0xNjI3ODc1NDU4LC0xMTI0
+MzU2NDk3LC01NDEzNjMzNDgsLTEwNDUzNTkzNjAsMTU5MTAyMT
+cyLDE1MjI3NDQxNThdfQ==
 -->
