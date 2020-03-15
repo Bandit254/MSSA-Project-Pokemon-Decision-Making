@@ -1,29 +1,116 @@
-﻿
+﻿@{
+    Layout = null;
+}
 <!-- This will display all the details of a user's activity -->
 
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width" />
-<title>Lugia's Lair - Account Overview</title>
+    <meta name="viewport" content="width=device-width" />
+    <title>Lugia's Lair - Account Overview</title>
+    <link rel="stylesheet" type="text/css" href="~/css/style.css" />
 </head>
 <body>
     <header>
         <h1>Trainer's Lair</h1>
         <h3>Trainer Name</h3>
         <p>Overall battle Record / Other Stats</p>
+        <img src="~/Images/Gen_1_Trainer.png" alt="Trainer Icon" />
     </header>
     <div>
-        <p>Saved Teams</p>
+
+        <table>
+            <caption> Saved Teams</caption>
+            <tr>
+                <th> Team Number</th>
+                <th> Team Name</th>
+            </tr>
+            <tr>
+                <td> 1 </td>
+                <td> Team 1 </td>
+            </tr>
+            <tr>
+                <td> 2 </td>
+                <td> Team 2 </td>
+            </tr>
+            <tr>
+                <td> 3 </td>
+                <td> Team 3 </td>
+            </tr>
+        </table>
     </div>
     <div>
-        <p>Favorite Teams</p>
+
+        <table>
+            <caption> Favorite Teams</caption>
+            <tr>
+                <th> Team Number</th>
+                <th> Team Name</th>
+            </tr>
+            <tr>
+                <td> 1 </td>
+                <td> Team 1 </td>
+            </tr>
+            <tr>
+                <td> 2 </td>
+                <td> Team 2 </td>
+            </tr>
+            <tr>
+                <td> 3 </td>
+                <td> Team 3 </td>
+            </tr>
+        </table>
     </div>
     <div>
-        <p>Saved Pokemon</p>
+
+        <table>
+            <caption> Saved Pokemon</caption>
+            <tr>
+                <th> Pokemon ID Number</th>
+                <th> Pokemon Name</th>
+                <th> Pokemon Nickname</th>
+            </tr>
+            <tr>
+                <td> 1 </td>
+                <td> Bulbasaur </td>
+                <td> Sprout </td>
+            </tr>
+            <tr>
+                <td> 2 </td>
+                <td> Squirtle </td>
+                <td> Bubbles </td>
+            </tr>
+            <tr>
+                <td> 3 </td>
+                <td> Charmander </td>
+                <td> Spicy </td>
+            </tr>
+        </table>
     </div>
     <div>
-        <p>Favorite Pokemon</p>
+        <table>
+            <caption> Favorite Pokemon</caption>
+            <tr>
+                <th> Pokemon ID Number</th>
+                <th> Pokemon Name</th>
+                <th> Pokemon Nickname</th>
+            </tr>
+            <tr>
+                <td> 1 </td>
+                <td> Bulbasaur </td>
+                <td> Sprout </td>
+            </tr>
+            <tr>
+                <td> 2 </td>
+                <td> Squirtle </td>
+                <td> Bubbles </td>
+            </tr>
+            <tr>
+                <td> 3 </td>
+                <td> Charmander </td>
+                <td> Spicy </td>
+            </tr>
+        </table>
     </div>
     <div>
         <a class="btn btn-primary" asp-action="UpdateAccount">Update Account</a>

@@ -1,11 +1,14 @@
-﻿
+﻿@{
+    Layout = null;
+}
 
 <!-- This will be where users can customize the stats etc. of a Pokemon -->
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width" />
-<title>Lugia's Lair - Customize Pokemon</title>
+    <meta name="viewport" content="width=device-width" />
+    <title>Lugia's Lair - Customize Pokemon</title>
+    <link rel="stylesheet" type="text/css" href="~/css/style.css" />
 </head>
 <body>
     <header>
@@ -13,6 +16,9 @@
         <p>This page is where users customize a selected Pokemon</p>
     </header>
     <div>
+        <div>
+            <img src="~/Images/Lugia_025.jpg" alt="Pokemon Picture" />
+        </div>
         <p>Pokemon Name</p>
         <p>Pokemon Number</p>
         <p>Pokedex Entry</p>
@@ -53,9 +59,6 @@
         </table>
     </div>
     <div>
-        <img src="" alt="Pokemon Picture" />
-    </div>
-    <div>
         <p>Set Pokemon NickName</p>
     </div>
     <div>
@@ -76,6 +79,5 @@
     <footer>
         <a class="btn btn-primary" asp-action="ContentHub">Return to Content Hub</a>
     </footer>
-
 </body>
 </html>
