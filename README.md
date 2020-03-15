@@ -13,7 +13,7 @@ Competitive Pokémon, while based on a children's game, is an extremely complex 
  8. [Use Cases](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#use-cases)
  9. [Requirements](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#requirements)
  10. [Test Plan](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#test-plan) 
- 11. Prototype
+ 11. [Prototype](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#prototype)
 
 ## Project Motivation / Background
 I have been playing Pokémon on-and-off since 5th grade. I came to the game late compared to my friends who were immediately swept up by the first generation of games in the late 1990s, but it has stuck with me longer.
@@ -146,9 +146,9 @@ The prototype for this web application is currently stored on the "dev" branch o
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMT
-AwNTQwMjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0NiwtMTQ3
-OTI0OTI1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQxMz
-YzMzQ4LC0xMDQ1MzU5MzYwLDE1OTEwMjE3MiwxNTIyNzQ0MTU4
-XX0=
+eyJoaXN0b3J5IjpbLTExMzM1NzgzOSwtMjkxNTcwNDA0LC0xNz
+gxMDg5Njg5LC0xMDA1NDAyOTM3LC0yMDM2ODYzMTkwLC0xOTUw
+NzMzMzQ2LC0xNDc5MjQ5MjU4LC0xNjI3ODc1NDU4LC0xMTI0Mz
+U2NDk3LC01NDEzNjMzNDgsLTEwNDUzNTkzNjAsMTU5MTAyMTcy
+LDE1MjI3NDQxNThdfQ==
 -->
