@@ -10,7 +10,7 @@ typeNumber INT,
 typeName NVARCHAR (15),
 );
 
-SELECT * FROM PokemonType;
+--SELECT * FROM PokemonType;
 
 INSERT INTO PokemonType (typeNumber, typeName)
 VALUES
