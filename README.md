@@ -139,16 +139,24 @@ Requirement ID| Requirement Description | Verification Method | Test ID
  10 | 1.3.3.1, 4.3.3 | Unit Test to verify passwords are at least 15 characters in length | Not Tested |  | 
 
 ## Prototype
-The prototype for this web application is currently stored on the "dev" branch of my repository:
-[Prototype](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/dev/MSSA-CAD-Project-Lugias-Lair)
+The prototype for this web application is currently stored on the "dev" branch of my repository: [Prototype](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/dev/MSSA-CAD-Project-Lugias-Lair)
 
+*Prototype Pictures:*
+![Prototype Homepage](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Project%20Pictures/Prototype%20Pictures/Prototype%20-%20Homepage.jpg)
 
+![Prototype Content Hub](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Project%20Pictures/Prototype%20Pictures/Prototype%20-%20Content%20Hub.jpg)
 
+![Prototype Account Overview](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Project%20Pictures/Prototype%20Pictures/Prototype%20-%20Account%20Overview.jpg)
 
+![Prototype Pokémon Search](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Project%20Pictures/Prototype%20Pictures/Prototype%20-%20Pokemon%20Search.jpg)
+
+![Prototype Pokémon Customization](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Project%20Pictures/Prototype%20Pictures/Prototype%20-%20Pokemon%20Customization.jpg)
+
+![Prototype Team Analysis](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Project%20Pictures/Prototype%20Pictures/Prototype%20-%20Team%20Analysis.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzM1NzgzOSwtMjkxNTcwNDA0LC0xNz
-gxMDg5Njg5LC0xMDA1NDAyOTM3LC0yMDM2ODYzMTkwLC0xOTUw
-NzMzMzQ2LC0xNDc5MjQ5MjU4LC0xNjI3ODc1NDU4LC0xMTI0Mz
-U2NDk3LC01NDEzNjMzNDgsLTEwNDUzNTkzNjAsMTU5MTAyMTcy
-LDE1MjI3NDQxNThdfQ==
+eyJoaXN0b3J5IjpbLTI0NTgxNzUyMSwtMTEzMzU3ODM5LC0yOT
+E1NzA0MDQsLTE3ODEwODk2ODksLTEwMDU0MDI5MzcsLTIwMzY4
+NjMxOTAsLTE5NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2Mjc4Nz
+U0NTgsLTExMjQzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NTM1OTM2
+MCwxNTkxMDIxNzIsMTUyMjc0NDE1OF19
 -->
