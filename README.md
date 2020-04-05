@@ -164,8 +164,10 @@ Unfortunately the diagram is hard to read in this format due to the large number
 
 In order to perform EF migration, I first had to create a local DB within my web application solution in Visual Studio. I then ran the EF Migration tool from the Packet Manager command line to generate the DB context and model classes. The final result of this initial EF Migration can be seen in the picture below:
 ![Initial EF Migration Results](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/10.%20Database%20Diagram%20and%20EF%20Migration/Initial%20EF%20Migration%20%2805APR2020%29.png)
+
+The next steps will be to begin writing the controllers and views to allow users to interact with the models that EF created.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTc1NDYzNCwtMjQ1ODE3NTIxLC0xMT
+eyJoaXN0b3J5IjpbMTY2NTMwNjc0OSwtMjQ1ODE3NTIxLC0xMT
 MzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAwNTQw
 MjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0NiwtMTQ3OTI0OT
 I1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQxMzYzMzQ4
