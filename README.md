@@ -69,13 +69,13 @@ Below are a few of the wire frame designs I have made for the application's webs
 
 ![Analyze Team](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/05.%20Website%20Wire%20Frame%20Diagrams/AnalyzeTeamPage%20%2823FEB2020%29.jpg)
 
-
+![Wire Frame Sketch from OneNote](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/05.%20Website%20Wire%20Frame%20Diagrams/Wire%20Frame%20Sketches.pdf)
 
 ## Source Code From Other Projects
 Although I have not yet incorporated course from other projects, there are two projects that I am likely to draw upon: the Pokémon Showdown battle simulator and the Veekun Project. Both projects' source code is stored in folders [XX](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/XX.%20Pokemon%20Showdown%20Source%20Files/pokemon-showdown-master) and [YY](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/YY.%20Veekun%20Project%20Source%20Files/pokedex-master), respectively. 
 
 ## User Stories
-The following are some of the user stories that are guiding my design:
+The following are some of the user stories that are guiding my design. The full document is located here: [06. User Stories](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/06.%20User%20Stories)
 
  1.  As a new / inexperienced Pokémon player, I want a program that will help me learn what moves, stats, abilities, items and types each Pokémon has available to them so that I can make better selections for my teams and so that I don’t have to memories all of the possible type/move/stat/ability/item combinations.
  2.  As a player who has played Pokémon games for a long time but has very little experience with competitive Pokémon battles, I need a program that will help me analyze whether or not the Pokémon teams I have built playing the story mode are competitively viable. I also need to be able to learn how the moves I normally select for my Pokémon will need to change in order to be successful in a competitive Pokémon battle.
@@ -198,9 +198,9 @@ A list of items that I may not be able to complete before the end of the MSSA pr
  6. Battle Simulation Logic (this has been done by other sites already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzMwNzEwMzIsLTI0NTgxNzUyMSwtMT
-EzMzU3ODM5LC0yOTE1NzA0MDQsLTE3ODEwODk2ODksLTEwMDU0
-MDI5MzcsLTIwMzY4NjMxOTAsLTE5NTA3MzMzNDYsLTE0NzkyND
-kyNTgsLTE2Mjc4NzU0NTgsLTExMjQzNTY0OTcsLTU0MTM2MzM0
-OCwtMTA0NTM1OTM2MCwxNTkxMDIxNzIsMTUyMjc0NDE1OF19
+eyJoaXN0b3J5IjpbMTA3MTgyNzY4NiwtMjQ1ODE3NTIxLC0xMT
+MzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAwNTQw
+MjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0NiwtMTQ3OTI0OT
+I1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQxMzYzMzQ4
+LC0xMDQ1MzU5MzYwLDE1OTEwMjE3MiwxNTIyNzQ0MTU4XX0=
 -->
