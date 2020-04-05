@@ -14,7 +14,7 @@ Competitive Pokémon, while based on a children's game, is an extremely complex 
  9. [Requirements](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#requirements)
  10. [Test Plan](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#test-plan) 
  11. [Prototype](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#prototype)
- 12. [Entity Framework and Initial Model Scaffolding](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#entity-framework-and-initial-model-migration)
+ 12. [Entity Framework and Initial Model Scaffolding](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#entity-framework-and-initial-model-scaffolding)
  13. [Project Work Backlog](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#project-work-backlog)
 
 ## Project Motivation / Background
@@ -200,10 +200,10 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDIzMzIwMCwzNjk5MzQ3NTIsLTI0NT
-gxNzUyMSwtMTEzMzU3ODM5LC0yOTE1NzA0MDQsLTE3ODEwODk2
-ODksLTEwMDU0MDI5MzcsLTIwMzY4NjMxOTAsLTE5NTA3MzMzND
-YsLTE0NzkyNDkyNTgsLTE2Mjc4NzU0NTgsLTExMjQzNTY0OTcs
-LTU0MTM2MzM0OCwtMTA0NTM1OTM2MCwxNTkxMDIxNzIsMTUyMj
-c0NDE1OF19
+eyJoaXN0b3J5IjpbOTQ4MjY4MzQsMTgzNDIzMzIwMCwzNjk5Mz
+Q3NTIsLTI0NTgxNzUyMSwtMTEzMzU3ODM5LC0yOTE1NzA0MDQs
+LTE3ODEwODk2ODksLTEwMDU0MDI5MzcsLTIwMzY4NjMxOTAsLT
+E5NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2Mjc4NzU0NTgsLTEx
+MjQzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NTM1OTM2MCwxNTkxMD
+IxNzIsMTUyMjc0NDE1OF19
 -->
