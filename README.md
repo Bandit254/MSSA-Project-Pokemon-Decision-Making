@@ -160,11 +160,13 @@ To populate the data for my web application I am using Entity Framework (EF) Mig
 After creating the necessary tables, my database diagram looks like this:
 ![Database Diagram (05APR2020)](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/10.%20Database%20Diagram%20and%20EF%20Migration/SQL%20Database%20Table%20Diagram%20%2805APR2020%29.jpg)
 
-Unfortunately the diagram is hard to read in this format due to the large number of tables and relationships between them. The most important tables to note at this time are the main Pokemon table, the Custom Pokemon table, and the 
+Unfortunately the diagram is hard to read in this format due to the large number of tables and relationships between them. The most important tables to note at this time are the main Pokémon table, the Custom Pokémon table, and the Team Base and Team VGC tables. These four tables will provide the bulk of the data necessary for the primary function of my web application. 
+
+In order to perform EF migration, I first had to create a local DB within my web applicat
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAzMzc0MTA3LC0yNDU4MTc1MjEsLTExMz
-M1NzgzOSwtMjkxNTcwNDA0LC0xNzgxMDg5Njg5LC0xMDA1NDAy
-OTM3LC0yMDM2ODYzMTkwLC0xOTUwNzMzMzQ2LC0xNDc5MjQ5Mj
-U4LC0xNjI3ODc1NDU4LC0xMTI0MzU2NDk3LC01NDEzNjMzNDgs
-LTEwNDUzNTkzNjAsMTU5MTAyMTcyLDE1MjI3NDQxNThdfQ==
+eyJoaXN0b3J5IjpbLTE4OTE2NjIxMDgsLTI0NTgxNzUyMSwtMT
+EzMzU3ODM5LC0yOTE1NzA0MDQsLTE3ODEwODk2ODksLTEwMDU0
+MDI5MzcsLTIwMzY4NjMxOTAsLTE5NTA3MzMzNDYsLTE0NzkyND
+kyNTgsLTE2Mjc4NzU0NTgsLTExMjQzNTY0OTcsLTU0MTM2MzM0
+OCwtMTA0NTM1OTM2MCwxNTkxMDIxNzIsMTUyMjc0NDE1OF19
 -->
