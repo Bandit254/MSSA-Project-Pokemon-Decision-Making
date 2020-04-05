@@ -83,7 +83,7 @@ The following are some of the user stories that are guiding my design. The full 
  4. As an experienced competitive Pokémon battler, I need a program that provides me with a way to easily customize Pokémon and teams so that I can quickly prototype new teams and stay ahead of my opponents. I want to be able to save the team and Pokémon combinations that I create so that I can easily refer to them in the future. I also need a program that will provide me with detailed statistics on the most common Pokémon/moves/abilities/items/types in use across the entire competitive scene so that I can plan my teams to be successful against those combinations.
  5. As Pokémon player engaged in a Pokémon battle using competitive rules (whether an actual competition or a friendly/casual match), I need a program that will help me track the information that I have revealed to my opponent and that my opponent has revealed to me so that I can make more precise decisions in battle without having to memorize everything that has occurred in a battle. I would also like a way to store and display my record in all matches and the teams I used in those matches.
 ## Use Cases
-Based on the user stories, I have developed this initial list of use cases:
+Based on the user stories, I have developed this initial list of use cases. The documentation is stored in this folder: [07. Use Cases](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/07.%20Use%20Cases)
  1.  Given a new user to the program, when the new user selects the option to create an account, then the program will provide the fields and options necessary for account creation and store the user’s information in their new profile.
  2.  Given a returning user, when the user selects the option to log-in, then the program will verify the user’s credentials and (if valid) allow the user access to the program.
  3.  Given user input about one or more of the following criteria ­­-- Pokémon name, Pokémon number, type, move(s), ability, stats -- when the user chooses the option to search based on those criteria then the system shall display all Pokémon that meet the user’s criteria.
@@ -100,7 +100,7 @@ These use-cases are represented by the Use-Case Diagram below:
 ![Use-Case Diagram](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/07.%20Use%20Cases/CAD%20Project%20Use-Case%20Diagram.jpg)
 
 ## Requirements
-The full list of the system requirements are found in folder "[08. Requirements](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/08.%20Requirements)", but the major requirements are listed below:
+The full list of the system requirements are found in folder [08. Requirements](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/08.%20Requirements), but the major requirements are listed below:
 
  1. The system shall provide a method to allow users to create accounts
  2. The system shall provide a method to allow users to log in
@@ -120,7 +120,7 @@ The full list of the system requirements are found in folder "[08. Requirements]
  16. The system shall provide a method for users to track information that has been revealed during battle, both by the user and by the opponent
 
 ## Test Plan
-Below are the requirements verification and and testing tables for this project. Due to the large number of both requirements and tests, only a portion are included directly in this README; the full tables are located in folder "[09. Project Testing](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/09.%20Project%20Testing)."
+Below are the requirements verification and and testing tables for this project. Due to the large number of both requirements and tests, only a portion are included directly in this README; the full tables are located in folder [09. Project Testing](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/09.%20Project%20Testing).
 
 **Requirements Verification Table:**
 
@@ -198,9 +198,9 @@ A list of items that I may not be able to complete before the end of the MSSA pr
  6. Battle Simulation Logic (this has been done by other sites already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MTgyNzY4NiwtMjQ1ODE3NTIxLC0xMT
-MzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAwNTQw
-MjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0NiwtMTQ3OTI0OT
-I1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQxMzYzMzQ4
-LC0xMDQ1MzU5MzYwLDE1OTEwMjE3MiwxNTIyNzQ0MTU4XX0=
+eyJoaXN0b3J5IjpbLTE4NDc3NTY5MTQsLTI0NTgxNzUyMSwtMT
+EzMzU3ODM5LC0yOTE1NzA0MDQsLTE3ODEwODk2ODksLTEwMDU0
+MDI5MzcsLTIwMzY4NjMxOTAsLTE5NTA3MzMzNDYsLTE0NzkyND
+kyNTgsLTE2Mjc4NzU0NTgsLTExMjQzNTY0OTcsLTU0MTM2MzM0
+OCwtMTA0NTM1OTM2MCwxNTkxMDIxNzIsMTUyMjc0NDE1OF19
 -->
