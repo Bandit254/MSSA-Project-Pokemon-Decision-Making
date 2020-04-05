@@ -191,16 +191,17 @@ The next steps will be to begin writing the controllers and views to allow users
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
 
  - [ ] Pokémon Moves Reverse-Lookup Tables
-        2. Pokémon Abilities Reverse-Lookup Tables
-        3. Custom Stat Calculations (EVs, IVs, Base Stats)
-        4. Conditional Team Generator (Both Full Teams and VGC Teams)
-        5. In-Game Battle Information Dashboard
-        6. Battle Simulation Logic (this has been done by other sites already, and is essentially an entire project in and of itself)
+ - [ ] Pokémon Abilities Reverse-Lookup Tables
+ - [ ] Custom Stat Calculations (EVs, IVs, Base Stats)
+ - [ ] Conditional Team Generator (Both Full Teams and VGC Teams)
+ - [ ] In-Game Battle Information Dashboard
+ - [ ] Battle Simulation Logic (this has been done by other sites
+       already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY0OTQ3MTM0LC0yNDU4MTc1MjEsLTExMz
-M1NzgzOSwtMjkxNTcwNDA0LC0xNzgxMDg5Njg5LC0xMDA1NDAy
-OTM3LC0yMDM2ODYzMTkwLC0xOTUwNzMzMzQ2LC0xNDc5MjQ5Mj
-U4LC0xNjI3ODc1NDU4LC0xMTI0MzU2NDk3LC01NDEzNjMzNDgs
-LTEwNDUzNTkzNjAsMTU5MTAyMTcyLDE1MjI3NDQxNThdfQ==
+eyJoaXN0b3J5IjpbLTEzNDQ0OTI3MjUsLTI0NTgxNzUyMSwtMT
+EzMzU3ODM5LC0yOTE1NzA0MDQsLTE3ODEwODk2ODksLTEwMDU0
+MDI5MzcsLTIwMzY4NjMxOTAsLTE5NTA3MzMzNDYsLTE0NzkyND
+kyNTgsLTE2Mjc4NzU0NTgsLTExMjQzNTY0OTcsLTU0MTM2MzM0
+OCwtMTA0NTM1OTM2MCwxNTkxMDIxNzIsMTUyMjc0NDE1OF19
 -->
