@@ -153,10 +153,13 @@ The prototype for this web application is currently stored on the "dev" branch o
 ![Prototype Pokémon Customization](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Project%20Pictures/Prototype%20Pictures/Prototype%20-%20Pokemon%20Customization.jpg)
 
 ![Prototype Team Analysis](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Project%20Pictures/Prototype%20Pictures/Prototype%20-%20Team%20Analysis.jpg)
+
+## Entity Framework and Initial Model Migration
+To populate the data for my web application I am using Entity Framework Migration, with a data-first approach. I updated and added new SQL scripts to en
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NTgxNzUyMSwtMTEzMzU3ODM5LC0yOT
-E1NzA0MDQsLTE3ODEwODk2ODksLTEwMDU0MDI5MzcsLTIwMzY4
-NjMxOTAsLTE5NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2Mjc4Nz
-U0NTgsLTExMjQzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NTM1OTM2
-MCwxNTkxMDIxNzIsMTUyMjc0NDE1OF19
+eyJoaXN0b3J5IjpbLTY0MjY4MTcxMCwtMjQ1ODE3NTIxLC0xMT
+MzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAwNTQw
+MjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0NiwtMTQ3OTI0OT
+I1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQxMzYzMzQ4
+LC0xMDQ1MzU5MzYwLDE1OTEwMjE3MiwxNTIyNzQ0MTU4XX0=
 -->
