@@ -183,8 +183,8 @@ After creating the necessary tables, my database diagram looks like this:
 
 Unfortunately the diagram is hard to read in this format due to the large number of tables and relationships between them. The most important tables to note at this time are the main Pokémon table, the Custom Pokémon table, and the Team Base and Team VGC tables. These four tables will provide the bulk of the data necessary for the primary function of my web application. 
 
-In order to perform EF migration, I first had to create a local DB within my web application solution in Visual Studio. I then ran the EF Migration tool from the Packet Manager command line to generate the DB context and model classes. The final result of this initial EF Migration can be seen in the picture below:
-![Initial EF Migration Results](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/10.%20Database%20Diagram%20and%20EF%20Migration/Initial%20EF%20Migration%20%2805APR2020%29.png)
+In order to perform EF Scaffolding, I first had to create a local DB within my web application solution in Visual Studio. I then ran the EF Scaffolding tool from the Packet Manager command line to generate the DB context and model classes. The final result of this initial EF Scaffolding can be seen in the picture below:
+![Initial EF Scaffolding Results](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/10.%20Database%20Diagram%20and%20EF%20Migration/Initial%20EF%20Migration%20%2805APR2020%29.png)
 
 The next steps will be to begin writing the controllers and views to allow users to interact with the models that EF created.
 
@@ -200,7 +200,7 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDYxNzAxMiwzNjk5MzQ3NTIsLTI0NT
+eyJoaXN0b3J5IjpbMTgzNDIzMzIwMCwzNjk5MzQ3NTIsLTI0NT
 gxNzUyMSwtMTEzMzU3ODM5LC0yOTE1NzA0MDQsLTE3ODEwODk2
 ODksLTEwMDU0MDI5MzcsLTIwMzY4NjMxOTAsLTE5NTA3MzMzND
 YsLTE0NzkyNDkyNTgsLTE2Mjc4NzU0NTgsLTExMjQzNTY0OTcs
