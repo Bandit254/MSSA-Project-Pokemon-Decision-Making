@@ -14,7 +14,7 @@ Competitive Pokémon, while based on a children's game, is an extremely complex 
  9. [Requirements](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#requirements)
  10. [Test Plan](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#test-plan) 
  11. [Prototype](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#prototype)
- 12. [Entity Framework and Initial Model Migration](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#entity-framework-and-initial-model-migration)
+ 12. [Entity Framework and Initial Model Scaffolding](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#entity-framework-and-initial-model-migration)
  13. [Project Work Backlog](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#project-work-backlog)
 
 ## Project Motivation / Background
@@ -175,16 +175,16 @@ The prototype for this web application is currently stored on the "dev" branch o
 
 ![Prototype Team Analysis](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Project%20Pictures/Prototype%20Pictures/Prototype%20-%20Team%20Analysis.jpg)
 
-## Entity Framework and Initial Model Migration
-To populate the data for my web application I am using Entity Framework (EF) Migration, with a data-first approach. I first updated and added new SQL scripts to ensure the database tables had all of the appropriate fields, keys, and constraints necessary for the full scope of the web application. Although some tables do not have data in them as of 05 April 2020, the goal is to reduce the number of times I will need to perform the EF Migration process throughout the remainder of the project. My updated SQL scripts are location in the folder [04. SQL Solution and Queries](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/04.%20SQLSolution%20and%20Queries), while the documents related m=to the actual EF Migration and database diagram are stored here: [10. Database Diagram and EF Migration](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/10.%20Database%20Diagram%20and%20EF%20Migration).
+## Entity Framework and Initial Model Scaffolding
+To populate the data for my web application I am using Entity Framework (EF) Scaffolding, with a data-first approach. I first updated and added new SQL scripts to ensure the database tables had all of the appropriate fields, keys, and constraints necessary for the full scope of the web application. Although some tables do not have data in them as of 05 April 2020, the goal is to reduce the number of times I will need to perform the EF Scaffolding process throughout the remainder of the project. My updated SQL scripts are location in the folder [04. SQL Solution and Queries](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/04.%20SQLSolution%20and%20Queries), while the documents related to the actual EF Scaffolding and database diagram are stored here: [10. Database Diagram and EF Scaffolding](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/10.%20Database%20Diagram%20and%20EF%20Migration).
 
 After creating the necessary tables, my database diagram looks like this:
 ![Database Diagram (05APR2020)](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/10.%20Database%20Diagram%20and%20EF%20Migration/SQL%20Database%20Table%20Diagram%20%2805APR2020%29.jpg)
 
 Unfortunately the diagram is hard to read in this format due to the large number of tables and relationships between them. The most important tables to note at this time are the main Pokémon table, the Custom Pokémon table, and the Team Base and Team VGC tables. These four tables will provide the bulk of the data necessary for the primary function of my web application. 
 
-In order to perform EF migration, I first had to create a local DB within my web application solution in Visual Studio. I then ran the EF Migration tool from the Packet Manager command line to generate the DB context and model classes. The final result of this initial EF Migration can be seen in the picture below:
-![Initial EF Migration Results](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/10.%20Database%20Diagram%20and%20EF%20Migration/Initial%20EF%20Migration%20%2805APR2020%29.png)
+In order to perform EF Scaffolding, I first had to create a local DB within my web application solution in Visual Studio. I then ran the EF Scaffolding tool from the Packet Manager command line to generate the DB context and model classes. The final result of this initial EF Scaffolding can be seen in the picture below:
+![Initial EF Scaffolding Results](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/10.%20Database%20Diagram%20and%20EF%20Migration/Initial%20EF%20Migration%20%2805APR2020%29.png)
 
 The next steps will be to begin writing the controllers and views to allow users to interact with the models that EF created.
 
@@ -200,9 +200,10 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY5OTM0NzUyLC0yNDU4MTc1MjEsLTExMz
-M1NzgzOSwtMjkxNTcwNDA0LC0xNzgxMDg5Njg5LC0xMDA1NDAy
-OTM3LC0yMDM2ODYzMTkwLC0xOTUwNzMzMzQ2LC0xNDc5MjQ5Mj
-U4LC0xNjI3ODc1NDU4LC0xMTI0MzU2NDk3LC01NDEzNjMzNDgs
-LTEwNDUzNTkzNjAsMTU5MTAyMTcyLDE1MjI3NDQxNThdfQ==
+eyJoaXN0b3J5IjpbMTgzNDIzMzIwMCwzNjk5MzQ3NTIsLTI0NT
+gxNzUyMSwtMTEzMzU3ODM5LC0yOTE1NzA0MDQsLTE3ODEwODk2
+ODksLTEwMDU0MDI5MzcsLTIwMzY4NjMxOTAsLTE5NTA3MzMzND
+YsLTE0NzkyNDkyNTgsLTE2Mjc4NzU0NTgsLTExMjQzNTY0OTcs
+LTU0MTM2MzM0OCwtMTA0NTM1OTM2MCwxNTkxMDIxNzIsMTUyMj
+c0NDE1OF19
 -->
