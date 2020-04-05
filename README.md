@@ -43,7 +43,9 @@ Most of the data I am using is fairly easy to obtain, thanks to sites like [Pok√
 
 However, some data relating to Pokemon are not so easy ingested. For example, it is easy to add a table of all moves available in a Pokemon game, but each Pokemon is only allowed to learn a certain subset of the total move list. There is no logical way to predict or script which Pokemon are allowed to learn which moves; therefore the move list for each individual Pokemon must be displayed from a website such as [Serebii.net](https://serebii.net/), copied into Excel, and then manually mapped to the appropriate Pokemon ID number. Only then can a SQL script be generated to add the Pokemon's move set to the database and ensure that each Pokemon can only be assigned moves that they are allowed to learn.
 
-The same process must be completed for the abilities that Pokemon may possess. Each Pokemon can have between 1 and 3 abilities available to it, some of which may be classified as "hidden" abilities. Both the moves that a Pokemon learns and the abilities they possess require the manual creation of what are called "reverse-loo
+The same process must be completed for the abilities that Pokemon may possess. Each Pokemon can have between 1 and 3 abilities available to it, some of which may be classified as "hidden" abilities. Both the moves that a Pokemon learns and the abilities they possess require the manual creation of what are called "reverse-lookup" tables to ensure that the Pokemon are appropriately restricted to the correct moves/abilities.
+
+Because these reverse-lookup tables are a time-consuming 
 
 ## Building the Database
 I will use T-SQL and Microsoft SQL Server to build the primary database for this project. The folder "04. SQL Solution and Queries" contains all of the queries I have written to build the database (so far).
@@ -173,9 +175,9 @@ In order to perform EF migration, I first had to create a local DB within my web
 
 The next steps will be to begin writing the controllers and views to allow users to interact with the models that EF created.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MzY5NjQ1MiwtMjQ1ODE3NTIxLC0xMT
-MzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAwNTQw
-MjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0NiwtMTQ3OTI0OT
-I1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQxMzYzMzQ4
-LC0xMDQ1MzU5MzYwLDE1OTEwMjE3MiwxNTIyNzQ0MTU4XX0=
+eyJoaXN0b3J5IjpbLTQ1Njc3NDIyLC0yNDU4MTc1MjEsLTExMz
+M1NzgzOSwtMjkxNTcwNDA0LC0xNzgxMDg5Njg5LC0xMDA1NDAy
+OTM3LC0yMDM2ODYzMTkwLC0xOTUwNzMzMzQ2LC0xNDc5MjQ5Mj
+U4LC0xNjI3ODc1NDU4LC0xMTI0MzU2NDk3LC01NDEzNjMzNDgs
+LTEwNDUzNTkzNjAsMTU5MTAyMTcyLDE1MjI3NDQxNThdfQ==
 -->
