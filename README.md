@@ -14,6 +14,8 @@ Competitive Pokémon, while based on a children's game, is an extremely complex 
  9. [Requirements](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#requirements)
  10. [Test Plan](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#test-plan) 
  11. [Prototype](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#prototype)
+ 12. Entity Framework and Initial Model Migration
+ 13. Project Work Backlog
 
 ## Project Motivation / Background
 I have been playing Pokémon on-and-off since 5th grade. I came to the game late compared to my friends who were immediately swept up by the first generation of games in the late 1990s, but it has stuck with me longer.
@@ -23,6 +25,8 @@ While most people are familiar with the trading cards, the anime series, and the
 While the most recent generation of games (Sword and Shield, the 8th Generation) have made it far easier to build competitively viable Pokémon teams, that has not made competitive battles any easier. Each Pokémon has a wide range of moves, stats, abilities, and items that players must consider in order to be successful, and with more players than ever eager to learn the competitive scene it is becoming more difficult to find and exploit an advantage in the game. 
 
 Therefore, the motivation behind this project is to build a web application that aids players as they analyze Pokémon individually, build teams, and prepare for battles against their opponents. This application will enable players to examine combinations and interactions that they might otherwise miss (or not have time to calculate for themselves). It will also help players keep track of the information they have revealed to their opponents and vice versa during in the course of a competitive match.
+
+
 
 For more information on the background and motivation behind this project, see the paper and presentation in folder "01. Project Proposal and Presentation."
 ![System Phase 1](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/01.%20Project%20Proposal%20and%20Presentation/Phase%201.jpg)
@@ -178,17 +182,17 @@ The next steps will be to begin writing the controllers and views to allow users
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
 
- 1. Pokemon Moves Reverse-Lookup Tables
- 2. Pokemon Abilities Reverse-Lookup Tables
+ 1. Pokémon Moves Reverse-Lookup Tables
+ 2. Pokémon Abilities Reverse-Lookup Tables
  3. Custom Stat Calculations (EVs, IVs, Base Stats)
  4. Conditional Team Generator (Both Full Teams and VGC Teams)
  5. In-Game Battle Information Dashboard
- 6. Battle Simulatio
+ 6. Battle Simulation Logic (this has been done by other sites already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMTUzMDQ3MywtMjQ1ODE3NTIxLC0xMT
-MzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAwNTQw
-MjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0NiwtMTQ3OTI0OT
-I1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQxMzYzMzQ4
-LC0xMDQ1MzU5MzYwLDE1OTEwMjE3MiwxNTIyNzQ0MTU4XX0=
+eyJoaXN0b3J5IjpbNDcwMzE5NjkzLC0yNDU4MTc1MjEsLTExMz
+M1NzgzOSwtMjkxNTcwNDA0LC0xNzgxMDg5Njg5LC0xMDA1NDAy
+OTM3LC0yMDM2ODYzMTkwLC0xOTUwNzMzMzQ2LC0xNDc5MjQ5Mj
+U4LC0xNjI3ODc1NDU4LC0xMTI0MzU2NDk3LC01NDEzNjMzNDgs
+LTEwNDUzNTkzNjAsMTU5MTAyMTcyLDE1MjI3NDQxNThdfQ==
 -->
