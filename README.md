@@ -27,7 +27,9 @@ While the most recent generation of games (Sword and Shield, the 8th Generation)
 Therefore, the motivation behind this project is to build a web application that aids players as they analyze Pokémon individually, build teams, and prepare for battles against their opponents. This application will enable players to examine combinations and interactions that they might otherwise miss (or not have time to calculate for themselves). It will also help players keep track of the information they have revealed to their opponents and vice versa during in the course of a competitive match.
 
 Key Terms:
-The crux of my web application is the analysis and generation of Pokemon teams for competitive matches. As I explain below, a player brings a team of 6 Pokemon to a competitive set. But, during each match within a set a play may only bring 4 of those original 6 for each battle
+The crux of my web application is the analysis and generation of Pokemon teams for competitive matches. As I explain below, a player brings a team of 6 Pokemon to a competitive set. But, during each match within a set a player may only bring 4 of those original 6 Pokemon. Therefore, I make the following distinction:
+**Team Base** = The full team of 6 Pokemon.
+Team VGC = the 4 Pokemon a player selects from the original 6 for each match.
 
 For more information on the background and motivation behind this project, see the paper and presentation in folder "01. Project Proposal and Presentation."
 ![System Phase 1](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/01.%20Project%20Proposal%20and%20Presentation/Phase%201.jpg)
@@ -191,9 +193,9 @@ A list of items that I may not be able to complete before the end of the MSSA pr
  6. Battle Simulation Logic (this has been done by other sites already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDU2Mjg5ODIsLTI0NTgxNzUyMSwtMT
-EzMzU3ODM5LC0yOTE1NzA0MDQsLTE3ODEwODk2ODksLTEwMDU0
-MDI5MzcsLTIwMzY4NjMxOTAsLTE5NTA3MzMzNDYsLTE0NzkyND
-kyNTgsLTE2Mjc4NzU0NTgsLTExMjQzNTY0OTcsLTU0MTM2MzM0
-OCwtMTA0NTM1OTM2MCwxNTkxMDIxNzIsMTUyMjc0NDE1OF19
+eyJoaXN0b3J5IjpbMTcwNjA5MTA1MywtMjQ1ODE3NTIxLC0xMT
+MzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAwNTQw
+MjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0NiwtMTQ3OTI0OT
+I1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQxMzYzMzQ4
+LC0xMDQ1MzU5MzYwLDE1OTEwMjE3MiwxNTIyNzQ0MTU4XX0=
 -->
