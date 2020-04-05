@@ -184,7 +184,7 @@ After creating the necessary tables, my database diagram looks like this:
 Unfortunately the diagram is hard to read in this format due to the large number of tables and relationships between them. The most important tables to note at this time are the main Pokémon table, the Custom Pokémon table, and the Team Base and Team VGC tables. These four tables will provide the bulk of the data necessary for the primary function of my web application. 
 
 In order to perform EF Scaffolding, I first had to create a local DB within my web application solution in Visual Studio. I then ran the EF Scaffolding tool from the Packet Manager command line to generate the DB context and model classes. The final result of this initial EF Scaffolding can be seen in the picture below:
-![Initial EF Scaffolding Results](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/10.%20Database%20Diagram%20and%20EF%20Migration/Initial%20EF%20Migration%20%2805APR2020%29.png)
+![Initial EF Scaffolding Results](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/10.%20Database%20Diagram%20and%20EF%20Scaffolding/Initial%20EF%20Migration%20(05APR2020).png)
 
 The next steps will be to begin writing the controllers and views to allow users to interact with the models that EF created.
 
@@ -200,10 +200,10 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzkxMTA4MzIsMTgzNDIzMzIwMCwzNj
-k5MzQ3NTIsLTI0NTgxNzUyMSwtMTEzMzU3ODM5LC0yOTE1NzA0
-MDQsLTE3ODEwODk2ODksLTEwMDU0MDI5MzcsLTIwMzY4NjMxOT
-AsLTE5NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2Mjc4NzU0NTgs
-LTExMjQzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NTM1OTM2MCwxNT
-kxMDIxNzIsMTUyMjc0NDE1OF19
+eyJoaXN0b3J5IjpbOTkwNDUzNTU2LDE4MzQyMzMyMDAsMzY5OT
+M0NzUyLC0yNDU4MTc1MjEsLTExMzM1NzgzOSwtMjkxNTcwNDA0
+LC0xNzgxMDg5Njg5LC0xMDA1NDAyOTM3LC0yMDM2ODYzMTkwLC
+0xOTUwNzMzMzQ2LC0xNDc5MjQ5MjU4LC0xNjI3ODc1NDU4LC0x
+MTI0MzU2NDk3LC01NDEzNjMzNDgsLTEwNDUzNTkzNjAsMTU5MT
+AyMTcyLDE1MjI3NDQxNThdfQ==
 -->
