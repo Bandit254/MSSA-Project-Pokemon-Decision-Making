@@ -162,11 +162,12 @@ After creating the necessary tables, my database diagram looks like this:
 
 Unfortunately the diagram is hard to read in this format due to the large number of tables and relationships between them. The most important tables to note at this time are the main Pokémon table, the Custom Pokémon table, and the Team Base and Team VGC tables. These four tables will provide the bulk of the data necessary for the primary function of my web application. 
 
-In order to perform EF migration, I first had to create a local DB within my web applicat
+In order to perform EF migration, I first had to create a local DB within my web application solution in Visual Studio. I then ran the EF Migration tool from the Packet Manager command line to generate the DB context and model classes. The final result of this initial EF Migration can be seen in the picture below:
+![Initial EF Migration Results](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/10.%20Database%20Diagram%20and%20EF%20Migration/Initial%20EF%20Migration%20%2805APR2020%29.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTE2NjIxMDgsLTI0NTgxNzUyMSwtMT
-EzMzU3ODM5LC0yOTE1NzA0MDQsLTE3ODEwODk2ODksLTEwMDU0
-MDI5MzcsLTIwMzY4NjMxOTAsLTE5NTA3MzMzNDYsLTE0NzkyND
-kyNTgsLTE2Mjc4NzU0NTgsLTExMjQzNTY0OTcsLTU0MTM2MzM0
-OCwtMTA0NTM1OTM2MCwxNTkxMDIxNzIsMTUyMjc0NDE1OF19
+eyJoaXN0b3J5IjpbLTY3NTc1NDYzNCwtMjQ1ODE3NTIxLC0xMT
+MzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAwNTQw
+MjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0NiwtMTQ3OTI0OT
+I1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQxMzYzMzQ4
+LC0xMDQ1MzU5MzYwLDE1OTEwMjE3MiwxNTIyNzQ0MTU4XX0=
 -->
