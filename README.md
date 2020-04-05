@@ -61,13 +61,15 @@ Because creating these reverse-lookup tables is a time-consuming process, it is 
 I will use T-SQL and Microsoft SQL Server to build the primary database for this project. The folder [04. SQL Solution and Queries](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/04.%20SQLSolution%20and%20Queries) contains all of the queries I have written to build the database (so far).
 
 ## Website Wire Frames
-Below are a few of the wire frame designs I have made for the application's website. These are not all of the pages I have designed, nor are they final designs. I used [https://pencil.evolus.vn/](https://pencil.evolus.vn/) to create the wire frames. I also included a diagram that I sketched in OneNote. The full
+Below are a few of the wire frame designs I have made for the application's website. These are not all of the pages I have designed, nor are they final designs. I used [https://pencil.evolus.vn/](https://pencil.evolus.vn/) to create the wire frames. I also included a diagram that I sketched in OneNote. [05. Website Wire Frame Diagrams](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/05.%20Website%20Wire%20Frame%20Diagrams)
 
 ![Content Hub](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/05.%20Website%20Wire%20Frame%20Diagrams/ContentHubPage%20%2823FEB2020%29.jpg)
  
  ![Create a Team](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/05.%20Website%20Wire%20Frame%20Diagrams/CreateTeamPage%20%2823FEB2020%29.jpg)
 
 ![Analyze Team](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/05.%20Website%20Wire%20Frame%20Diagrams/AnalyzeTeamPage%20%2823FEB2020%29.jpg)
+
+
 
 ## Source Code From Other Projects
 Although I have not yet incorporated course from other projects, there are two projects that I am likely to draw upon: the Pokémon Showdown battle simulator and the Veekun Project. Both projects' source code is stored in folders [XX](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/XX.%20Pokemon%20Showdown%20Source%20Files/pokemon-showdown-master) and [YY](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/YY.%20Veekun%20Project%20Source%20Files/pokedex-master), respectively. 
@@ -196,9 +198,9 @@ A list of items that I may not be able to complete before the end of the MSSA pr
  6. Battle Simulation Logic (this has been done by other sites already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMDE5Njc1NywtMjQ1ODE3NTIxLC0xMT
-MzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAwNTQw
-MjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0NiwtMTQ3OTI0OT
-I1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQxMzYzMzQ4
-LC0xMDQ1MzU5MzYwLDE1OTEwMjE3MiwxNTIyNzQ0MTU4XX0=
+eyJoaXN0b3J5IjpbLTIwNzMwNzEwMzIsLTI0NTgxNzUyMSwtMT
+EzMzU3ODM5LC0yOTE1NzA0MDQsLTE3ODEwODk2ODksLTEwMDU0
+MDI5MzcsLTIwMzY4NjMxOTAsLTE5NTA3MzMzNDYsLTE0NzkyND
+kyNTgsLTE2Mjc4NzU0NTgsLTExMjQzNTY0OTcsLTU0MTM2MzM0
+OCwtMTA0NTM1OTM2MCwxNTkxMDIxNzIsMTUyMjc0NDE1OF19
 -->
