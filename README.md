@@ -41,7 +41,9 @@ There are many sources for Pokémon data, and there is a lot of it. The folder [
 
 Most of the data I am using is fairly easy to obtain, thanks to sites like [Pokémon Database](https://pokemondb.net/). They present data in web tables that can be copied into Excel, reformatted slightly, and then used to generate a SQL script to insert the data into my actual database. 
 
-However, some data relating to Pokemon are not so easy ingested. For example, it is easy to add a table of all moves available in a Pokemon game, but each Pokemon is only allowed to learn a certain subset of the total move list. There is no logical way to predict or script which Pokemon are allowed to learn which moves; therefore the move list for each individual Pokemon must be displayed from a website such as [Serebii.net](https://serebii.net/), copied into Excel, and then manually mapped to the appropriate Pokemon ID number. Only then can 
+However, some data relating to Pokemon are not so easy ingested. For example, it is easy to add a table of all moves available in a Pokemon game, but each Pokemon is only allowed to learn a certain subset of the total move list. There is no logical way to predict or script which Pokemon are allowed to learn which moves; therefore the move list for each individual Pokemon must be displayed from a website such as [Serebii.net](https://serebii.net/), copied into Excel, and then manually mapped to the appropriate Pokemon ID number. Only then can a SQL script be generated to add the Pokemon's move set to the database and ensure that each Pokemon can only be assigned moves that they are allowed to learn.
+
+The same process must be completed for the abilities that Pokemon may possess.
 
 ## Building the Database
 I will use T-SQL and Microsoft SQL Server to build the primary database for this project. The folder "04. SQL Solution and Queries" contains all of the queries I have written to build the database (so far).
@@ -171,7 +173,7 @@ In order to perform EF migration, I first had to create a local DB within my web
 
 The next steps will be to begin writing the controllers and views to allow users to interact with the models that EF created.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzA3OTI5NiwtMjQ1ODE3NTIxLC0xMT
+eyJoaXN0b3J5IjpbLTczMTQ1NTA2MSwtMjQ1ODE3NTIxLC0xMT
 MzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAwNTQw
 MjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0NiwtMTQ3OTI0OT
 I1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQxMzYzMzQ4
