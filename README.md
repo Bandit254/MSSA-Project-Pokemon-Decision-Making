@@ -176,9 +176,14 @@ In order to perform EF migration, I first had to create a local DB within my web
 The next steps will be to begin writing the controllers and views to allow users to interact with the models that EF created.
 
 ## Project Work Backlog
-A list of items that I may not be able to complete before the 
+A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
+
+ 1. Pokemon Moves Reverse-Lookup Tables
+ 2. Pokemon Abilities Reverse-Lookup Tables
+ 3. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NzAwMjQzNywtMjQ1ODE3NTIxLC0xMT
+eyJoaXN0b3J5IjpbMTYxNDA5NzQ0MSwtMjQ1ODE3NTIxLC0xMT
 MzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAwNTQw
 MjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0NiwtMTQ3OTI0OT
 I1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQxMzYzMzQ4
