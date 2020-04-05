@@ -28,6 +28,7 @@ Therefore, the motivation behind this project is to build a web application that
 
 *Key Terms:*
 The crux of my web application is the analysis and generation of Pokémon teams for competitive matches. As I explain below, a player brings a team of 6 Pokémon to a competitive set. But, during each match within a set a player may only bring 4 of those original 6 Pokémon. Therefore, I make the following distinction:
+
 **Team Base** = The full team of 6 Pokémon.
 **Team VGC** = the 4 Pokémon a player selects from the original 6 for each match.
 
@@ -41,7 +42,7 @@ For more information on the background and motivation behind this project, see t
 ![System Phase 3](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/01.%20Project%20Proposal%20and%20Presentation/Phase%203.jpg)
 
 ## Entity Relationship Diagrams
-The picture below is my initial entity relationship diagram for the database I will build to support my application. I used Draw.io. The JPEG and PDF version of the ERD can also be found in folder "02. Database Entity Relationship Diagrams."
+The picture below is my initial entity relationship diagram for the database I will build to support my application. I used Draw.io. The JPEG and PDF version of the ERD can also be found in folder [02. Database Entity Relationship Diagrams.](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/02.%20Database%20Entity%20Relationship%20Diagrams)
 
 ![ERD](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/02.%20Database%20Entity%20Relationship%20Diagrams/CADProject%20-%2020200209%20-%20ZSilvis%20-%20ERD.jpg)
 
@@ -57,10 +58,10 @@ The same process must be completed for the abilities that Pokémon may possess. 
 Because creating these reverse-lookup tables is a time-consuming process, it is one of the first items I am added to my Project Work Backlog. In the meantime, my web application will have the "flaw" of allowing Pokémon to learn moves and possess abilities that they otherwise shouldn't. 
 
 ## Building the Database
-I will use T-SQL and Microsoft SQL Server to build the primary database for this project. The folder "04. SQL Solution and Queries" contains all of the queries I have written to build the database (so far).
+I will use T-SQL and Microsoft SQL Server to build the primary database for this project. The folder [04. SQL Solution and Queries](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/04.%20SQLSolution%20and%20Queries) contains all of the queries I have written to build the database (so far).
 
 ## Website Wire Frames
-Below are a few of the wire frame designs I have made for the application's website. These are not all of the pages I have designed, nor are they final designs. I used [https://pencil.evolus.vn/](https://pencil.evolus.vn/) to create the wire frames. I also included a diagram that I sketched in OneNote. 
+Below are a few of the wire frame designs I have made for the application's website. These are not all of the pages I have designed, nor are they final designs. I used [https://pencil.evolus.vn/](https://pencil.evolus.vn/) to create the wire frames. I also included a diagram that I sketched in OneNote. The full
 
 ![Content Hub](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/05.%20Website%20Wire%20Frame%20Diagrams/ContentHubPage%20%2823FEB2020%29.jpg)
  
@@ -195,7 +196,7 @@ A list of items that I may not be able to complete before the end of the MSSA pr
  6. Battle Simulation Logic (this has been done by other sites already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNjMyOTM2MCwtMjQ1ODE3NTIxLC0xMT
+eyJoaXN0b3J5IjpbMjExMDE5Njc1NywtMjQ1ODE3NTIxLC0xMT
 MzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAwNTQw
 MjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0NiwtMTQ3OTI0OT
 I1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQxMzYzMzQ4
