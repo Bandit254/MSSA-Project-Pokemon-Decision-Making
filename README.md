@@ -176,10 +176,10 @@ The prototype for this web application is currently stored on the "dev" branch o
 ![Prototype Team Analysis](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Project%20Pictures/Prototype%20Pictures/Prototype%20-%20Team%20Analysis.jpg)
 
 ## Entity Framework and Initial Model Scaffolding
-To populate the data for my web application I am using Entity Framework (EF) Scaffolding, with a data-first approach. I first updated and added new SQL scripts to ensure the database tables had all of the appropriate fields, keys, and constraints necessary for the full scope of the web application. Although some tables do not have data in them as of 05 April 2020, the goal is to reduce the number of times I will need to perform the EF Scaffolding process throughout the remainder of the project. My updated SQL scripts are location in the folder [04. SQL Solution and Queries](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/04.%20SQLSolution%20and%20Queries), while the documents related to the actual EF Scaffolding and database diagram are stored here: [10. Database Diagram and EF Scaffolding](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/10.%20Database%20Diagram%20and%20EF%20Migration).
+To populate the data for my web application I am using Entity Framework (EF) Scaffolding, with a data-first approach. I first updated and added new SQL scripts to ensure the database tables had all of the appropriate fields, keys, and constraints necessary for the full scope of the web application. Although some tables do not have data in them as of 05 April 2020, the goal is to reduce the number of times I will need to perform the EF Scaffolding process throughout the remainder of the project. My updated SQL scripts are location in the folder [04. SQL Solution and Queries](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/04.%20SQLSolution%20and%20Queries), while the documents related to the actual EF Scaffolding and database diagram are stored here: [10. Database Diagram and EF Scaffolding](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/10.%20Database%20Diagram%20and%20EF%20Scaffolding).
 
 After creating the necessary tables, my database diagram looks like this:
-![Database Diagram (05APR2020)](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/10.%20Database%20Diagram%20and%20EF%20Migration/SQL%20Database%20Table%20Diagram%20%2805APR2020%29.jpg)
+![Database Diagram (05APR2020)](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/10.%20Database%20Diagram%20and%20EF%20Scaffolding/SQL%20Database%20Table%20Diagram%20(05APR2020).jpg)
 
 Unfortunately the diagram is hard to read in this format due to the large number of tables and relationships between them. The most important tables to note at this time are the main Pokémon table, the Custom Pokémon table, and the Team Base and Team VGC tables. These four tables will provide the bulk of the data necessary for the primary function of my web application. 
 
@@ -200,10 +200,10 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ4MjY4MzQsMTgzNDIzMzIwMCwzNjk5Mz
-Q3NTIsLTI0NTgxNzUyMSwtMTEzMzU3ODM5LC0yOTE1NzA0MDQs
-LTE3ODEwODk2ODksLTEwMDU0MDI5MzcsLTIwMzY4NjMxOTAsLT
-E5NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2Mjc4NzU0NTgsLTEx
-MjQzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NTM1OTM2MCwxNTkxMD
-IxNzIsMTUyMjc0NDE1OF19
+eyJoaXN0b3J5IjpbLTEzNzkxMTA4MzIsMTgzNDIzMzIwMCwzNj
+k5MzQ3NTIsLTI0NTgxNzUyMSwtMTEzMzU3ODM5LC0yOTE1NzA0
+MDQsLTE3ODEwODk2ODksLTEwMDU0MDI5MzcsLTIwMzY4NjMxOT
+AsLTE5NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2Mjc4NzU0NTgs
+LTExMjQzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NTM1OTM2MCwxNT
+kxMDIxNzIsMTUyMjc0NDE1OF19
 -->
