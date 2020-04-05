@@ -1,0 +1,6 @@
+C:\Users\pc\Source\Repos\MSSA-Project-Pokemon-Decision-Making\LugiasLair_DB_Project\bin\Debug\LugiasLair_DB_Project.dacpac
+C:\Users\pc\Source\Repos\MSSA-Project-Pokemon-Decision-Making\LugiasLair_DB_Project\obj\Debug\LugiasLair_DB_Project.sqlprojAssemblyReference.cache
+C:\Users\pc\Source\Repos\MSSA-Project-Pokemon-Decision-Making\LugiasLair_DB_Project\obj\Debug\LugiasLair_DB_Project.dll
+C:\Users\pc\Source\Repos\MSSA-Project-Pokemon-Decision-Making\LugiasLair_DB_Project\obj\Debug\LugiasLair_DB_Project.pdb
+C:\Users\pc\Source\Repos\MSSA-Project-Pokemon-Decision-Making\LugiasLair_DB_Project\bin\Debug\LugiasLair_DB_Project.dll
+C:\Users\pc\Source\Repos\MSSA-Project-Pokemon-Decision-Making\LugiasLair_DB_Project\bin\Debug\LugiasLair_DB_Project.pdb
