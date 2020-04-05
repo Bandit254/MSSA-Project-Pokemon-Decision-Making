@@ -30,6 +30,7 @@ Therefore, the motivation behind this project is to build a web application that
 The crux of my web application is the analysis and generation of Pokémon teams for competitive matches. As I explain below, a player brings a team of 6 Pokémon to a competitive set. But, during each match within a set a player may only bring 4 of those original 6 Pokémon. Therefore, I make the following distinction:
 
 **Team Base** = The full team of 6 Pokémon.
+
 **Team VGC** = the 4 Pokémon a player selects from the original 6 for each match.
 
 I will endeavor to be consistent in my use of these terms for the sake of clarity.
@@ -199,9 +200,9 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MjI1NDcwNiwtMjQ1ODE3NTIxLC0xMT
-MzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAwNTQw
-MjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0NiwtMTQ3OTI0OT
-I1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQxMzYzMzQ4
-LC0xMDQ1MzU5MzYwLDE1OTEwMjE3MiwxNTIyNzQ0MTU4XX0=
+eyJoaXN0b3J5IjpbMzY5OTM0NzUyLC0yNDU4MTc1MjEsLTExMz
+M1NzgzOSwtMjkxNTcwNDA0LC0xNzgxMDg5Njg5LC0xMDA1NDAy
+OTM3LC0yMDM2ODYzMTkwLC0xOTUwNzMzMzQ2LC0xNDc5MjQ5Mj
+U4LC0xNjI3ODc1NDU4LC0xMTI0MzU2NDk3LC01NDEzNjMzNDgs
+LTEwNDUzNTkzNjAsMTU5MTAyMTcyLDE1MjI3NDQxNThdfQ==
 -->
