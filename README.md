@@ -155,9 +155,9 @@ The prototype for this web application is currently stored on the "dev" branch o
 ![Prototype Team Analysis](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Project%20Pictures/Prototype%20Pictures/Prototype%20-%20Team%20Analysis.jpg)
 
 ## Entity Framework and Initial Model Migration
-To populate the data for my web application I am using Entity Framework Migration, with a data-first approach. I updated and added new SQL scripts to en
+To populate the data for my web application I am using Entity Framework Migration, with a data-first approach. I first updated and added new SQL scripts to ensure the database tables had all of the appropriate fields, keys, and constraints necessary for the full scope of the web application. Although some tables do not have data in them as of 05 April 2020, the goal is to reduce the number of times I will need to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MjY4MTcxMCwtMjQ1ODE3NTIxLC0xMT
+eyJoaXN0b3J5IjpbLTM3NzQzMzg1NSwtMjQ1ODE3NTIxLC0xMT
 MzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAwNTQw
 MjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0NiwtMTQ3OTI0OT
 I1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQxMzYzMzQ4
