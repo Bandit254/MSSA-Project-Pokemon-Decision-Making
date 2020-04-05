@@ -41,9 +41,9 @@ There are many sources for Pokémon data, and there is a lot of it. The folder [
 
 Most of the data I am using is fairly easy to obtain, thanks to sites like [Pokémon Database](https://pokemondb.net/). They present data in web tables that can be copied into Excel, reformatted slightly, and then used to generate a SQL script to insert the data into my actual database. 
 
-However, some data relating to Pokemon are not so easy ingested. For example, it is easy to add a table of all moves available in a Pokemon game, but each Pokemon is only allowed to learn a certain subset of the total move list. There is no logical way to predict or script which Pokemon are allowed to learn which moves; therefore the move list for each individual Pokemon must be displayed from a website such as [Serebii.net](https://serebii.net/), copied into Excel, and then manually mapped to the appropriate Pokemon ID number. Only then can a SQL script be generated to add the Pokemon's move set to the database and ensure that each Pokemon can only be assigned moves that they are allowed to learn.
+However, some data relating to Pokémon are not so easy ingested. For example, it is easy to add a table of all moves available in a Pokémon game, but each Pokémon is only allowed to learn a certain subset of the total move list. There is no logical way to predict or script which Pokémon are allowed to learn which moves; therefore the move list for each individual Pokémon must be displayed from a website such as [Serebii.net](https://serebii.net/), copied into Excel, and then manually mapped to the appropriate Pokémon ID number. Only then can a SQL script be generated to add the Pokémon's move set to the database and ensure that each Pokémon can only be assigned moves that they are allowed to learn.
 
-The same process must be completed for the abilities that Pokemon may possess. Each Pokemon can have between 1 and 3 abilities available to it, some of which may be classified as "hidden" abilities. Both the moves that a Pokemon learns and the abilities they possess require the manual creation of what are called "reverse-lookup" tables to ensure that the Pokemon are appropriately restricted to the correct moves/abilities.
+The same process must be completed for the abilities that Pokémon may possess. Each Pokémon can have between 1 and 3 abilities available to it, some of which may be classified as "hidden" abilities. Both the moves that a Pokémon learns and the abilities they possess require the manual creation of what are called "reverse-lookup" tables to ensure that the Pokémon are appropriately restricted to the correct moves/abilities.
 
 Because creating these reverse-lookup tables is a time-consuming process, it is one of the first items I am added to my Project Work Backlog. In the meantime, my web application will have the "flaw" of allowing Pokémon to learn moves and possess abilities that they otherwise shouldn't. 
 
@@ -174,8 +174,11 @@ In order to perform EF migration, I first had to create a local DB within my web
 ![Initial EF Migration Results](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/10.%20Database%20Diagram%20and%20EF%20Migration/Initial%20EF%20Migration%20%2805APR2020%29.png)
 
 The next steps will be to begin writing the controllers and views to allow users to interact with the models that EF created.
+
+## Project Work Backlog
+A list of items that I may not be able to complete before the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5ODQ0MjExMSwtMjQ1ODE3NTIxLC0xMT
+eyJoaXN0b3J5IjpbMTY2NzAwMjQzNywtMjQ1ODE3NTIxLC0xMT
 MzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAwNTQw
 MjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0NiwtMTQ3OTI0OT
 I1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQxMzYzMzQ4
