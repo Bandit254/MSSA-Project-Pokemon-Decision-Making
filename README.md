@@ -157,9 +157,12 @@ The prototype for this web application is currently stored on the "dev" branch o
 ## Entity Framework and Initial Model Migration
 To populate the data for my web application I am using Entity Framework (EF) Migration, with a data-first approach. I first updated and added new SQL scripts to ensure the database tables had all of the appropriate fields, keys, and constraints necessary for the full scope of the web application. Although some tables do not have data in them as of 05 April 2020, the goal is to reduce the number of times I will need to perform the EF Migration process throughout the remainder of the project. My updated SQL scripts are location in the folder [04. SQL Solution and Queries](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/04.%20SQLSolution%20and%20Queries).
 
-After 
+After creating the necessary tables, my database diagram looks like this:
+![Database Diagram (05APR2020)](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/10.%20Database%20Diagram%20and%20EF%20Migration/SQL%20Database%20Table%20Diagram%20%2805APR2020%29.jpg)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTM3NzEyMSwtMjQ1ODE3NTIxLC0xMT
+eyJoaXN0b3J5IjpbLTQzNTA0OTc4OSwtMjQ1ODE3NTIxLC0xMT
 MzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAwNTQw
 MjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0NiwtMTQ3OTI0OT
 I1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQxMzYzMzQ4
