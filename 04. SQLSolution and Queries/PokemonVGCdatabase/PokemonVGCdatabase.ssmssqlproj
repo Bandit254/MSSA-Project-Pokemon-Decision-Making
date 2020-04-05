@@ -31,6 +31,18 @@
           <AssociatedConnUserName />
           <FullPath>CreateAbilityTable.sql</FullPath>
         </FileNode>
+        <FileNode Name="CreateCharacteristicTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZURFACE54\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ZURFACE54\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateCharacteristicTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreateCustomPokemonTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZURFACE54\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ZURFACE54\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateCustomPokemonTable.sql</FullPath>
+        </FileNode>
         <FileNode Name="CreateItemTable.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZURFACE54\MSSQLSERVER01:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ZURFACE54\MSSQLSERVER01</AssociatedConnSrvName>
@@ -43,23 +55,65 @@
           <AssociatedConnUserName />
           <FullPath>CreateMoveTable.sql</FullPath>
         </FileNode>
+        <FileNode Name="CreateNatureTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZURFACE54\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ZURFACE54\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreateNatureTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreatePictureFullTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZURFACE54\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ZURFACE54\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreatePictureFullTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreatePictureSpriteTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZURFACE54\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ZURFACE54\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreatePictureSpriteTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreatePictureTrainerSpriteTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZURFACE54\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ZURFACE54\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreatePictureTrainerSpriteTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreatePokedexEntryTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZURFACE54\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ZURFACE54\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreatePokedexEntryTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreatePokemonHasAbilityTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZURFACE54\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ZURFACE54\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreatePokemonHasAbilityTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CreatePokemonLearnsMoveTable.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZURFACE54\MSSQLSERVER01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ZURFACE54\MSSQLSERVER01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CreatePokemonLearnsMoveTable.sql</FullPath>
+        </FileNode>
         <FileNode Name="CreatePokemonTable.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZURFACE54\MSSQLSERVER01:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ZURFACE54\MSSQLSERVER01</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>CreatePokemonTable.sql</FullPath>
         </FileNode>
-        <FileNode Name="CreateTeamBattleTable.sql">
+        <FileNode Name="CreateTeamBaseTable.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZURFACE54\MSSQLSERVER01:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ZURFACE54\MSSQLSERVER01</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>CreateTeamBattleTable.sql</FullPath>
+          <FullPath>CreateTeamBaseTable.sql</FullPath>
         </FileNode>
-        <FileNode Name="CreateTeamFullTable.sql">
+        <FileNode Name="CreateTeamVGCTable.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZURFACE54\MSSQLSERVER01:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ZURFACE54\MSSQLSERVER01</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>CreateTeamFullTable.sql</FullPath>
+          <FullPath>CreateTeamVGCTable.sql</FullPath>
         </FileNode>
         <FileNode Name="CreateTypeTable.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ZURFACE54\MSSQLSERVER01:True</AssociatedConnectionMoniker>

@@ -1,0 +1,9 @@
+Connection String: Data Source=(localdb)\ProjectsV13;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
+
+Location: C:\Users\pc\AppData\Local\Microsoft\VisualStudio\SSDT
+
+Data Source=(localdb)\ProjectsV13;Initial Catalog=LugiasLair_DB_Project;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
+
+PM> Scaffold-DbContext "Server=.\SQLExpress;Database=SchoolDB;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+Scaffold-DbContext "Data Source=(localdb)\ProjectsV13;Initial Catalog=LugiasLair_DB_Project;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
