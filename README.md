@@ -180,10 +180,13 @@ A list of items that I may not be able to complete before the end of the MSSA pr
 
  1. Pokemon Moves Reverse-Lookup Tables
  2. Pokemon Abilities Reverse-Lookup Tables
- 3. 
+ 3. Custom Stat Calculations (EVs, IVs, Base Stats)
+ 4. Conditional Team Generator (Both Full Teams and VGC Teams)
+ 5. In-Game Battle Information Dashboard
+ 6. Battle Simulatio
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNDA5NzQ0MSwtMjQ1ODE3NTIxLC0xMT
+eyJoaXN0b3J5IjpbMTgyMTUzMDQ3MywtMjQ1ODE3NTIxLC0xMT
 MzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAwNTQw
 MjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0NiwtMTQ3OTI0OT
 I1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQxMzYzMzQ4
