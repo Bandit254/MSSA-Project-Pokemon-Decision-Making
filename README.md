@@ -39,7 +39,7 @@ The picture below is my initial entity relationship diagram for the database I w
 ## Project Data
 There are many sources for Pokémon data, and there is a lot of it. The folder [03. Project Data (Excel and CSV)](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/03.%20Project%20Data%20%28Excel%20and%20CSV%29) will contain all of the raw data that I need to complete this project. Although the current competitive rules only allows for a subset of the 400 Pokémon available in Sword and Shield to participate in official battles, I want to include data on all Pokémon from all generations in order to make the application accommodating to future rules changes and new game releases. 
 
-Most of the data I am using i
+Most of the data I am using is fairly easy to obtain, thanks to sites like [Pokémon Database](https://pokemondb.net/). They present data in web tables that can be copied into Excel, reformatted slightly, and then used to generate a SQL script to inse
 
 ## Building the Database
 I will use T-SQL and Microsoft SQL Server to build the primary database for this project. The folder "04. SQL Solution and Queries" contains all of the queries I have written to build the database (so far).
@@ -169,7 +169,7 @@ In order to perform EF migration, I first had to create a local DB within my web
 
 The next steps will be to begin writing the controllers and views to allow users to interact with the models that EF created.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Njc4OTg3MCwtMjQ1ODE3NTIxLC0xMT
+eyJoaXN0b3J5IjpbMTk1Mjg4NDY4MiwtMjQ1ODE3NTIxLC0xMT
 MzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAwNTQw
 MjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0NiwtMTQ3OTI0OT
 I1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQxMzYzMzQ4
