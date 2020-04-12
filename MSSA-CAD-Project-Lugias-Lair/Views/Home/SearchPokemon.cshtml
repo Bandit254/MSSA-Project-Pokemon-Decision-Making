@@ -1,131 +1,120 @@
-﻿@{
-    Layout = null;
-}
-<!-- This will be the page where users look-up a single Pokemon -->
+﻿@model IEnumerable<Pokemon>
 
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Lugia's Lair - Search Pokemon</title>
-    <link rel="stylesheet" type="text/css" href="~/css/style.css" />
-</head>
-<body>
-    <header>
-        <h1>Pokemon Lookup</h1>
-        <p>This will be the page where users look-up a single Pokemon</p>
-    </header>
+<header>
+    <h1>Pokemon Lookup</h1>
+    <p>This will be the page where users look-up a single Pokemon</p>
+</header>
+<div>
+    <table>
+        <tr>
+            <th>Search by Pokemon Name</th>
+        </tr>
+        <tr>
+            <td>Pokemon Lookup Field</td>
+        </tr>
+    </table>
+</div>
+<div>
+    <table>
+        <tr>
+            <th>Search by Pokemon Ability</th>
+        </tr>
+        <tr>
+            <td>Ability Lookup Field</td>
+        </tr>
+    </table>
+</div>
+<div>
+    <table>
+        <tr>
+            <th>Search by Pokemon Types</th>
+        </tr>
+        <tr>
+            <td>Ability #1 Lookup Field</td>
+        </tr>
+        <tr>
+            <td>Ability #2 Lookup Field</td>
+        </tr>
+    </table>
+</div>
+<div>
+    <table>
+        <tr>
+            <th>Search by Pokemon Moves</th>
+        </tr>
+        <tr>
+            <td>Move Lookup Field</td>
+        </tr>
+    </table>
+</div>
+<div>
+    <table>
+        <tr>
+            <th>Pokemon Stat Category</th>
+            <th>Min / Max / Equal to</th>
+            <th>Stat Level</th>
+        </tr>
+        <tr>
+            <td>Base Stat Total</td>
+            <td>Equal To</td>
+            <td>500</td>
+        </tr>
+        <tr>
+            <td>Hit Points</td>
+            <td>Min</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Attack</td>
+            <td>Max</td>
+            <td>120</td>
+        </tr>
+        <tr>
+            <td>Defense</td>
+            <td>Equal to</td>
+            <td>75</td>
+        </tr>
+        <tr>
+            <td>Special Attack</td>
+            <td>Max</td>
+            <td>120</td>
+        </tr>
+        <tr>
+            <td>Special Defense</td>
+            <td>Min</td>
+            <td>95</td>
+        </tr>
+        <tr>
+            <td>Speed</td>
+            <td>Equal to</td>
+            <td>60</td>
+        </tr>
+    </table>
+</div>
+<div>
+    <table>
+        <tr>
+            <th>Search by VGC Usage</th>
+        </tr>
+        <tr>
+            <td>VGC Usage Stats</td>
+        </tr>
+    </table>
+</div>
+<div>
+    <p>Submit Query</p>
+</div>
+<div>
     <div>
+        <h3>Search Results</h3>
         <table>
-            <tr>
-                <th>Search by Pokemon Name</th>
-            </tr>
-            <tr>
-                <td>Pokemon Lookup Field</td>
-            </tr>
-        </table>
-    </div>
-    <div>
-        <table>
-            <tr>
-                <th>Search by Pokemon Ability</th>
-            </tr>
-            <tr>
-                <td>Ability Lookup Field</td>
-            </tr>
-        </table>
-    </div>
-    <div>
-        <table>
-            <tr>
-                <th>Search by Pokemon Types</th>
-            </tr>
-            <tr>
-                <td>Ability #1 Lookup Field</td>
-            </tr>
-            <tr>
-                <td>Ability #2 Lookup Field</td>
-            </tr>
-        </table>
-    </div>
-    <div>
-        <table>
-            <tr>
-                <th>Search by Pokemon Moves</th>
-            </tr>
-            <tr>
-                <td>Move Lookup Field</td>
-            </tr>
-        </table>
-    </div>
-    <div>
-        <table>
-            <tr>
-                <th>Pokemon Stat Category</th>
-                <th>Min / Max / Equal to</th>
-                <th>Stat Level</th>
-            </tr>
-            <tr>
-                <td>Base Stat Total</td>
-                <td>Equal To</td>
-                <td>500</td>
-            </tr>
-            <tr>
-                <td>Hit Points</td>
-                <td>Min</td>
-                <td>100</td>
-            </tr>
-            <tr>
-                <td>Attack</td>
-                <td>Max</td>
-                <td>120</td>
-            </tr>
-            <tr>
-                <td>Defense</td>
-                <td>Equal to</td>
-                <td>75</td>
-            </tr>
-            <tr>
-                <td>Special Attack</td>
-                <td>Max</td>
-                <td>120</td>
-            </tr>
-            <tr>
-                <td>Special Defense</td>
-                <td>Min</td>
-                <td>95</td>
-            </tr>
-            <tr>
-                <td>Speed</td>
-                <td>Equal to</td>
-                <td>60</td>
-            </tr>
-        </table>
-    </div>
-    <div>
-        <table>
-            <tr>
-                <th>Search by VGC Usage</th>
-            </tr>
-            <tr>
-                <td>VGC Usage Stats</td>
-            </tr>
-        </table>
-    </div>
-    <div>
-        <p>Submit Query</p>
-    </div>
-    <div>
-        <div>
-            <h3>Search Results</h3>
-            <table>
+            <thead>
                 <tr>
+                    <th>Pokemon ID</th>
                     <th>Pokedex Number</th>
                     <th>Pokemon Name</th>
                     <th>1st Ability</th>
                     <th>2nd Ability</th>
-                    <th>Desired Move</th>
                     <th>Base Stat Total</th>
                     <th>Hit Points</th>
                     <th>Attack</th>
@@ -133,30 +122,33 @@
                     <th>Special Attack</th>
                     <th>Special Defense</th>
                     <th>Speed</th>
-                    <th>VGC Usage</th>
                 </tr>
-                <tr>
-                    <td>Pokedex Number</td>
-                    <td>Pokemon Name</td>
-                    <td>1st Ability</td>
-                    <td>2nd Ability</td>
-                    <td>Desired Move</td>
-                    <td>Base Stat Total</td>
-                    <td>Hit Points</td>
-                    <td>Attack</td>
-                    <td>Defense</td>
-                    <td>Special Attack</td>
-                    <td>Special Defense</td>
-                    <td>Speed</td>
-                    <td>VGC Usage</td>
-                </tr>
-            </table>
-            <a class="btn btn-primary" asp-action="CustomizePokemon">Customize the Selected Pokemon</a>
-        </div>
+            </thead>
+            <tbody>
+                @foreach (var p in Model)
+                {
+                    <tr>
+                        <td>@p.PokemonId</td>
+                        <td>@p.PokemonNumber</td>
+                        <td>@p.PokemonName</td>
+                        <td>@p.PokemonTypeOne</td>
+                        <td>@p.PokemonTypeTwo</td>
+                        <td>@p.PokemonStatTotal</td>
+                        <td>@p.PokemonHitPoints</td>
+                        <td>@p.PokemonAttack</td>
+                        <td>@p.PokemonDefense</td>
+                        <td>@p.PokemonSpecialAttack</td>
+                        <td>@p.PokemonSpecialDefense</td>
+                        <td>@p.PokemonSpeed</td>
+                    </tr>
+                 }
+            </tbody>
+        </table>
+        <a class="btn btn-primary" asp-action="CustomizePokemon">Customize the Selected Pokemon</a>
     </div>
-    <footer>
-        <a class="btn btn-primary" asp-action="ContentHub">Return to Content Hub</a>
-    </footer>
-</body>
-</html>
+</div>
+
+<footer>
+    <a class="btn btn-primary" asp-action="ContentHub">Return to Content Hub</a>
+</footer>
 

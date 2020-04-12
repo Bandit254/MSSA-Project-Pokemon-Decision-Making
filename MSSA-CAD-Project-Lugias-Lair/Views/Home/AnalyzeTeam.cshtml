@@ -1,185 +1,173 @@
-﻿@{
-    Layout = null;
-}
+﻿
 <!-- This will be where players analyze the strengths/weaknesses of their teams -->
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Lugia's Lair - Team Analysis</title>
-    <link rel="stylesheet" type="text/css" href="~/css/style.css" />
-</head>
-<body>
-    <header>
-        <h1>Team Analysis</h1>
-        <p>This is the page where players analyze the strengths/weaknesses of their teams</p>
-    </header>
+<header>
+    <h1>Team Analysis</h1>
+    <p>This is the page where players analyze the strengths/weaknesses of their teams</p>
+</header>
+<div>
+    <h3>Team Name</h3>
+    <h4>Team ID</h4>
     <div>
-        <h3>Team Name</h3>
-        <h4>Team ID</h4>
-        <div>
-            <p>Pokemon 1</p>
-            <img src="~/Images/Lugia_025.jpg" alt="Pokemon Name" />
-        </div>
-        <div>
-            <p>Pokemon 2</p>
-            <img src="" alt="Pokemon Name" />
-        </div>
-        <div>
-            <p>Pokemon 3</p>
-            <img src="" alt="Pokemon Name" />
-        </div>
-        <div>
-            <p>Pokemon 4</p>
-            <img src="" alt="Pokemon Name" />
-        </div>
-        <div>
-            <p>Pokemon 5</p>
-            <img src="" alt="Pokemon Name" />
-        </div>
-        <div>
-            <p>Pokemon 6</p>
-            <img src="" alt="Pokemon Name" />
-        </div>
+        <p>Pokemon 1</p>
+        <img src="~/Images/Lugia_025.jpg" alt="Pokemon Name" />
     </div>
     <div>
-        <h3>Analysis Results</h3>
-        <div>
-
-            <table>
-                <caption> Combined Team Type-Weaknesses</caption>
-                <tr>
-                    <th>Type</th>
-                    <th># of Pokemon Weak to This Type</th>
-                </tr>
-                <tr>
-                    <td> Fire </td>
-                    <td> x4 </td>
-                </tr>
-                <tr>
-                    <td> Water </td>
-                    <td> x1 </td>
-                </tr>
-                <tr>
-                    <td> Grass </td>
-                    <td> x2 </td>
-                </tr>
-            </table>
-        </div>
-        <div>
-
-            <table>
-                <caption> Combined Team Type-Strengths</caption>
-                <tr>
-                    <th>Type</th>
-                    <th># of Pokemon Strong Against This Type</th>
-                </tr>
-                <tr>
-                    <td> Ground </td>
-                    <td> x2 </td>
-                </tr>
-                <tr>
-                    <td> Rock </td>
-                    <td> x2 </td>
-                </tr>
-                <tr>
-                    <td> Ice </td>
-                    <td> x1 </td>
-                </tr>
-            </table>
-        </div>
-        <div>
-
-            <table>
-                <caption> Combined Team Type-Resistances</caption>
-                <tr>
-                    <th>Type</th>
-                    <th># of Pokemon Resistant Against This Type</th>
-                </tr>
-                <tr>
-                    <td> Fairy </td>
-                    <td> x1 </td>
-                </tr>
-                <tr>
-                    <td> Poison </td>
-                    <td> x1 </td>
-                </tr>
-                <tr>
-                    <td> Flying </td>
-                    <td> x0 </td>
-                </tr>
-            </table>
-        </div>
-        <div>
-
-            <table>
-                <caption> Avg. Strength/Weakness to Each Type</caption>
-                <tr>
-                    <th>Type</th>
-                    <th>Magnitude of Strength/Weakness</th>
-                </tr>
-                <tr>
-                    <td> Dragon </td>
-                    <td> 0 </td>
-                </tr>
-                <tr>
-                    <td> Steel </td>
-                    <td> +1 </td>
-                </tr>
-                <tr>
-                    <td> Electric </td>
-                    <td> -1 </td>
-                </tr>
-            </table>
-        </div>
-        <div>
-
-            <table>
-                <caption> Avg. Team Stats</caption>
-                <tr>
-                    <th>Stat</th>
-                    <th>Team Avg.</th>
-                </tr>
-                <tr>
-                    <td> Base Stat </td>
-                    <td> 500 </td>
-                </tr>
-                <tr>
-                    <td> Hit Points </td>
-                    <td> 84 </td>
-                </tr>
-                <tr>
-                    <td> Attack </td>
-                    <td> 84 </td>
-                </tr>
-                <tr>
-                    <td> Defense </td>
-                    <td> 84 </td>
-                </tr>
-                <tr>
-                    <td> Special Attack </td>
-                    <td> 84 </td>
-                </tr>
-                <tr>
-                    <td> Special Defense </td>
-                    <td> 84 </td>
-                </tr>
-                <tr>
-                    <td> Speed </td>
-                    <td> 84 </td>
-                </tr>
-            </table>
-        </div>
+        <p>Pokemon 2</p>
+        <img src="" alt="Pokemon Name" />
     </div>
     <div>
-        <a class="btn btn-primary" asp-action="VGCAnalysis">Generate VGC Teams</a>
+        <p>Pokemon 3</p>
+        <img src="" alt="Pokemon Name" />
     </div>
     <div>
-        <a class="btn btn-primary" asp-action="CreateTeam">Return to Team Builder</a>
+        <p>Pokemon 4</p>
+        <img src="" alt="Pokemon Name" />
     </div>
-    <footer>
-        <a class="btn btn-primary" asp-action="ContentHub">Return to Content Hub</a>
-    </footer>
-</body>
-</html>
+    <div>
+        <p>Pokemon 5</p>
+        <img src="" alt="Pokemon Name" />
+    </div>
+    <div>
+        <p>Pokemon 6</p>
+        <img src="" alt="Pokemon Name" />
+    </div>
+</div>
+<div>
+    <h3>Analysis Results</h3>
+    <div>
+
+        <table class="table">
+            <caption> Combined Team Type-Weaknesses</caption>
+            <tr>
+                <th>Type</th>
+                <th># of Pokemon Weak to This Type</th>
+            </tr>
+            <tr>
+                <td> Fire </td>
+                <td> x4 </td>
+            </tr>
+            <tr>
+                <td> Water </td>
+                <td> x1 </td>
+            </tr>
+            <tr>
+                <td> Grass </td>
+                <td> x2 </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+
+        <table class="table">
+            <caption> Combined Team Type-Strengths</caption>
+            <tr>
+                <th>Type</th>
+                <th># of Pokemon Strong Against This Type</th>
+            </tr>
+            <tr>
+                <td> Ground </td>
+                <td> x2 </td>
+            </tr>
+            <tr>
+                <td> Rock </td>
+                <td> x2 </td>
+            </tr>
+            <tr>
+                <td> Ice </td>
+                <td> x1 </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+
+        <table class="table">
+            <caption> Combined Team Type-Resistances</caption>
+            <tr>
+                <th>Type</th>
+                <th># of Pokemon Resistant Against This Type</th>
+            </tr>
+            <tr>
+                <td> Fairy </td>
+                <td> x1 </td>
+            </tr>
+            <tr>
+                <td> Poison </td>
+                <td> x1 </td>
+            </tr>
+            <tr>
+                <td> Flying </td>
+                <td> x0 </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+
+        <table class="table">
+            <caption> Avg. Strength/Weakness to Each Type</caption>
+            <tr>
+                <th>Type</th>
+                <th>Magnitude of Strength/Weakness</th>
+            </tr>
+            <tr>
+                <td> Dragon </td>
+                <td> 0 </td>
+            </tr>
+            <tr>
+                <td> Steel </td>
+                <td> +1 </td>
+            </tr>
+            <tr>
+                <td> Electric </td>
+                <td> -1 </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+
+        <table class="table">
+            <caption> Avg. Team Stats</caption>
+            <tr>
+                <th>Stat</th>
+                <th>Team Avg.</th>
+            </tr>
+            <tr>
+                <td> Base Stat </td>
+                <td> 500 </td>
+            </tr>
+            <tr>
+                <td> Hit Points </td>
+                <td> 84 </td>
+            </tr>
+            <tr>
+                <td> Attack </td>
+                <td> 84 </td>
+            </tr>
+            <tr>
+                <td> Defense </td>
+                <td> 84 </td>
+            </tr>
+            <tr>
+                <td> Special Attack </td>
+                <td> 84 </td>
+            </tr>
+            <tr>
+                <td> Special Defense </td>
+                <td> 84 </td>
+            </tr>
+            <tr>
+                <td> Speed </td>
+                <td> 84 </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div>
+    <a class="btn btn-primary" asp-action="VGCAnalysis">Generate VGC Teams</a>
+</div>
+<div>
+    <a class="btn btn-primary" asp-action="CreateTeam">Return to Team Builder</a>
+</div>
+<footer>
+    <a class="btn btn-primary" asp-action="ContentHub">Return to Content Hub</a>
+</footer>

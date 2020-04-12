@@ -1,121 +1,109 @@
-﻿@{
-    Layout = null;
-}
+﻿
 <!-- This will be where players search for Pokemon teams -->
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Lugia's Lair - Search Teams</title>
-    <link rel="stylesheet" type="text/css" href="~/css/style.css" />
-</head>
-<body>
-    <header>
-        <h1>Search for Shared Teams</h1>
-        <p>This page is where users can search for Teams created and shared by other users</p>
-    </header>
+<header>
+    <h1>Search for Shared Teams</h1>
+    <p>This page is where users can search for Teams created and shared by other users</p>
+</header>
+<div>
+    <h3>Search Criteria</h3>
+    <table>
+        <tr>
+            <th>Search by Username</th>
+        </tr>
+        <tr>
+            <td>username Lookup Field</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>Search by Pokemon #1</th>
+        </tr>
+        <tr>
+            <td>Pokemon Lookup Field</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>Search by Pokemon #2</th>
+        </tr>
+        <tr>
+            <td>Pokemon Lookup Field</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>Search by Pokemon #3</th>
+        </tr>
+        <tr>
+            <td>Pokemon Lookup Field</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>Search by Pokemon #4</th>
+        </tr>
+        <tr>
+            <td>Pokemon Lookup Field</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>Search by Pokemon #5</th>
+        </tr>
+        <tr>
+            <td>Pokemon Lookup Field</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>Search by Pokemon #6</th>
+        </tr>
+        <tr>
+            <td>Pokemon Lookup Field</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>Search by VGC Usage</th>
+        </tr>
+        <tr>
+            <td>VGC Ranking Lookup Field</td>
+        </tr>
+    </table>
     <div>
-        <h3>Search Criteria</h3>
-        <table>
-            <tr>
-                <th>Search by Username</th>
-            </tr>
-            <tr>
-                <td>username Lookup Field</td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <th>Search by Pokemon #1</th>
-            </tr>
-            <tr>
-                <td>Pokemon Lookup Field</td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <th>Search by Pokemon #2</th>
-            </tr>
-            <tr>
-                <td>Pokemon Lookup Field</td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <th>Search by Pokemon #3</th>
-            </tr>
-            <tr>
-                <td>Pokemon Lookup Field</td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <th>Search by Pokemon #4</th>
-            </tr>
-            <tr>
-                <td>Pokemon Lookup Field</td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <th>Search by Pokemon #5</th>
-            </tr>
-            <tr>
-                <td>Pokemon Lookup Field</td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <th>Search by Pokemon #6</th>
-            </tr>
-            <tr>
-                <td>Pokemon Lookup Field</td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <th>Search by VGC Usage</th>
-            </tr>
-            <tr>
-                <td>VGC Ranking Lookup Field</td>
-            </tr>
-        </table>
-        <div>
-            <p>Search For Teams Using Selected Criteria</p>
-        </div>
+        <p>Search For Teams Using Selected Criteria</p>
     </div>
-    <div>
-        <h3>Search Results</h3>
-        <table>
-            <tr>
-                <th>Team Creator</th>
-                <th>1st Pokemon</th>
-                <th>2nd Pokemon</th>
-                <th>3rd Pokemon</th>
-                <th>4th Pokemon</th>
-                <th>5th Pokemon</th>
-                <th>6th Pokemon</th>
-                <th>Team Usage</th>
-            </tr>
-            <tr>
-                <td>Usernames</td>
-                <td>1st Pokemon</td>
-                <td>2nd Pokemon</td>
-                <td>3rd Pokemon</td>
-                <td>4th Pokemon</td>
-                <td>5th Pokemon</td>
-                <td>6th Pokemon</td>
-                <td>Usage Stats</td>
-            </tr>
-        </table>
-        <a class="btn btn-primary" asp-action="AnalyzeTeam">Analyze Selected Team</a>
-    </div>
-    <footer>
-        <a class="btn btn-primary" asp-action="ContentHub">Return to Content Hub</a>
-    </footer>
-</body>
-</html>
+</div>
+<div>
+    <h3>Search Results</h3>
+    <table>
+        <tr>
+            <th>Team Creator</th>
+            <th>1st Pokemon</th>
+            <th>2nd Pokemon</th>
+            <th>3rd Pokemon</th>
+            <th>4th Pokemon</th>
+            <th>5th Pokemon</th>
+            <th>6th Pokemon</th>
+            <th>Team Usage</th>
+        </tr>
+        <tr>
+            <td>Usernames</td>
+            <td>1st Pokemon</td>
+            <td>2nd Pokemon</td>
+            <td>3rd Pokemon</td>
+            <td>4th Pokemon</td>
+            <td>5th Pokemon</td>
+            <td>6th Pokemon</td>
+            <td>Usage Stats</td>
+        </tr>
+    </table>
+    <a class="btn btn-primary" asp-action="AnalyzeTeam">Analyze Selected Team</a>
+</div>
+<footer>
+    <a class="btn btn-primary" asp-action="ContentHub">Return to Content Hub</a>
+</footer>
 
 
 

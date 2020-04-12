@@ -1,50 +1,38 @@
-﻿@{
-    Layout = null;
-}
+﻿
 <!-- This will be the main content hub page -->
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Lugia's Lair - Content Hub</title>
-    <link rel="stylesheet" type="text/css" href="~/css/style.css" />
-</head>
-<body>
-    <header>
-        <h1>Lugia's Lair</h1>
-        <h3>Content Hub</h3>
-        <p>This page is the main content hub</p>
-    </header>
+<header>
+    <h1>Lugia's Lair</h1>
+    <h3>Content Hub</h3>
+    <p>This page is the main content hub</p>
+</header>
+<div>
+    <p>Announcements</p>
+</div>
+<div>
+    <a class="btn btn-primary" asp-action="AccountOverview">Account Overview</a>
+</div>
+<div>
+    <a class="btn btn-primary" asp-action="SearchPokemon">Search for Pokemon</a>
+</div>
+<div>
+    <a class="btn btn-primary" asp-action="SearchTeams">Search for Teams</a>
+</div>
+<div>
+    <a class="btn btn-primary" asp-action="CreateTeam">Create Pokemon Team</a>
+</div>
+<footer>
     <div>
-        <p>Announcements</p>
+        <p>Links to external Resources</p>
+        <p>
+            <a href="https://serebii.net/" target="_blank">Serebii.net</a> |
+            <a href="https://pokemondb.net/" target="_blank">Pokemon Database</a> |
+            <a href="https://gwvgcstats.netlify.com/#/" target="_blank">VGC Stats</a> |
+            <a href="https://www.pokemon.com/us/" target="_blank">Official Pokemon Website</a> |
+            <a href="https://home.pokemon.com/en-us/features/" target="_blank">Battle Data (in Pokemon Home)</a>
+        </p>
     </div>
-    <div>
-        <a class="btn btn-primary" asp-action="AccountOverview">Account Overview</a>
-    </div>
-    <div>
-        <a class="btn btn-primary" asp-action="SearchPokemon">Search for Pokemon</a>
-    </div>
-    <div>
-        <a class="btn btn-primary" asp-action="SearchTeams">Search for Teams</a>
-    </div>
-    <div>
-        <a class="btn btn-primary" asp-action="CreateTeam">Create Pokemon Team</a>
-    </div>
-    <footer>
-        <div>
-            <p>Links to external Resources</p>
-            <p>
-                <a href="https://serebii.net/" target="_blank">Serebii.net</a> |
-                <a href="https://pokemondb.net/" target="_blank">Pokemon Database</a> |
-                <a href="https://gwvgcstats.netlify.com/#/" target="_blank">VGC Stats</a>
-                <a href="https://www.pokemon.com/us/" target="_blank">Official Pokemon Website</a> |
-                <a href="https://home.pokemon.com/en-us/features/" target="_blank">Battle Data (in Pokemon Home)</a>
-            </p>
-        </div>
-    </footer>
-</body>
-</html>
+</footer>
 
 
 
