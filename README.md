@@ -191,8 +191,10 @@ The next steps will be to begin writing the controllers and views to allow users
 ## Connecting to the DB to Display/Modify Data
 Although the Entity Framework scaffolding process automatically generates the model classes based on the database tables, there is still a lot more work to be done behind the scenes to link the model classes to the database and configure the database to connect to the web application. The general process is outlined in a how-to guide I made in the folder [10. Database Diagram and EF Scaffolding](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/10.%20Database%20Diagram%20and%20EF%20Scaffolding). 
 The first step after the connection work has been completed is to test the ability of the application to display data stored in the database. Below are two screenshots demonstrating this basic functionality:
+![Data Stored in the Pokémon Table](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2012%20Screenshots/Pokemon%20Data%20in%20localDB.jpg)
+![Pokémon Data Displayed on Webpage](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2012%20Screenshots/Pokemon%20Data%20displayed%20on%20Webpage.jpg)
 
-
+The next task is to demonstrate the ability to modify data
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
 
@@ -205,10 +207,11 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTUxMzA2NzcsOTkwNDUzNTU2LDE4Mz
-QyMzMyMDAsMzY5OTM0NzUyLC0yNDU4MTc1MjEsLTExMzM1Nzgz
-OSwtMjkxNTcwNDA0LC0xNzgxMDg5Njg5LC0xMDA1NDAyOTM3LC
-0yMDM2ODYzMTkwLC0xOTUwNzMzMzQ2LC0xNDc5MjQ5MjU4LC0x
-NjI3ODc1NDU4LC0xMTI0MzU2NDk3LC01NDEzNjMzNDgsLTEwND
-UzNTkzNjAsMTU5MTAyMTcyLDE1MjI3NDQxNThdfQ==
+eyJoaXN0b3J5IjpbLTE3MDQxODAzNTMsLTEzMTUxMzA2NzcsOT
+kwNDUzNTU2LDE4MzQyMzMyMDAsMzY5OTM0NzUyLC0yNDU4MTc1
+MjEsLTExMzM1NzgzOSwtMjkxNTcwNDA0LC0xNzgxMDg5Njg5LC
+0xMDA1NDAyOTM3LC0yMDM2ODYzMTkwLC0xOTUwNzMzMzQ2LC0x
+NDc5MjQ5MjU4LC0xNjI3ODc1NDU4LC0xMTI0MzU2NDk3LC01ND
+EzNjMzNDgsLTEwNDUzNTkzNjAsMTU5MTAyMTcyLDE1MjI3NDQx
+NThdfQ==
 -->
