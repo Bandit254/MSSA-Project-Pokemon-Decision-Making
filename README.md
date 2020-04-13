@@ -15,7 +15,8 @@ Competitive Pokémon, while based on a children's game, is an extremely complex 
  10. [Test Plan](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#test-plan) 
  11. [Prototype](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#prototype)
  12. [Entity Framework and Initial Model Scaffolding](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#entity-framework-and-initial-model-scaffolding)
- 13. [Project Work Backlog](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#project-work-backlog)
+ 13. Connecting to the DB to Display/Modify Data
+ 14. [Project Work Backlog](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#project-work-backlog)
 
 ## Project Motivation / Background
 I have been playing Pokémon on-and-off since 5th grade. I came to the game late compared to my friends who were immediately swept up by the first generation of games in the late 1990s, but it has stuck with me longer.
@@ -187,6 +188,7 @@ In order to perform EF Scaffolding, I first had to create a local DB within my w
 ![Initial EF Scaffolding Results](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/10.%20Database%20Diagram%20and%20EF%20Scaffolding/Initial%20EF%20Migration%20(05APR2020).png)
 
 The next steps will be to begin writing the controllers and views to allow users to interact with the models that EF created.
+## Connecting to the DB to Display/Modify Data
 
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
@@ -200,10 +202,10 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwNDUzNTU2LDE4MzQyMzMyMDAsMzY5OT
-M0NzUyLC0yNDU4MTc1MjEsLTExMzM1NzgzOSwtMjkxNTcwNDA0
-LC0xNzgxMDg5Njg5LC0xMDA1NDAyOTM3LC0yMDM2ODYzMTkwLC
-0xOTUwNzMzMzQ2LC0xNDc5MjQ5MjU4LC0xNjI3ODc1NDU4LC0x
-MTI0MzU2NDk3LC01NDEzNjMzNDgsLTEwNDUzNTkzNjAsMTU5MT
-AyMTcyLDE1MjI3NDQxNThdfQ==
+eyJoaXN0b3J5IjpbLTE1NzgyNzgyNDEsOTkwNDUzNTU2LDE4Mz
+QyMzMyMDAsMzY5OTM0NzUyLC0yNDU4MTc1MjEsLTExMzM1Nzgz
+OSwtMjkxNTcwNDA0LC0xNzgxMDg5Njg5LC0xMDA1NDAyOTM3LC
+0yMDM2ODYzMTkwLC0xOTUwNzMzMzQ2LC0xNDc5MjQ5MjU4LC0x
+NjI3ODc1NDU4LC0xMTI0MzU2NDk3LC01NDEzNjMzNDgsLTEwND
+UzNTkzNjAsMTU5MTAyMTcyLDE1MjI3NDQxNThdfQ==
 -->
