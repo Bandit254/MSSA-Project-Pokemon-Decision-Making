@@ -107,28 +107,28 @@
 <div>
     <div>
         <h3>Search Results</h3>
-        <table>
+        <table class="table">
             <thead>
                 <tr>
-                    <th>Pokemon ID</th>
-                    <th>Pokedex Number</th>
-                    <th>Pokemon Name</th>
-                    <th>1st Ability</th>
-                    <th>2nd Ability</th>
-                    <th>Base Stat Total</th>
-                    <th>Hit Points</th>
-                    <th>Attack</th>
-                    <th>Defense</th>
-                    <th>Special Attack</th>
-                    <th>Special Defense</th>
-                    <th>Speed</th>
+                    <th scope="col">Pokemon ID</th>
+                    <th scope="col">Pokedex Number</th>
+                    <th scope="col">Pokemon Name</th>
+                    <th scope="col">1st Type</th>
+                    <th scope="col">2nd Type</th>
+                    <th scope="col">Base Stat Total</th>
+                    <th scope="col">Hit Points</th>
+                    <th scope="col">Attack</th>
+                    <th scope="col">Defense</th>
+                    <th scope="col">Special Attack</th>
+                    <th scope="col">Special Defense</th>
+                    <th scope="col">Speed</th>
                 </tr>
             </thead>
             <tbody>
                 @foreach (var p in Model)
                 {
                     <tr>
-                        <td>@p.PokemonId</td>
+                        <td scope="row">@p.PokemonId</td>
                         <td>@p.PokemonNumber</td>
                         <td>@p.PokemonName</td>
                         <td>@p.PokemonTypeOne</td>

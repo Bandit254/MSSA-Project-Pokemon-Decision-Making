@@ -20,6 +20,7 @@ namespace MSSA_CAD_Project_Lugias_Lair
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<IPokemon, EFPokemonRepository>();
+            services.AddTransient<IVgcplayer, EFVgcplayer>();
             services.AddDbContext<LugiasLair_DB_ProjectContext>
                 (options => options.UseSqlServer(Configuration["Data:LugiasLairDB:ConnectionString"]));
             services.AddMvc(option => option.EnableEndpointRouting = false);
@@ -34,8 +35,14 @@ namespace MSSA_CAD_Project_Lugias_Lair
                 app.UseDeveloperExceptionPage();
                 app.UseBrowserLink();
             }
-            app.UseMvcWithDefaultRoute();
+            //app.UseMvcWithDefaultRoute();
             app.UseStaticFiles();
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Home}/{action=Index}");
+            });
 
         }
     }

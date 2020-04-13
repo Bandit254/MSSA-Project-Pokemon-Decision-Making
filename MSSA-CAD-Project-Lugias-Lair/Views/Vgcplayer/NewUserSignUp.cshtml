@@ -1,11 +1,40 @@
-﻿
+﻿@model Vgcplayer 
 <!-- This will be the new user account creation page -->
 
 <header>
     <h1>New User Sign Up</h1>
-    <h3>Fill out the fields below to create your account</h3>
     <p>This page is where new users will create an account</p>
 </header>
+
+<form asp-action="NewUserSignUp" method="post">
+    <h3>Fill out the fields below to create your account</h3>
+    <!--
+    <div class="form-group">
+        <label>User ID:</label>
+        <input asp-for="UserId" class="form-control" />
+    </div>
+        -->
+    <div class="form-group">
+        <label>Username: </label>
+        <input asp-for="UserName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Email Address:</label>
+        <input asp-for="UserEmail" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Password:</label>
+        <input asp-for="UserPassword" class="form-control" />
+    </div>
+    <div class="text-center">
+        <input class="btn btn-primary" type="submit" value="Create Account" />
+    </div>
+</form>
+
+
+
+
+
 <div>
     <p>Create Username:</p>
     <p>Enter Email Address:</p>
