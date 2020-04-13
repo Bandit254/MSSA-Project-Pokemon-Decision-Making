@@ -197,7 +197,9 @@ The first step after the connection work has been completed is to test the abili
 The next task is to demonstrate the ability to modify data in the database. I chose to start with the new user sign-up / account creation process. Below are two screenshots showing a fictional user signing up for an account and the user's data stored in the database at the end of the transaction (note: password encryption/hiding will be implemented, this is for demonstration purposes only).
 ![New User Sign-Up Form](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2012%20Screenshots/New%20User%20SIgn%20Up%20Form.jpg)
 ![Account Creation Successful Message](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2012%20Screenshots/New%20User%20SIgn%20Up%20Complete.jpg)
-![New User Data ](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2012%20Screenshots/New%20User%20Data%20Stored%20in%20localDB.jpg)
+![New User Data Saved to Database](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2012%20Screenshots/New%20User%20Data%20Stored%20in%20localDB.jpg)
+
+
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
 
@@ -210,11 +212,11 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4OTc5NTU2NSwtMTMxNTEzMDY3Nyw5OT
-A0NTM1NTYsMTgzNDIzMzIwMCwzNjk5MzQ3NTIsLTI0NTgxNzUy
-MSwtMTEzMzU3ODM5LC0yOTE1NzA0MDQsLTE3ODEwODk2ODksLT
-EwMDU0MDI5MzcsLTIwMzY4NjMxOTAsLTE5NTA3MzMzNDYsLTE0
-NzkyNDkyNTgsLTE2Mjc4NzU0NTgsLTExMjQzNTY0OTcsLTU0MT
-M2MzM0OCwtMTA0NTM1OTM2MCwxNTkxMDIxNzIsMTUyMjc0NDE1
-OF19
+eyJoaXN0b3J5IjpbLTE2MjUwMjI4MTQsLTEzMTUxMzA2NzcsOT
+kwNDUzNTU2LDE4MzQyMzMyMDAsMzY5OTM0NzUyLC0yNDU4MTc1
+MjEsLTExMzM1NzgzOSwtMjkxNTcwNDA0LC0xNzgxMDg5Njg5LC
+0xMDA1NDAyOTM3LC0yMDM2ODYzMTkwLC0xOTUwNzMzMzQ2LC0x
+NDc5MjQ5MjU4LC0xNjI3ODc1NDU4LC0xMTI0MzU2NDk3LC01ND
+EzNjMzNDgsLTEwNDUzNTkzNjAsMTU5MTAyMTcyLDE1MjI3NDQx
+NThdfQ==
 -->
