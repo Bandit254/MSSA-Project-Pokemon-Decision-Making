@@ -194,7 +194,7 @@ The first step after the connection work has been completed is to test the abili
 ![Data Stored in the Pokémon Table](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2012%20Screenshots/Pokemon%20Data%20in%20localDB.jpg)
 ![Pokémon Data Displayed on Webpage](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2012%20Screenshots/Pokemon%20Data%20displayed%20on%20Webpage.jpg)
 
-The next task is to demonstrate the ability to modify data
+The next task is to demonstrate the ability to modify data in the database. I chose to start with the new user sign-up / account creation process. Below are two screenshots showing a fictional user signing up for an account and the user's data stored in the database at the end of the transaction (note: password encryption/hiding will be implemented, this is for demonstration 
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
 
@@ -207,7 +207,7 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDQxODAzNTMsLTEzMTUxMzA2NzcsOT
+eyJoaXN0b3J5IjpbLTE4NTM5NzI3NDEsLTEzMTUxMzA2NzcsOT
 kwNDUzNTU2LDE4MzQyMzMyMDAsMzY5OTM0NzUyLC0yNDU4MTc1
 MjEsLTExMzM1NzgzOSwtMjkxNTcwNDA0LC0xNzgxMDg5Njg5LC
 0xMDA1NDAyOTM3LC0yMDM2ODYzMTkwLC0xOTUwNzMzMzQ2LC0x
