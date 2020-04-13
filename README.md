@@ -189,6 +189,7 @@ In order to perform EF Scaffolding, I first had to create a local DB within my w
 
 The next steps will be to begin writing the controllers and views to allow users to interact with the models that EF created.
 ## Connecting to the DB to Display/Modify Data
+Although the Entity Framework scaffolding process automatically generates the model classes based on the database tables, there is still a lot more work to be done behind the scenes to link the model classes to the database and configure the d
 
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
@@ -202,7 +203,7 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzgyNzgyNDEsOTkwNDUzNTU2LDE4Mz
+eyJoaXN0b3J5IjpbLTIwNjE0NjE3ODIsOTkwNDUzNTU2LDE4Mz
 QyMzMyMDAsMzY5OTM0NzUyLC0yNDU4MTc1MjEsLTExMzM1Nzgz
 OSwtMjkxNTcwNDA0LC0xNzgxMDg5Njg5LC0xMDA1NDAyOTM3LC
 0yMDM2ODYzMTkwLC0xOTUwNzMzMzQ2LC0xNDc5MjQ5MjU4LC0x
