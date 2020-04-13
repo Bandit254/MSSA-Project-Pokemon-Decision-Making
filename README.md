@@ -189,7 +189,7 @@ In order to perform EF Scaffolding, I first had to create a local DB within my w
 
 The next steps will be to begin writing the controllers and views to allow users to interact with the models that EF created.
 ## Connecting to the DB to Display/Modify Data
-Although the Entity Framework scaffolding process automatically generates the model classes based on the database tables, there is still a lot more work to be done behind the scenes to link the model classes to the database and configure the d
+Although the Entity Framework scaffolding process automatically generates the model classes based on the database tables, there is still a lot more work to be done behind the scenes to link the model classes to the database and configure the database to connect to the web application. The general process is outlined in a how-to guide I made in the [10. Database Diagram and EF Scaffolding](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/10.%20Database%20Diagram%20and%20EF%20Scaffolding)
 
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
@@ -203,10 +203,10 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjE0NjE3ODIsOTkwNDUzNTU2LDE4Mz
-QyMzMyMDAsMzY5OTM0NzUyLC0yNDU4MTc1MjEsLTExMzM1Nzgz
-OSwtMjkxNTcwNDA0LC0xNzgxMDg5Njg5LC0xMDA1NDAyOTM3LC
-0yMDM2ODYzMTkwLC0xOTUwNzMzMzQ2LC0xNDc5MjQ5MjU4LC0x
-NjI3ODc1NDU4LC0xMTI0MzU2NDk3LC01NDEzNjMzNDgsLTEwND
-UzNTkzNjAsMTU5MTAyMTcyLDE1MjI3NDQxNThdfQ==
+eyJoaXN0b3J5IjpbMTQzMDQyMDE3MCw5OTA0NTM1NTYsMTgzND
+IzMzIwMCwzNjk5MzQ3NTIsLTI0NTgxNzUyMSwtMTEzMzU3ODM5
+LC0yOTE1NzA0MDQsLTE3ODEwODk2ODksLTEwMDU0MDI5MzcsLT
+IwMzY4NjMxOTAsLTE5NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2
+Mjc4NzU0NTgsLTExMjQzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NT
+M1OTM2MCwxNTkxMDIxNzIsMTUyMjc0NDE1OF19
 -->
