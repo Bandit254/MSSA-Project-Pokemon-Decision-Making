@@ -7,6 +7,6 @@ namespace MSSA_CAD_Project_Lugias_Lair.Models
 {
     public interface IAbility
     {
-        IQueryable<Ability> ABility { get; }
+        IQueryable<Ability> Abilities { get; }
     }
 }

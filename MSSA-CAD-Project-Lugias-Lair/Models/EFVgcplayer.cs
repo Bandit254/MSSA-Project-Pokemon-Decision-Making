@@ -21,7 +21,27 @@ namespace MSSA_CAD_Project_Lugias_Lair.Models
             {
                 context.Vgcplayer.Add(vgcplayer);
             }
+            else
+            {
+                Vgcplayer dbEntry = context.Vgcplayer.FirstOrDefault(p => p.UserId == vgcplayer.UserId);
+                if (dbEntry!=null)
+                {
+                    dbEntry.UserName = vgcplayer.UserName;
+                    dbEntry.UserEmail = vgcplayer.UserEmail;
+                    dbEntry.UserPassword = vgcplayer.UserPassword;
+                }
+            }
             context.SaveChanges();
+        }
+        public Vgcplayer DeleteVgcPlayer(int userId)
+        {
+            Vgcplayer dbEntry = context.Vgcplayer.FirstOrDefault(p => p.UserId == userId);
+            if (dbEntry!=null)
+            {
+                context.Vgcplayer.Remove(dbEntry);
+                context.SaveChanges();
+            }
+            return dbEntry;
         }
     }
 }
