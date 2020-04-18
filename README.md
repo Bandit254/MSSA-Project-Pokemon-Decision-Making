@@ -209,9 +209,11 @@ Each Issue has, at minimum, a User Story that describes why the issue is importa
 ![Example Issue](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2013%20Screenshots/Interface%20Issue%20Details%20%2817APR2020%29.jpg)
 Each sprint project Kanban board will have three categories:
 
- - **To Do:** The overall list of tasks that must be complet at the end of the sprint
- - Work In Progress: Tasks currently being worked on (should be limited to 1-2 tasks at a time)
- - 
+ - **To Do:** The overall list of tasks that must be complete at the end of the sprint
+ - **Work In Progress:** Tasks currently being worked on (should be limited to 1-2 tasks at a time)
+ - **Completed Work:** Tasks that have been completed
+An example of how tasks flow through the sprint Kanban borad is shown below:
+
 
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
@@ -225,7 +227,7 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ4Nzc3MTU2LC0xMTIwNzE5MTIyLC0xMz
+eyJoaXN0b3J5IjpbODY1OTc0NzMwLC0xMTIwNzE5MTIyLC0xMz
 E1MTMwNjc3LDk5MDQ1MzU1NiwxODM0MjMzMjAwLDM2OTkzNDc1
 MiwtMjQ1ODE3NTIxLC0xMTMzNTc4MzksLTI5MTU3MDQwNCwtMT
 c4MTA4OTY4OSwtMTAwNTQwMjkzNywtMjAzNjg2MzE5MCwtMTk1
