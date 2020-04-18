@@ -201,7 +201,9 @@ The next task is to demonstrate the ability to modify data in the database. I ch
 ![New User Data Saved to Database](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2012%20Screenshots/New%20User%20Data%20Stored%20in%20localDB.jpg)
 
 ## Initial Sprint Planning
-As the end of the MSSA program comes nearer it has become imperative to deliberately plan all remaining tasks and prioritize them in order to ensure on-time completion. This will be done in the style of sprint planning on a one-week timescale. Each week I will select the most important issues from the overall issues list and add them
+As the end of the MSSA program comes nearer it has become imperative to deliberately plan all remaining tasks and prioritize them in order to ensure on-time completion. This will be done in the style of sprint planning on a one-week timescale. Each week I will select the most important issues from the overall issues list and add them to the current week's sprint. The progress of each sprint will be tracked on a Kanban board in the Projects section. 
+
+The first sprint occurred from 
 
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
@@ -215,11 +217,11 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNTE2NjY3MCwtMTEyMDcxOTEyMiwtMT
-MxNTEzMDY3Nyw5OTA0NTM1NTYsMTgzNDIzMzIwMCwzNjk5MzQ3
-NTIsLTI0NTgxNzUyMSwtMTEzMzU3ODM5LC0yOTE1NzA0MDQsLT
-E3ODEwODk2ODksLTEwMDU0MDI5MzcsLTIwMzY4NjMxOTAsLTE5
-NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2Mjc4NzU0NTgsLTExMj
-QzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NTM1OTM2MCwxNTkxMDIx
-NzIsMTUyMjc0NDE1OF19
+eyJoaXN0b3J5IjpbNjQ1MDE0NDcwLC0xMTIwNzE5MTIyLC0xMz
+E1MTMwNjc3LDk5MDQ1MzU1NiwxODM0MjMzMjAwLDM2OTkzNDc1
+MiwtMjQ1ODE3NTIxLC0xMTMzNTc4MzksLTI5MTU3MDQwNCwtMT
+c4MTA4OTY4OSwtMTAwNTQwMjkzNywtMjAzNjg2MzE5MCwtMTk1
+MDczMzM0NiwtMTQ3OTI0OTI1OCwtMTYyNzg3NTQ1OCwtMTEyND
+M1NjQ5NywtNTQxMzYzMzQ4LC0xMDQ1MzU5MzYwLDE1OTEwMjE3
+MiwxNTIyNzQ0MTU4XX0=
 -->
