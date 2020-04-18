@@ -16,7 +16,8 @@ Competitive Pokémon, while based on a children's game, is an extremely complex 
  11. [Prototype](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#prototype)
  12. [Entity Framework and Initial Model Scaffolding](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#entity-framework-and-initial-model-scaffolding)
  13. [Connecting to the DB to Display/Modify Data](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#connecting-to-the-db-to-displaymodify-data)
- 14. [Project Work Backlog](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#project-work-backlog)
+ 14. Initial Sprint Planning
+ 15. [Project Work Backlog](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#project-work-backlog)
 
 ## Project Motivation / Background
 I have been playing Pokémon on-and-off since 5th grade. I came to the game late compared to my friends who were immediately swept up by the first generation of games in the late 1990s, but it has stuck with me longer.
@@ -199,6 +200,8 @@ The next task is to demonstrate the ability to modify data in the database. I ch
 ![Account Creation Successful Message](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2012%20Screenshots/New%20User%20SIgn%20Up%20Complete.jpg)
 ![New User Data Saved to Database](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2012%20Screenshots/New%20User%20Data%20Stored%20in%20localDB.jpg)
 
+## Initial Sprint Planning
+As the end of the MSSA program com
 
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
@@ -212,11 +215,11 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjA3MTkxMjIsLTEzMTUxMzA2NzcsOT
-kwNDUzNTU2LDE4MzQyMzMyMDAsMzY5OTM0NzUyLC0yNDU4MTc1
-MjEsLTExMzM1NzgzOSwtMjkxNTcwNDA0LC0xNzgxMDg5Njg5LC
-0xMDA1NDAyOTM3LC0yMDM2ODYzMTkwLC0xOTUwNzMzMzQ2LC0x
-NDc5MjQ5MjU4LC0xNjI3ODc1NDU4LC0xMTI0MzU2NDk3LC01ND
-EzNjMzNDgsLTEwNDUzNTkzNjAsMTU5MTAyMTcyLDE1MjI3NDQx
-NThdfQ==
+eyJoaXN0b3J5IjpbMjExMTQ5ODk2MSwtMTEyMDcxOTEyMiwtMT
+MxNTEzMDY3Nyw5OTA0NTM1NTYsMTgzNDIzMzIwMCwzNjk5MzQ3
+NTIsLTI0NTgxNzUyMSwtMTEzMzU3ODM5LC0yOTE1NzA0MDQsLT
+E3ODEwODk2ODksLTEwMDU0MDI5MzcsLTIwMzY4NjMxOTAsLTE5
+NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2Mjc4NzU0NTgsLTExMj
+QzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NTM1OTM2MCwxNTkxMDIx
+NzIsMTUyMjc0NDE1OF19
 -->
