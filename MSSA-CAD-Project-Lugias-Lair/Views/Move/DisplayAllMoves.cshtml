@@ -1,0 +1,36 @@
+﻿@model IQueryable<PokemonMove>
+@{
+    ViewBag.Title = "Display All Moves";
+}
+<head>
+    <h3 class="text-center">Moves</h3>
+</head>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Type</th>
+            <th scope="col">Category</th>
+            <th scope="col">Attack Strength</th>
+            <th scope="col">Accuracy</th>
+            <th scope="col">Power Points</th>
+            <th scope="col">Additional Effect</th>
+            <th scope="col">Prob. of Addtnl. Effect</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var m in Model)
+        {
+            <tr>
+                <td scope="row">@m.MoveName</td>
+                <td>@m.MoveType</td>
+                <td>@m.MoveCategory</td>
+                <td>@m.MovePower</td>
+                <td>@m.MoveAccuracy</td>
+                <td>@m.MovePoints</td>
+                <td>@m.MoveEffect</td>
+                <td>@m.MoveEffectProb</td>
+            </tr>
+        }
+    </tbody>
+</table>

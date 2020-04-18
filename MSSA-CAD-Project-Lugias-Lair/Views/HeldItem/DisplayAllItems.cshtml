@@ -1,0 +1,26 @@
+﻿@model IQueryable<HeldItem>
+@{
+    ViewBag.Title = "Display All Items";
+}
+<head>
+    <h3 class="text-center">Items</h3>
+</head>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Item Category</th>
+            <th scope="col">Item Name</th>
+            <th scope="col">Item Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var i in Model)
+        {
+            <tr>
+                <td scope="row">@i.ItemCat</td>
+                <td>@i.ItemName</td>
+                <td>@i.ItemEffect</td>
+            </tr>
+        }
+    </tbody>
+</table>

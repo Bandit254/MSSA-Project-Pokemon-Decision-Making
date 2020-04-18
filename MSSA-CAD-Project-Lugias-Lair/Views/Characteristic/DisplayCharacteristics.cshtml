@@ -1,0 +1,24 @@
+﻿@model IQueryable<Characteristic>
+@{
+    ViewBag.Title = "Display Characteristics";
+}
+<head>
+    <h3 class="text-center">Characteristics</h3>
+</head>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Characteristic</th>
+            <th scope="col">Benefiting Stat</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td scope="row">@c.CharacteristicDescription</td>
+                <td>@c.BenefittingStat</td>
+            </tr>
+        }
+    </tbody>
+</table>

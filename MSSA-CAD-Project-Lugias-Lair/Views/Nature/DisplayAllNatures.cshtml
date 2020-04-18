@@ -1,0 +1,28 @@
+﻿@model IQueryable<Nature>
+@{
+    ViewBag.Title = "Display All Natures";
+}
+<head>
+    <h3 class="text-center">Natures</h3>
+</head>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Boosted Stat</th>
+            <th scope="col">Decreased Stat</th>
+            <th scope="col">Berry Flavor Disliked</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var n in Model)
+        {
+            <tr>
+                <td scope="row">@n.NatureName</td>
+                <td>@n.NatureIncreses</td>
+                <td>@n.NatureDecreases</td>
+                <td>@n.NatureBerryDislike</td>
+            </tr>
+        }
+    </tbody>
+</table>

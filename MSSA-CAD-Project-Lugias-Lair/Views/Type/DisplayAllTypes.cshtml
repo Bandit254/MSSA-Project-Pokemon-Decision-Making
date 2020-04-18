@@ -1,0 +1,24 @@
+﻿@model IEnumerable<PokemonType>
+@{
+    ViewBag.Title = "Type Listing";
+}
+<div>
+    <h3 class="text-center">All Pokemon Types</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Type Number</th>
+                <th scope="col">Type Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var t in Model)
+            {
+                <tr>
+                    <td scope="row">@t.TypeNumber</td>
+                    <td>@t.TypeName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

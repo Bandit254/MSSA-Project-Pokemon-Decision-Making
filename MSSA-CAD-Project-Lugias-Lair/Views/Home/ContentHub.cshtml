@@ -1,12 +1,11 @@
-﻿
-<!-- This will be the main content hub page -->
-
+﻿@{
+    ViewBag.Title = "Content Hub";
+}
 <header>
-    <h1>Lugia's Lair</h1>
-    <h3>Content Hub</h3>
-    <p>This page is the main content hub</p>
+    <h1 class="text-center">Lugia's Lair</h1>
+    <h3 class="text-center">Content Hub</h3>
 </header>
-<div>
+<div class="text-center">
     <p>Announcements</p>
 </div>
 <div>
@@ -21,17 +20,29 @@
 <div>
     <a class="btn btn-primary" asp-action="CreateTeam">Create Pokemon Team</a>
 </div>
-<footer>
-    <div>
-        <p>Links to external Resources</p>
-        <p>
-            <a href="https://serebii.net/" target="_blank">Serebii.net</a> |
-            <a href="https://pokemondb.net/" target="_blank">Pokemon Database</a> |
-            <a href="https://gwvgcstats.netlify.com/#/" target="_blank">VGC Stats</a> |
-            <a href="https://www.pokemon.com/us/" target="_blank">Official Pokemon Website</a> |
-            <a href="https://home.pokemon.com/en-us/features/" target="_blank">Battle Data (in Pokemon Home)</a>
-        </p>
-    </div>
+<footer class="text-center">
+    <p>Links to external Resources</p>
+    <table class="text-center">
+        <thead>
+            <tr>
+                <th>
+                    <a href="https://serebii.net/" target="_blank">Serebii.net</a>
+                </th>
+                <th>
+                    <a href="https://pokemondb.net/" target="_blank">Pokemon Database</a>
+                </th>
+                <th>
+                    <a href="https://gwvgcstats.netlify.com/#/" target="_blank">VGC Stats</a>
+                </th>
+                <th>
+                    <a href="https://www.pokemon.com/us/" target="_blank">Official Pokemon Website</a>
+                </th>
+                <th>
+                    <a href="https://home.pokemon.com/en-us/features/" target="_blank">Battle Data (in Pokemon Home)</a>
+                </th>
+            </tr>
+        </thead>
+    </table>
 </footer>
 
 

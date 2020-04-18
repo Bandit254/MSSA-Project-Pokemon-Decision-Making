@@ -1,489 +1,491 @@
-﻿
+﻿@{
+    ViewBag.Title = "Create Base Team";
+}
 <!-- This will be where players create their teams for analysis -->
 
 
-    <header>
-        <h1>Team Builder</h1>
-        <p>This page is where users will create their 6-Pokemon Teams</p>
-    </header>
+<header>
+    <h1>Team Builder</h1>
+    <p>This page is where users will create their 6-Pokemon Teams</p>
+</header>
 
-    <table class="table">
-        <thead>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>mdo</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>fat</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>twitter</td>
+        </tr>
+    </tbody>
+</table>
+<div>
+    <p>Team Name</p>
+    <p>Team Identifier</p>
+</div>
+<div>
+    <div>
+        <h3>Slot 1</h3>
+        <p>Pokemon Name</p>
+        <img src="~/Images/Lugia_025.jpg" alt="Pokemon #1 Pic" />
+        <p>Type #1:</p>
+        <p>Type #2:</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Select by Pokedex #</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">Pokedex Lookup Field</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table">
             <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>mdo</td>
+                <th scope="col">Select by From Profile</th>
             </tr>
             <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>fat</td>
+                <td scope="row">Saved Pokemon Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select by Ability</th>
             </tr>
             <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>twitter</td>
+                <td>Ability Lookup Field</td>
             </tr>
-        </tbody>
-    </table>
-    <div>
-        <p>Team Name</p>
-        <p>Team Identifier</p>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Assign Item</th>
+            </tr>
+            <tr>
+                <td>Item Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #1</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #2</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #3</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #4</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
     </div>
     <div>
-        <div>
-            <h3>Slot 1</h3>
-            <p>Pokemon Name</p>
-            <img src="~/Images/Lugia_025.jpg" alt="Pokemon #1 Pic" />
-            <p>Type #1:</p>
-            <p>Type #2:</p>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">Select by Pokedex #</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td scope="row">Pokedex Lookup Field</td>
-                    </tr>
-                </tbody>
-            </table>
-            <table class="table">
-                <tr>
-                    <th scope="col">Select by From Profile</th>
-                </tr>
-                <tr>
-                    <td scope="row">Saved Pokemon Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select by Ability</th>
-                </tr>
-                <tr>
-                    <td>Ability Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Assign Item</th>
-                </tr>
-                <tr>
-                    <td>Item Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #1</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #2</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #3</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #4</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-        </div>
-        <div>
-            <h3>Slot 2</h3>
-            <p>Pokemon Name</p>
-            <img src="" alt="Pokemon #2 Pic" />
-            <p>Type #1:</p>
-            <p>Type #2:</p>
-            <table class="table">
-                <tr>
-                    <th>Select by Pokedex #</th>
-                </tr>
-                <tr>
-                    <td>Pokedex Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select by From Profile</th>
-                </tr>
-                <tr>
-                    <td>Saved Pokemon Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select by Ability</th>
-                </tr>
-                <tr>
-                    <td>Ability Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Assign Item</th>
-                </tr>
-                <tr>
-                    <td>Item Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #1</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #2</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #3</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #4</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-        </div>
-        <div>
-            <h3>Slot 3</h3>
-            <p>Pokemon Name</p>
-            <img src="" alt="Pokemon #3 Pic" />
-            <p>Type #1:</p>
-            <p>Type #2:</p>
-            <table class="table">
-                <tr>
-                    <th>Select by Pokedex #</th>
-                </tr>
-                <tr>
-                    <td>Pokedex Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select by From Profile</th>
-                </tr>
-                <tr>
-                    <td>Saved Pokemon Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select by Ability</th>
-                </tr>
-                <tr>
-                    <td>Ability Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Assign Item</th>
-                </tr>
-                <tr>
-                    <td>Item Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #1</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #2</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #3</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #4</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-        </div>
-        <div>
-            <h3>Slot 4</h3>
-            <p>Pokemon Name</p>
-            <img src="" alt="Pokemon #4 Pic" />
-            <p>Type #1:</p>
-            <p>Type #2:</p>
-            <table class="table">
-                <tr>
-                    <th>Select by Pokedex #</th>
-                </tr>
-                <tr>
-                    <td>Pokedex Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select by From Profile</th>
-                </tr>
-                <tr>
-                    <td>Saved Pokemon Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select by Ability</th>
-                </tr>
-                <tr>
-                    <td>Ability Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Assign Item</th>
-                </tr>
-                <tr>
-                    <td>Item Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #1</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #2</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #3</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #4</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-        </div>
-        <div>
-            <h3>Slot 5</h3>
-            <p>Pokemon Name</p>
-            <img src="" alt="Pokemon #5 Pic" />
-            <p>Type #1:</p>
-            <p>Type #2:</p>
-            <table class="table">
-                <tr>
-                    <th>Select by Pokedex #</th>
-                </tr>
-                <tr>
-                    <td>Pokedex Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select by From Profile</th>
-                </tr>
-                <tr>
-                    <td>Saved Pokemon Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select by Ability</th>
-                </tr>
-                <tr>
-                    <td>Ability Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Assign Item</th>
-                </tr>
-                <tr>
-                    <td>Item Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #1</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #2</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #3</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #4</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-        </div>
-        <div>
-            <h3>Slot 6</h3>
-            <p>Pokemon Name</p>
-            <img src="" alt="Pokemon #6 Pic" />
-            <p>Type #1:</p>
-            <p>Type #2:</p>
-            <table class="table">
-                <tr>
-                    <th>Select by Pokedex #</th>
-                </tr>
-                <tr>
-                    <td>Pokedex Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select by From Profile</th>
-                </tr>
-                <tr>
-                    <td>Saved Pokemon Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select by Ability</th>
-                </tr>
-                <tr>
-                    <td>Ability Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Assign Item</th>
-                </tr>
-                <tr>
-                    <td>Item Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #1</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #2</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #3</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <th>Select Move #4</th>
-                </tr>
-                <tr>
-                    <td>Move Lookup Field</td>
-                </tr>
-            </table>
-        </div>
+        <h3>Slot 2</h3>
+        <p>Pokemon Name</p>
+        <img src="" alt="Pokemon #2 Pic" />
+        <p>Type #1:</p>
+        <p>Type #2:</p>
+        <table class="table">
+            <tr>
+                <th>Select by Pokedex #</th>
+            </tr>
+            <tr>
+                <td>Pokedex Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select by From Profile</th>
+            </tr>
+            <tr>
+                <td>Saved Pokemon Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select by Ability</th>
+            </tr>
+            <tr>
+                <td>Ability Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Assign Item</th>
+            </tr>
+            <tr>
+                <td>Item Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #1</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #2</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #3</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #4</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
     </div>
     <div>
-        <p>Save Team</p>
+        <h3>Slot 3</h3>
+        <p>Pokemon Name</p>
+        <img src="" alt="Pokemon #3 Pic" />
+        <p>Type #1:</p>
+        <p>Type #2:</p>
+        <table class="table">
+            <tr>
+                <th>Select by Pokedex #</th>
+            </tr>
+            <tr>
+                <td>Pokedex Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select by From Profile</th>
+            </tr>
+            <tr>
+                <td>Saved Pokemon Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select by Ability</th>
+            </tr>
+            <tr>
+                <td>Ability Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Assign Item</th>
+            </tr>
+            <tr>
+                <td>Item Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #1</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #2</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #3</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #4</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
     </div>
     <div>
-        <a class="btn btn-primary" asp-action="AnalyzeTeam">Analyze Selected Team</a>
+        <h3>Slot 4</h3>
+        <p>Pokemon Name</p>
+        <img src="" alt="Pokemon #4 Pic" />
+        <p>Type #1:</p>
+        <p>Type #2:</p>
+        <table class="table">
+            <tr>
+                <th>Select by Pokedex #</th>
+            </tr>
+            <tr>
+                <td>Pokedex Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select by From Profile</th>
+            </tr>
+            <tr>
+                <td>Saved Pokemon Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select by Ability</th>
+            </tr>
+            <tr>
+                <td>Ability Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Assign Item</th>
+            </tr>
+            <tr>
+                <td>Item Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #1</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #2</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #3</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #4</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
     </div>
     <div>
-        <a class="btn btn-primary" asp-action="VGCAnalysis">Generate VGC Battle Teams Based on Current Team</a>
+        <h3>Slot 5</h3>
+        <p>Pokemon Name</p>
+        <img src="" alt="Pokemon #5 Pic" />
+        <p>Type #1:</p>
+        <p>Type #2:</p>
+        <table class="table">
+            <tr>
+                <th>Select by Pokedex #</th>
+            </tr>
+            <tr>
+                <td>Pokedex Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select by From Profile</th>
+            </tr>
+            <tr>
+                <td>Saved Pokemon Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select by Ability</th>
+            </tr>
+            <tr>
+                <td>Ability Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Assign Item</th>
+            </tr>
+            <tr>
+                <td>Item Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #1</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #2</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #3</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #4</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
     </div>
+    <div>
+        <h3>Slot 6</h3>
+        <p>Pokemon Name</p>
+        <img src="" alt="Pokemon #6 Pic" />
+        <p>Type #1:</p>
+        <p>Type #2:</p>
+        <table class="table">
+            <tr>
+                <th>Select by Pokedex #</th>
+            </tr>
+            <tr>
+                <td>Pokedex Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select by From Profile</th>
+            </tr>
+            <tr>
+                <td>Saved Pokemon Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select by Ability</th>
+            </tr>
+            <tr>
+                <td>Ability Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Assign Item</th>
+            </tr>
+            <tr>
+                <td>Item Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #1</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #2</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #3</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
+        <table class="table">
+            <tr>
+                <th>Select Move #4</th>
+            </tr>
+            <tr>
+                <td>Move Lookup Field</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div>
+    <p>Save Team</p>
+</div>
+<div>
+    <a class="btn btn-primary" asp-action="AnalyzeTeam">Analyze Selected Team</a>
+</div>
+<div>
+    <a class="btn btn-primary" asp-action="VGCAnalysis">Generate VGC Battle Teams Based on Current Team</a>
+</div>
 
-    <footer>
-        <a class="btn btn-primary" asp-action="ContentHub">Return to Content Hub</a>
-    </footer>
+<footer>
+    <a class="btn btn-primary" asp-action="ContentHub">Return to Content Hub</a>
+</footer>
 

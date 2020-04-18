@@ -1,0 +1,22 @@
+﻿@model IQueryable<Ability>
+@{
+    ViewBag.Title = "Display Abilities";
+}
+<h3 class="text-center">Abilities</h3>
+<table class="table">
+    <thead>
+        <tr class="text-center">
+            <th scope="col">Ability Name</th>
+            <th scope="col">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var a in Model)
+        {
+            <tr>
+                <td scope="row">@a.AbilityName</td>
+                <td>@a.AbilityDescription</td>
+            </tr>
+        }
+    </tbody>
+</table>
