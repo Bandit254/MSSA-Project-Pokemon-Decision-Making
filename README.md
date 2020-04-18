@@ -44,6 +44,7 @@ For more information on the background and motivation behind this project, see t
 
 ![System Phase 3](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/01.%20Project%20Proposal%20and%20Presentation/Phase%203.jpg)
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
+
 ## Entity Relationship Diagrams
 The picture below is my initial entity relationship diagram for the database I will build to support my application. I used Draw.io. The JPEG and PDF version of the ERD can also be found in folder [02. Database Entity Relationship Diagrams.](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/02.%20Database%20Entity%20Relationship%20Diagrams)
 
@@ -242,11 +243,11 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM5MzQwMDksLTE3NDg5MDEyMTQsLTExMj
-A3MTkxMjIsLTEzMTUxMzA2NzcsOTkwNDUzNTU2LDE4MzQyMzMy
-MDAsMzY5OTM0NzUyLC0yNDU4MTc1MjEsLTExMzM1NzgzOSwtMj
-kxNTcwNDA0LC0xNzgxMDg5Njg5LC0xMDA1NDAyOTM3LC0yMDM2
-ODYzMTkwLC0xOTUwNzMzMzQ2LC0xNDc5MjQ5MjU4LC0xNjI3OD
-c1NDU4LC0xMTI0MzU2NDk3LC01NDEzNjMzNDgsLTEwNDUzNTkz
-NjAsMTU5MTAyMTcyXX0=
+eyJoaXN0b3J5IjpbLTMyNTcyOTc1MywtMTc0ODkwMTIxNCwtMT
+EyMDcxOTEyMiwtMTMxNTEzMDY3Nyw5OTA0NTM1NTYsMTgzNDIz
+MzIwMCwzNjk5MzQ3NTIsLTI0NTgxNzUyMSwtMTEzMzU3ODM5LC
+0yOTE1NzA0MDQsLTE3ODEwODk2ODksLTEwMDU0MDI5MzcsLTIw
+MzY4NjMxOTAsLTE5NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2Mj
+c4NzU0NTgsLTExMjQzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NTM1
+OTM2MCwxNTkxMDIxNzJdfQ==
 -->
