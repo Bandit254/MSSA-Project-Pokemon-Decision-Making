@@ -19,7 +19,22 @@ namespace MSSA_CAD_Project_Lugias_Lair
         public IConfiguration Configuration { get; }
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<IAbility,EFAbilityRepository>();
+            services.AddTransient<ICharacteristic, EFCharacteristicRepository>();
+            services.AddTransient<ICustomPokemon, EFCustomPokemonRepository>();
+            services.AddTransient<IHeldItem, EFHeldItemRepository>();
+            services.AddTransient<INature, EFNatureRepository>();
+            services.AddTransient<IPictureFull, EFPictureFullRepository>();
+            services.AddTransient<IPictureSprite, EFPictureSpriteRepository>();
+            services.AddTransient<IPictureTrainerSprite, EFPictureTrainerSpriteRepository>();
+            services.AddTransient<IPokedexEntry, EFPokedexEntryRepository>();
             services.AddTransient<IPokemon, EFPokemonRepository>();
+            services.AddTransient<IPokemonHasAbility, EFPokemonHasAbilityRepository>();
+            services.AddTransient<IPokemonLearnsMove, EFPokemonLearnsMoveRepository>();
+            services.AddTransient<IPokemonMove, EFPokemonMoveRepository>();
+            services.AddTransient<IPokemonType, EFPokemonTypeRepository>();
+            services.AddTransient<ITeamBase, EFTeamBaseRepository>();
+            services.AddTransient<ITeamVgc, EFTeamVgcRepository>();
             services.AddTransient<IVgcplayer, EFVgcplayer>();
             services.AddDbContext<LugiasLair_DB_ProjectContext>
                 (options => options.UseSqlServer(Configuration["Data:LugiasLairDB:ConnectionString"]));

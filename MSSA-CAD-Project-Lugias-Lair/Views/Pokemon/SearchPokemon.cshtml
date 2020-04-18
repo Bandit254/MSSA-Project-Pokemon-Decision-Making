@@ -110,7 +110,6 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th scope="col">Pokemon ID</th>
                     <th scope="col">Pokedex Number</th>
                     <th scope="col">Pokemon Name</th>
                     <th scope="col">1st Type</th>
@@ -128,8 +127,7 @@
                 @foreach (var p in Model)
                 {
                     <tr>
-                        <td scope="row">@p.PokemonId</td>
-                        <td>@p.PokemonNumber</td>
+                        <td scope="row">@p.PokemonNumber</td>
                         <td>@p.PokemonName</td>
                         <td>@p.PokemonTypeOne</td>
                         <td>@p.PokemonTypeTwo</td>
