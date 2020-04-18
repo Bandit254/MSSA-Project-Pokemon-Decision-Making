@@ -206,7 +206,8 @@ As the end of the MSSA program comes nearer it has become imperative to delibera
 The first sprint occurred from 12 - 19 April 2020. At the start of that sprint, the overall Issue List looked like this:
 ![Initial Issue List](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2013%20Screenshots/Initial%20Issues%20List%20%2817APR2020%29.jpg)
 Each Issue has, at minimum, a User Story that describes why the issue is important and an Acceptance Criteria that must be met before completing/closing the issue. Some issues had multiple sub-tasks, and each issue should also have a category label. An example issue is listed below:
-
+![Example Issue](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2013%20Screenshots/Interface%20Issue%20Details%20%2817APR2020%29.jpg)
+Each sprint project Kanban boa
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
 
@@ -219,11 +220,11 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjUwNjY4MDAsLTExMjA3MTkxMjIsLT
-EzMTUxMzA2NzcsOTkwNDUzNTU2LDE4MzQyMzMyMDAsMzY5OTM0
-NzUyLC0yNDU4MTc1MjEsLTExMzM1NzgzOSwtMjkxNTcwNDA0LC
-0xNzgxMDg5Njg5LC0xMDA1NDAyOTM3LC0yMDM2ODYzMTkwLC0x
-OTUwNzMzMzQ2LC0xNDc5MjQ5MjU4LC0xNjI3ODc1NDU4LC0xMT
-I0MzU2NDk3LC01NDEzNjMzNDgsLTEwNDUzNTkzNjAsMTU5MTAy
-MTcyLDE1MjI3NDQxNThdfQ==
+eyJoaXN0b3J5IjpbLTI3MDc0MzE3MiwtMTEyMDcxOTEyMiwtMT
+MxNTEzMDY3Nyw5OTA0NTM1NTYsMTgzNDIzMzIwMCwzNjk5MzQ3
+NTIsLTI0NTgxNzUyMSwtMTEzMzU3ODM5LC0yOTE1NzA0MDQsLT
+E3ODEwODk2ODksLTEwMDU0MDI5MzcsLTIwMzY4NjMxOTAsLTE5
+NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2Mjc4NzU0NTgsLTExMj
+QzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NTM1OTM2MCwxNTkxMDIx
+NzIsMTUyMjc0NDE1OF19
 -->
