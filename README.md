@@ -201,7 +201,7 @@ The next task is to demonstrate the ability to modify data in the database. I ch
 ![New User Data Saved to Database](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2012%20Screenshots/New%20User%20Data%20Stored%20in%20localDB.jpg)
 
 ## Initial Sprint Planning
-As the end of the MSSA program com
+As the end of the MSSA program comes nearer it has become imperative to deliberately plan all remaining tasks and prioritize them in order to ensure on-time completion. 
 
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
@@ -215,11 +215,11 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMTQ5ODk2MSwtMTEyMDcxOTEyMiwtMT
-MxNTEzMDY3Nyw5OTA0NTM1NTYsMTgzNDIzMzIwMCwzNjk5MzQ3
-NTIsLTI0NTgxNzUyMSwtMTEzMzU3ODM5LC0yOTE1NzA0MDQsLT
-E3ODEwODk2ODksLTEwMDU0MDI5MzcsLTIwMzY4NjMxOTAsLTE5
-NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2Mjc4NzU0NTgsLTExMj
-QzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NTM1OTM2MCwxNTkxMDIx
-NzIsMTUyMjc0NDE1OF19
+eyJoaXN0b3J5IjpbLTE4NzQzMjIzOTgsLTExMjA3MTkxMjIsLT
+EzMTUxMzA2NzcsOTkwNDUzNTU2LDE4MzQyMzMyMDAsMzY5OTM0
+NzUyLC0yNDU4MTc1MjEsLTExMzM1NzgzOSwtMjkxNTcwNDA0LC
+0xNzgxMDg5Njg5LC0xMDA1NDAyOTM3LC0yMDM2ODYzMTkwLC0x
+OTUwNzMzMzQ2LC0xNDc5MjQ5MjU4LC0xNjI3ODc1NDU4LC0xMT
+I0MzU2NDk3LC01NDEzNjMzNDgsLTEwNDUzNTkzNjAsMTU5MTAy
+MTcyLDE1MjI3NDQxNThdfQ==
 -->
