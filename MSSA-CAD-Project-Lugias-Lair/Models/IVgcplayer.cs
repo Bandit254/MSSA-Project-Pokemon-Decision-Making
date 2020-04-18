@@ -8,6 +8,7 @@ namespace MSSA_CAD_Project_Lugias_Lair.Models
     public interface IVgcplayer
     {
         IQueryable<Vgcplayer> Vgcplayers { get; }
-        void SaveVgcplayer(Vgcplayer vgcplayer);
+        void SaveVgcplayer(Vgcplayer vgcPlayer);
+        Vgcplayer DeleteVgcPlayer(int userId);
     }
 }
