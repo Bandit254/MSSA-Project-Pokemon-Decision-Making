@@ -199,9 +199,9 @@ The next task is to demonstrate the ability to modify data in the database. I ch
 ![New User Sign-Up Form](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2012%20Screenshots/New%20User%20SIgn%20Up%20Form.jpg)
 ![Account Creation Successful Message](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2012%20Screenshots/New%20User%20SIgn%20Up%20Complete.jpg)
 ![New User Data Saved to Database](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2012%20Screenshots/New%20User%20Data%20Stored%20in%20localDB.jpg)
-
+[Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 ## Initial Sprint Planning
-As the end of the MSSA program comes nearer it has become imperative to deliberately plan all remaining tasks and prioritize them in order to ensure on-time completion. This will be done in the style of sprint planning on a one-week timescale. Each week I will select the most important issues from the overall issues list and add them to the current week's sprint. The progress of each sprint will be tracked on a Kanban board in the Projects section. 
+As the end of the MSSA program comes nearer it has become imperative to deliberately plan all remaining tasks and prioritize them in order to ensure on-time completion. This will be done in the style of sprint planning on a one-week timescale. Each week I will select the most important issues from the overall [Issues](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/issues) list and add them to the current week's sprint. The progress of each sprint will be tracked on a Kanban board in the [Projects](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/projects) section. 
 
 The first sprint occurred from 12 - 19 April 2020. At the start of that sprint, the overall Issue List looked like this:
 ![Initial Issue List](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2013%20Screenshots/Initial%20Issues%20List%20%2817APR2020%29.jpg)
@@ -216,6 +216,7 @@ Each sprint project Kanban board will have three categories:
 An example of how tasks flow through the sprint Kanban board is shown below:
 ![Kanban Board Progress](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2013%20Screenshots/Sprint%201%20Progress%20Overview%20%2818APR2020%29.jpg)
 After a task is completed, it must be marked as closed on the Issue list. If all tasks for a given sprint are completed before the end of a sprint, then tasks may be added from the overall Issue list. Similarly, if a task cannot be completed during the current sprint, then it will be pushed onto the next week's sprint.
+[Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
@@ -227,13 +228,13 @@ A list of items that I may not be able to complete before the end of the MSSA pr
  - [ ] In-Game Battle Information Dashboard
  - [ ] Battle Simulation Logic (this has been done by other sites
        already, and is essentially an entire project in and of itself)
-
+[Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzc4NjEzMzgsLTE3NDg5MDEyMTQsLT
-ExMjA3MTkxMjIsLTEzMTUxMzA2NzcsOTkwNDUzNTU2LDE4MzQy
-MzMyMDAsMzY5OTM0NzUyLC0yNDU4MTc1MjEsLTExMzM1NzgzOS
-wtMjkxNTcwNDA0LC0xNzgxMDg5Njg5LC0xMDA1NDAyOTM3LC0y
-MDM2ODYzMTkwLC0xOTUwNzMzMzQ2LC0xNDc5MjQ5MjU4LC0xNj
-I3ODc1NDU4LC0xMTI0MzU2NDk3LC01NDEzNjMzNDgsLTEwNDUz
-NTkzNjAsMTU5MTAyMTcyXX0=
+eyJoaXN0b3J5IjpbMTg4NjI3MTcxNSwtMTc0ODkwMTIxNCwtMT
+EyMDcxOTEyMiwtMTMxNTEzMDY3Nyw5OTA0NTM1NTYsMTgzNDIz
+MzIwMCwzNjk5MzQ3NTIsLTI0NTgxNzUyMSwtMTEzMzU3ODM5LC
+0yOTE1NzA0MDQsLTE3ODEwODk2ODksLTEwMDU0MDI5MzcsLTIw
+MzY4NjMxOTAsLTE5NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2Mj
+c4NzU0NTgsLTExMjQzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NTM1
+OTM2MCwxNTkxMDIxNzJdfQ==
 -->
