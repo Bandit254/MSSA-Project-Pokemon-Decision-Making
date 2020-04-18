@@ -43,11 +43,12 @@ For more information on the background and motivation behind this project, see t
 ![System Phase 2](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/01.%20Project%20Proposal%20and%20Presentation/Phase%202.jpg)
 
 ![System Phase 3](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/01.%20Project%20Proposal%20and%20Presentation/Phase%203.jpg)
-
+[Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 ## Entity Relationship Diagrams
 The picture below is my initial entity relationship diagram for the database I will build to support my application. I used Draw.io. The JPEG and PDF version of the ERD can also be found in folder [02. Database Entity Relationship Diagrams.](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/02.%20Database%20Entity%20Relationship%20Diagrams)
 
 ![ERD](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/02.%20Database%20Entity%20Relationship%20Diagrams/CADProject%20-%2020200209%20-%20ZSilvis%20-%20ERD.jpg)
+[Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 
 ## Project Data
 There are many sources for Pokémon data, and there is a lot of it. The folder [03. Project Data (Excel and CSV)](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/03.%20Project%20Data%20%28Excel%20and%20CSV%29) will contain all of the raw data that I need to complete this project. Although the current competitive rules only allows for a subset of the 400 Pokémon available in Sword and Shield to participate in official battles, I want to include data on all Pokémon from all generations in order to make the application accommodating to future rules changes and new game releases. 
@@ -59,9 +60,11 @@ However, some data relating to Pokémon are not so easy ingested. For example, i
 The same process must be completed for the abilities that Pokémon may possess. Each Pokémon can have between 1 and 3 abilities available to it, some of which may be classified as "hidden" abilities. Both the moves that a Pokémon learns and the abilities they possess require the manual creation of what are called "reverse-lookup" tables to ensure that the Pokémon are appropriately restricted to the correct moves/abilities.
 
 Because creating these reverse-lookup tables is a time-consuming process, it is one of the first items I am added to my Project Work Backlog. In the meantime, my web application will have the "flaw" of allowing Pokémon to learn moves and possess abilities that they otherwise shouldn't. 
+[Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 
 ## Building the Database
 I will use T-SQL and Microsoft SQL Server to build the primary database for this project. The folder [04. SQL Solution and Queries](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/04.%20SQLSolution%20and%20Queries) contains all of the queries I have written to build the database (so far).
+[Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 
 ## Website Wire Frames
 Below are a few of the wire frame designs I have made for the application's website. These are not all of the pages I have designed, nor are they final designs. I used [https://pencil.evolus.vn/](https://pencil.evolus.vn/) to create the wire frames. I also included a diagram that I sketched in OneNote. [05. Website Wire Frame Diagrams](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/05.%20Website%20Wire%20Frame%20Diagrams)
@@ -73,9 +76,11 @@ Below are a few of the wire frame designs I have made for the application's webs
 ![Analyze Team](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/05.%20Website%20Wire%20Frame%20Diagrams/AnalyzeTeamPage%20%2823FEB2020%29.jpg)
 
 ![Wire Frame Sketch from OneNote](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/05.%20Website%20Wire%20Frame%20Diagrams/Wire%20Frame%20Sketches.pdf)
+[Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 
 ## Source Code From Other Projects
 Although I have not yet incorporated course from other projects, there are two projects that I am likely to draw upon: the Pokémon Showdown battle simulator and the Veekun Project. Both projects' source code is stored in folders [XX](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/XX.%20Pokemon%20Showdown%20Source%20Files/pokemon-showdown-master) and [YY](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/YY.%20Veekun%20Project%20Source%20Files/pokedex-master), respectively. 
+[Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 
 ## User Stories
 The following are some of the user stories that are guiding my design. The full document is located here: [06. User Stories](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/06.%20User%20Stories)
@@ -85,6 +90,7 @@ The following are some of the user stories that are guiding my design. The full 
  3.  As a competitive Pokémon battler with a short history in the game, I need a program that will help me develop an intuition for the most likely 4-Pokémon team that my opponent will select to face me so that I can make the best 4-Pokémon of my own. I need to be able to see all of the possible combinations available and have the program help me determine which team combinations are best.
  4. As an experienced competitive Pokémon battler, I need a program that provides me with a way to easily customize Pokémon and teams so that I can quickly prototype new teams and stay ahead of my opponents. I want to be able to save the team and Pokémon combinations that I create so that I can easily refer to them in the future. I also need a program that will provide me with detailed statistics on the most common Pokémon/moves/abilities/items/types in use across the entire competitive scene so that I can plan my teams to be successful against those combinations.
  5. As Pokémon player engaged in a Pokémon battle using competitive rules (whether an actual competition or a friendly/casual match), I need a program that will help me track the information that I have revealed to my opponent and that my opponent has revealed to me so that I can make more precise decisions in battle without having to memorize everything that has occurred in a battle. I would also like a way to store and display my record in all matches and the teams I used in those matches.
+[Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 ## Use Cases
 Based on the user stories, I have developed this initial list of use cases. The documentation is stored in this folder: [07. Use Cases](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/07.%20Use%20Cases)
  1.  Given a new user to the program, when the new user selects the option to create an account, then the program will provide the fields and options necessary for account creation and store the user’s information in their new profile.
@@ -101,6 +107,7 @@ Based on the user stories, I have developed this initial list of use cases. The 
 
 These use-cases are represented by the Use-Case Diagram below:
 ![Use-Case Diagram](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/07.%20Use%20Cases/CAD%20Project%20Use-Case%20Diagram.jpg)
+[Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 
 ## Requirements
 The full list of the system requirements are found in folder [08. Requirements](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/08.%20Requirements), but the major requirements are listed below:
@@ -121,6 +128,7 @@ The full list of the system requirements are found in folder [08. Requirements](
  14. The system shall provide a method for a user to specify an opponent’s 6-Pokémon team and then generate the user’s optional 6-Pokémon team to use against the opponent
  15.  The system shall provide a method for users to predict which 4-Pokémon team an opponent will use in a battle against the user, and then to generate the optimal 4-Pokémon team to counter the opponent’s expected team
  16. The system shall provide a method for users to track information that has been revealed during battle, both by the user and by the opponent
+[Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 
 ## Test Plan
 Below are the requirements verification and and testing tables for this project. Due to the large number of both requirements and tests, only a portion are included directly in this README; the full tables are located in folder [09. Project Testing](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/09.%20Project%20Testing).
@@ -160,6 +168,7 @@ Requirement ID| Requirement Description | Verification Method | Test ID
  8 | 1.3.2 | Usability Test of the ability to hide password entries | Not Tested |  |
  9 | 1.3.3, 4.3.3 | Unit Test to ensure passwords meet strength criteria | Not Tested |  |
  10 | 1.3.3.1, 4.3.3 | Unit Test to verify passwords are at least 15 characters in length | Not Tested |  | 
+[Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 
 ## Prototype
 The prototype for this web application is currently stored on the "dev" branch of my repository: [Prototype](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/dev/MSSA-CAD-Project-Lugias-Lair)
@@ -176,6 +185,7 @@ The prototype for this web application is currently stored on the "dev" branch o
 ![Prototype Pokémon Customization](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Project%20Pictures/Prototype%20Pictures/Prototype%20-%20Pokemon%20Customization.jpg)
 
 ![Prototype Team Analysis](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Project%20Pictures/Prototype%20Pictures/Prototype%20-%20Team%20Analysis.jpg)
+[Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 
 ## Entity Framework and Initial Model Scaffolding
 To populate the data for my web application I am using Entity Framework (EF) Scaffolding, with a data-first approach. I first updated and added new SQL scripts to ensure the database tables had all of the appropriate fields, keys, and constraints necessary for the full scope of the web application. Although some tables do not have data in them as of 05 April 2020, the goal is to reduce the number of times I will need to perform the EF Scaffolding process throughout the remainder of the project. My updated SQL scripts are location in the folder [04. SQL Solution and Queries](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/04.%20SQLSolution%20and%20Queries), while the documents related to the actual EF Scaffolding and database diagram are stored here: [10. Database Diagram and EF Scaffolding](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/10.%20Database%20Diagram%20and%20EF%20Scaffolding).
@@ -189,6 +199,7 @@ In order to perform EF Scaffolding, I first had to create a local DB within my w
 ![Initial EF Scaffolding Results](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/10.%20Database%20Diagram%20and%20EF%20Scaffolding/Initial%20EF%20Migration%20(05APR2020).png)
 
 The next steps will be to begin writing the controllers and views to allow users to interact with the models that EF created.
+[Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 ## Connecting to the DB to Display/Modify Data
 Although the Entity Framework scaffolding process automatically generates the model classes based on the database tables, there is still a lot more work to be done behind the scenes to link the model classes to the database and configure the database to connect to the web application. The general process is outlined in a how-to guide I made in the folder [10. Database Diagram and EF Scaffolding](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/10.%20Database%20Diagram%20and%20EF%20Scaffolding). 
 The first step after the connection work has been completed is to test the ability of the application to display data stored in the database. Below are two screenshots demonstrating this basic functionality:
@@ -200,6 +211,7 @@ The next task is to demonstrate the ability to modify data in the database. I ch
 ![Account Creation Successful Message](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2012%20Screenshots/New%20User%20SIgn%20Up%20Complete.jpg)
 ![New User Data Saved to Database](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2012%20Screenshots/New%20User%20Data%20Stored%20in%20localDB.jpg)
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
+
 ## Initial Sprint Planning
 As the end of the MSSA program comes nearer it has become imperative to deliberately plan all remaining tasks and prioritize them in order to ensure on-time completion. This will be done in the style of sprint planning on a one-week timescale. Each week I will select the most important issues from the overall [Issues](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/issues) list and add them to the current week's sprint. The progress of each sprint will be tracked on a Kanban board in the [Projects](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/projects) section. 
 
@@ -230,11 +242,11 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NjI3MTcxNSwtMTc0ODkwMTIxNCwtMT
-EyMDcxOTEyMiwtMTMxNTEzMDY3Nyw5OTA0NTM1NTYsMTgzNDIz
-MzIwMCwzNjk5MzQ3NTIsLTI0NTgxNzUyMSwtMTEzMzU3ODM5LC
-0yOTE1NzA0MDQsLTE3ODEwODk2ODksLTEwMDU0MDI5MzcsLTIw
-MzY4NjMxOTAsLTE5NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2Mj
-c4NzU0NTgsLTExMjQzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NTM1
-OTM2MCwxNTkxMDIxNzJdfQ==
+eyJoaXN0b3J5IjpbNDM5MzQwMDksLTE3NDg5MDEyMTQsLTExMj
+A3MTkxMjIsLTEzMTUxMzA2NzcsOTkwNDUzNTU2LDE4MzQyMzMy
+MDAsMzY5OTM0NzUyLC0yNDU4MTc1MjEsLTExMzM1NzgzOSwtMj
+kxNTcwNDA0LC0xNzgxMDg5Njg5LC0xMDA1NDAyOTM3LC0yMDM2
+ODYzMTkwLC0xOTUwNzMzMzQ2LC0xNDc5MjQ5MjU4LC0xNjI3OD
+c1NDU4LC0xMTI0MzU2NDk3LC01NDEzNjMzNDgsLTEwNDUzNTkz
+NjAsMTU5MTAyMTcyXX0=
 -->
