@@ -215,7 +215,7 @@ Each sprint project Kanban board will have three categories:
 
 An example of how tasks flow through the sprint Kanban board is shown below:
 ![Kanban Board Progress](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2013%20Screenshots/Sprint%201%20Progress%20Overview%20%2818APR2020%29.jpg)
-After a task is completed, it must be marked as closed on the Issue list.
+After a task is completed, it must be marked as closed on the Issue list. If all tasks for a given sprint are completed before the end of a sprint, then tasks may be added from the overall Issue list. Similarly, if a task cannot be completed during the current sprint, then it will be pushed onto the next week's sprint.
 
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
@@ -229,11 +229,11 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUyMzg3MTIsLTExMjA3MTkxMjIsLTEzMT
-UxMzA2NzcsOTkwNDUzNTU2LDE4MzQyMzMyMDAsMzY5OTM0NzUy
-LC0yNDU4MTc1MjEsLTExMzM1NzgzOSwtMjkxNTcwNDA0LC0xNz
-gxMDg5Njg5LC0xMDA1NDAyOTM3LC0yMDM2ODYzMTkwLC0xOTUw
-NzMzMzQ2LC0xNDc5MjQ5MjU4LC0xNjI3ODc1NDU4LC0xMTI0Mz
-U2NDk3LC01NDEzNjMzNDgsLTEwNDUzNTkzNjAsMTU5MTAyMTcy
-LDE1MjI3NDQxNThdfQ==
+eyJoaXN0b3J5IjpbLTE3NDg5MDEyMTQsLTExMjA3MTkxMjIsLT
+EzMTUxMzA2NzcsOTkwNDUzNTU2LDE4MzQyMzMyMDAsMzY5OTM0
+NzUyLC0yNDU4MTc1MjEsLTExMzM1NzgzOSwtMjkxNTcwNDA0LC
+0xNzgxMDg5Njg5LC0xMDA1NDAyOTM3LC0yMDM2ODYzMTkwLC0x
+OTUwNzMzMzQ2LC0xNDc5MjQ5MjU4LC0xNjI3ODc1NDU4LC0xMT
+I0MzU2NDk3LC01NDEzNjMzNDgsLTEwNDUzNTkzNjAsMTU5MTAy
+MTcyLDE1MjI3NDQxNThdfQ==
 -->
