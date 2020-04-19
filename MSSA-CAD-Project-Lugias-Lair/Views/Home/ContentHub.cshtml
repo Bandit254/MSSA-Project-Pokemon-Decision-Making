@@ -1,6 +1,76 @@
 ﻿@{
     ViewBag.Title = "Content Hub";
 }
+
+<main role="main">
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-3">Lugia's Lair</h1>
+            <p>Welcome to Lugia's Lair! Have you been wondering how to become a better Pokemon battler? Do you want to compete in the Pokemon Video Game Championships (VGC)? Have you even wished for a tool that would help you objectively rank your VGC teams? Or maybe you desire a method to predict which Pokemon your opponent will bring into a VGC match? Whatever your motivation is, Lugia's Lair is the resource you've been looking for!</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-md-3">
+                <h2>Account Overview</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                <p><a class="btn btn-primary" asp-action="AccountOverview">Account Overview</a></p>
+            </div>
+            <div class="col-md-3">
+                <h2>Search Pokemon</h2>
+                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                <p><a class="btn btn-primary" asp-controller="Pokemon" asp-action="SearchPokemon">Search for Pokemon</a></p>
+            </div>
+            <div class="col-md-3">
+                <h2>Search Teams</h2>
+                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <p><a class="btn btn-primary" asp-action="SearchTeams">Search for Teams</a></p>
+            </div>
+            <div class="col-md-3">
+                <h2>Create Team</h2>
+                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <p><a class="btn btn-primary" asp-action="CreateTeam">Create Pokemon Team</a></p>
+            </div>
+        </div>
+
+        <hr>
+
+    </div> <!-- /container -->
+
+</main>
+<div class="container">
+    <p>Links to external Resources</p>
+    <table class="text-center">
+        <thead>
+            <tr>
+                <th>
+                    <a href="https://serebii.net/" target="_blank">Serebii.net</a>
+                </th>
+                <th>
+                    <a href="https://pokemondb.net/" target="_blank">Pokemon Database</a>
+                </th>
+                <th>
+                    <a href="https://gwvgcstats.netlify.com/#/" target="_blank">VGC Stats</a>
+                </th>
+                <th>
+                    <a href="https://www.pokemon.com/us/" target="_blank">Official Pokemon Website</a>
+                </th>
+                <th>
+                    <a href="https://home.pokemon.com/en-us/features/" target="_blank">Battle Data (in Pokemon Home)</a>
+                </th>
+            </tr>
+        </thead>
+    </table>
+</div>
+<footer class="container">
+    <p>&copy; Zachary Silvis 2020</p>
+</footer>
+<!--
 <header>
     <h1 class="text-center">Lugia's Lair</h1>
     <h3 class="text-center">Content Hub</h3>
@@ -44,8 +114,4 @@
         </thead>
     </table>
 </footer>
-
-
-
-
-
+-->

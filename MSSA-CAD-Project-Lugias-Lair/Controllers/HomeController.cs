@@ -26,6 +26,10 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
         {
             return View();
         }
+        public ViewResult SignIn()
+        {
+            return View();
+        }
 
         [HttpGet]
         public ViewResult AccountOverview()
