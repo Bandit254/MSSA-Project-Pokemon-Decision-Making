@@ -240,7 +240,7 @@ Ideally I would have made progress each day and taken a screenshot of the update
 ![24APR2020 Kanban Board](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2014%20Screenshots/Sprint%202%20-%20Kanban%20Board%20%2824APR2020%29.jpg)
 ![25APR2020 Kanban Board](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2014%20Screenshots/Sprint%202%20-%20Kanban%20Board%20%2825APR2020%29.jpg)
 
-Another tool that I am using to plan and track my sprint progress is a burndown chart. This is a graph that shows the starting number of tasks for a sprint, the ideal number of tasks completed each day
+Another tool that I am using to plan and track my sprint progress is a burndown chart. This is a line graph that shows the starting number of tasks for a sprint, the ideal number of tasks completed each day, and the actual number of tasks completed each day. This makes it easier to look back and identify issues, whether the addition of new tasks mid-sprint or tasks taking longer than expected. The final burndown chart for Sprint 2 is below, and 
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
 
@@ -253,7 +253,7 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDUyMDA1OCwtMzI1NzI5NzUzLC0xNz
+eyJoaXN0b3J5IjpbMTk5NzU0ODgxMywtMzI1NzI5NzUzLC0xNz
 Q4OTAxMjE0LC0xMTIwNzE5MTIyLC0xMzE1MTMwNjc3LDk5MDQ1
 MzU1NiwxODM0MjMzMjAwLDM2OTkzNDc1MiwtMjQ1ODE3NTIxLC
 0xMTMzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAw
