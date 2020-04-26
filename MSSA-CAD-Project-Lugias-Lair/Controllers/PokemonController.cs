@@ -15,13 +15,10 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
             repository = repo;
         }
         [HttpGet]
-        public ViewResult SearchPokemon() => View(repository.Pokemon);
-        /*
-        [HttpGet]
-        public ViewResult SearchPokemon()
+        public ViewResult SearchPokemon() => View(repository.Pokemon);//Should Rename This
+        public ViewResult CustomizePokemon()
         {
-            return View(repository.Pokemon);
+            return View();
         }
-        */
     }
 }

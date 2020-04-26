@@ -1,0 +1,21 @@
+﻿@model Vgcplayer
+@{
+    Layout = "_LogInAndSignUp";
+    ViewBag.Title = "Sign-In";
+}
+    <div class="container text-center">
+        <h3>Welcome to Lugia's Lair!</h3>
+        <form class="form-signin" asp-action="SignIn" method="post">
+            <h1 class="h3 mb-3 font-weight-normal text-center">Please sign in</h1>
+            <label for="inputEmail" class="sr-only">Email address</label>
+            <input asp-for="UserEmail" type="email" id="inputEmail" class="form-control" placeholder="Email address" :placeholder-shown required autofocus>
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" asp-for="UserPassword" id="inputPassword" class="form-control" placeholder="Password" required>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+            <p class="mt-5 mb-3 text-center text-muted">&copy; 2020</p>
+        </form>
+    </divclass>
+<div class="container text-center">
+    <p>Don't have an account yet? Sign up here:</p>
+    <a class="btn btn-primary" asp-controller="Vgcplayer" asp-action="NewUserSignUp">Create Account</a>
+</div>

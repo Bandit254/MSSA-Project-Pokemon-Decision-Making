@@ -1,11 +1,12 @@
 ﻿@{
+    Layout = "_LogInAndSignUp";
     ViewBag.Title = "Account Creation Complete";
 }
 
-<p>Thanks for signing up for an account!</p>
-<p>Head to the main content hub to begin using the site!</p>
-<footer class="text-center">
-    <div>
-        <a class="btn btn-primary" asp-controller="Home" asp-action="ContentHub">Content Hub</a>
+
+
+    <div class="container">
+        <p class="text-center">Thanks for signing up for an account!</p>
+        <p class="text-center">CLick below to sign in with your new credentials and begin using the site!</p>
+        <a class="btn btn-primary" asp-controller="Vgcplayer" asp-action="SignIn">Sign In</a>
     </div>
-</footer>

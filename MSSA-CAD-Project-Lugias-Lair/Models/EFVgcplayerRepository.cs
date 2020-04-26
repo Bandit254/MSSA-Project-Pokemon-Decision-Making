@@ -6,10 +6,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MSSA_CAD_Project_Lugias_Lair.Models
 {
-    public class EFVgcplayer : IVgcplayer
+    public class EFVgcplayerRepository : IVgcplayer
     {
         private LugiasLair_DB_ProjectContext context;
-        public EFVgcplayer(LugiasLair_DB_ProjectContext ctx)
+        public EFVgcplayerRepository(LugiasLair_DB_ProjectContext ctx)
         {
             context = ctx;
         }

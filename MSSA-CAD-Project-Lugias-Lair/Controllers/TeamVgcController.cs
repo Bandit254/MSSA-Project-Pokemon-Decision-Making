@@ -20,5 +20,15 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
         {
             return View(teamVgcRepository.TeamVgcs);
         }
+        [HttpGet]
+        public ViewResult VGCAnalysis()
+        {
+            return View();
+        }
+        [HttpGet]
+        public ViewResult VGCTeamPicker()
+        {
+            return View();
+        }
     }
 }

@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.Extensions;
+using Microsoft.AspNetCore.Session;
+using System.Web;
 using System.Linq;
 using System.Threading.Tasks;
 using MSSA_CAD_Project_Lugias_Lair.Models;
@@ -14,34 +18,13 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
         {
             repository = repo;
         }
-
-        /*
-         [HttpGet]
-        public ViewResult SearchPokemon()
-        {
-            return View(repository.Pokemon);
-        }
-        */
         public ViewResult Index()
         {
             return View();
         }
-        public ViewResult SignIn()
-        {
-            return View();
-        }
 
-        [HttpGet]
-        public ViewResult AccountOverview()
-        {
-            return View();
-        }
 
-        [HttpGet]
-        public ViewResult AnalyzeTeam()
-        {
-            return View();
-        }
+
 
         [HttpGet]
         public ViewResult ConditionalTeam()
@@ -54,15 +37,8 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
         {
             return View();
         }
-        [HttpGet]
-        public ViewResult CreateTeam()
-        {
-            return View();
-        }
-        public ViewResult CustomizePokemon()
-        {
-            return View();
-        }
+
+
         [HttpGet]
         public ViewResult InGameTracker()
         {
@@ -74,25 +50,8 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
             return View();
         }
 
-        [HttpGet]
-        public ViewResult SearchTeams()
-        {
-            return View();
-        }
-        [HttpGet]
-        public ViewResult UpdateAccount()
-        {
-            return View();
-        }
-        [HttpGet]
-        public ViewResult VGCAnalysis()
-        {
-            return View();
-        }
-        [HttpGet]
-        public ViewResult VGCTeamPicker()
-        {
-            return View();
-        }
+
+
+
     }
 }

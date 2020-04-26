@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Session;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MSSA_CAD_Project_Lugias_Lair.Models;
@@ -19,6 +20,8 @@ namespace MSSA_CAD_Project_Lugias_Lair
         public IConfiguration Configuration { get; }
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDistributedMemoryCache();//
+            services.AddSession();//
             services.AddTransient<IAbility,EFAbilityRepository>();
             services.AddTransient<ICharacteristic, EFCharacteristicRepository>();
             services.AddTransient<ICustomPokemon, EFCustomPokemonRepository>();
@@ -35,7 +38,7 @@ namespace MSSA_CAD_Project_Lugias_Lair
             services.AddTransient<IPokemonType, EFPokemonTypeRepository>();
             services.AddTransient<ITeamBase, EFTeamBaseRepository>();
             services.AddTransient<ITeamVgc, EFTeamVgcRepository>();
-            services.AddTransient<IVgcplayer, EFVgcplayer>();
+            services.AddTransient<IVgcplayer, EFVgcplayerRepository>();
             services.AddDbContext<LugiasLair_DB_ProjectContext>
                 (options => options.UseSqlServer(Configuration["Data:LugiasLairDB:ConnectionString"]));
             services.AddMvc(option => option.EnableEndpointRouting = false);
@@ -50,13 +53,13 @@ namespace MSSA_CAD_Project_Lugias_Lair
                 app.UseDeveloperExceptionPage();
                 app.UseBrowserLink();
             }
-            //app.UseMvcWithDefaultRoute();
             app.UseStaticFiles();
+            app.UseSession();//
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}");
+                    template: "{controller=Vgcplayer}/{action=SignIn}");
             });
 
         }
