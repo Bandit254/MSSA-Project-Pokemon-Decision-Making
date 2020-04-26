@@ -233,8 +233,9 @@ After a task is completed, it must be marked as closed on the Issue list. If all
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 
 ## Sprint Reviews
-Continuing with weekly sprints, Sprint 2 occurred from 19 - 26 April. The ini
-
+Continuing with weekly sprints, Sprint 2 occurred from 19 - 26 April. The starting Kanban board is pictured below:
+![Starting Kanban Board](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2014%20Screenshots/Sprint%202%20-%20Kanban%20Board%20%2821APR2020%29.jpg)
+Ideally I would have made progress each day and taken a s
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
 
@@ -247,7 +248,7 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU5OTE3MzE5LC0zMjU3Mjk3NTMsLTE3ND
+eyJoaXN0b3J5IjpbMjY4OTUwNjE5LC0zMjU3Mjk3NTMsLTE3ND
 g5MDEyMTQsLTExMjA3MTkxMjIsLTEzMTUxMzA2NzcsOTkwNDUz
 NTU2LDE4MzQyMzMyMDAsMzY5OTM0NzUyLC0yNDU4MTc1MjEsLT
 ExMzM1NzgzOSwtMjkxNTcwNDA0LC0xNzgxMDg5Njg5LC0xMDA1
