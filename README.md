@@ -238,6 +238,9 @@ Continuing with weekly sprints, Sprint 2 occurred from 19 - 26 April. The starti
 Ideally I would have made progress each day and taken a screenshot of the updated Kanban board. However, I was not able to focus on the project until the end of the sprint, as the following screenshots will demonstrate:
 ![23APR2020 Kanban Board](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2014%20Screenshots/Sprint%202%20-%20Kanban%20Board%20%2823APR2020%29.jpg)
 ![24APR2020 Kanban Board](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2014%20Screenshots/Sprint%202%20-%20Kanban%20Board%20%2824APR2020%29.jpg)
+![25APR2020 Kanban Board](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/ZZ.%20Pictures%20and%20Research/Step%2014%20Screenshots/Sprint%202%20-%20Kanban%20Board%20%2825APR2020%29.jpg)
+
+Another tool that I am using to plan and track my sprint progress is a burndown chart. This is a graph that shows the starting number of tasks for a sprint, the ideal number of tasks completed each day
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
 
@@ -250,11 +253,11 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTA3NTY3MzYsLTMyNTcyOTc1MywtMT
-c0ODkwMTIxNCwtMTEyMDcxOTEyMiwtMTMxNTEzMDY3Nyw5OTA0
-NTM1NTYsMTgzNDIzMzIwMCwzNjk5MzQ3NTIsLTI0NTgxNzUyMS
-wtMTEzMzU3ODM5LC0yOTE1NzA0MDQsLTE3ODEwODk2ODksLTEw
-MDU0MDI5MzcsLTIwMzY4NjMxOTAsLTE5NTA3MzMzNDYsLTE0Nz
-kyNDkyNTgsLTE2Mjc4NzU0NTgsLTExMjQzNTY0OTcsLTU0MTM2
-MzM0OCwtMTA0NTM1OTM2MF19
+eyJoaXN0b3J5IjpbLTE3NDUyMDA1OCwtMzI1NzI5NzUzLC0xNz
+Q4OTAxMjE0LC0xMTIwNzE5MTIyLC0xMzE1MTMwNjc3LDk5MDQ1
+MzU1NiwxODM0MjMzMjAwLDM2OTkzNDc1MiwtMjQ1ODE3NTIxLC
+0xMTMzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAw
+NTQwMjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0NiwtMTQ3OT
+I0OTI1OCwtMTYyNzg3NTQ1OCwtMTEyNDM1NjQ5NywtNTQxMzYz
+MzQ4LC0xMDQ1MzU5MzYwXX0=
 -->
