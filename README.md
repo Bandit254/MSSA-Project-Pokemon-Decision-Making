@@ -246,7 +246,11 @@ Another tool that I am using to plan and track my sprint progress is a burndown 
 After completing a sprint, I will perform a sprint review and record the results in the same folder as the burndown charts. Each sprint review will cover the same four questions:
 
  - Did you complete all items in your sprint plan?
- - <![endif]--> What is your sprint deliverable?
+ - What is your sprint deliverable?
+ - Did you have any task volatility, and what was the cause?
+ - What would you do differently, knowing what you know now?
+
+[Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
@@ -260,7 +264,7 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NDU2NzE0MywtMzI1NzI5NzUzLC0xNz
+eyJoaXN0b3J5IjpbLTY1MDA5OTU1MSwtMzI1NzI5NzUzLC0xNz
 Q4OTAxMjE0LC0xMTIwNzE5MTIyLC0xMzE1MTMwNjc3LDk5MDQ1
 MzU1NiwxODM0MjMzMjAwLDM2OTkzNDc1MiwtMjQ1ODE3NTIxLC
 0xMTMzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAw
