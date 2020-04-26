@@ -17,7 +17,8 @@ Competitive Pokémon, while based on a children's game, is an extremely complex 
  12. [Entity Framework and Initial Model Scaffolding](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#entity-framework-and-initial-model-scaffolding)
  13. [Connecting to the DB to Display/Modify Data](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#connecting-to-the-db-to-displaymodify-data)
  14. [Initial Sprint Planning](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#initial-sprint-planning)
- 15. [Project Work Backlog](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#project-work-backlog)
+ 15. Sprint Reviews
+ 16. [Project Work Backlog](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#project-work-backlog)
 
 ## Project Motivation / Background
 I have been playing Pokémon on-and-off since 5th grade. I came to the game late compared to my friends who were immediately swept up by the first generation of games in the late 1990s, but it has stuck with me longer.
@@ -231,6 +232,9 @@ An example of how tasks flow through the sprint Kanban board is shown below:
 After a task is completed, it must be marked as closed on the Issue list. If all tasks for a given sprint are completed before the end of a sprint, then tasks may be added from the overall Issue list. Similarly, if a task cannot be completed during the current sprint, then it will be pushed onto the next week's sprint.
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 
+## Sprint Reviews
+Continuing with weekly sprints, Sprint 2 occurred from 19 - 26 April. The ini
+
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
 
@@ -243,11 +247,11 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNTcyOTc1MywtMTc0ODkwMTIxNCwtMT
-EyMDcxOTEyMiwtMTMxNTEzMDY3Nyw5OTA0NTM1NTYsMTgzNDIz
-MzIwMCwzNjk5MzQ3NTIsLTI0NTgxNzUyMSwtMTEzMzU3ODM5LC
-0yOTE1NzA0MDQsLTE3ODEwODk2ODksLTEwMDU0MDI5MzcsLTIw
-MzY4NjMxOTAsLTE5NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2Mj
-c4NzU0NTgsLTExMjQzNTY0OTcsLTU0MTM2MzM0OCwtMTA0NTM1
-OTM2MCwxNTkxMDIxNzJdfQ==
+eyJoaXN0b3J5IjpbNTU5OTE3MzE5LC0zMjU3Mjk3NTMsLTE3ND
+g5MDEyMTQsLTExMjA3MTkxMjIsLTEzMTUxMzA2NzcsOTkwNDUz
+NTU2LDE4MzQyMzMyMDAsMzY5OTM0NzUyLC0yNDU4MTc1MjEsLT
+ExMzM1NzgzOSwtMjkxNTcwNDA0LC0xNzgxMDg5Njg5LC0xMDA1
+NDAyOTM3LC0yMDM2ODYzMTkwLC0xOTUwNzMzMzQ2LC0xNDc5Mj
+Q5MjU4LC0xNjI3ODc1NDU4LC0xMTI0MzU2NDk3LC01NDEzNjMz
+NDgsLTEwNDUzNTkzNjBdfQ==
 -->
