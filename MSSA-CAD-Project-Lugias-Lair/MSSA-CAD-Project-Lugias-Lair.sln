@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSSA-CAD-Project-Lugias-Lai
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "LugiasLair_DB_Project", "..\LugiasLair_DB_Project\LugiasLair_DB_Project.sqlproj", "{95D8814D-BD73-4DEF-89D6-8F840C725F56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VGC_Team_Generation", "VGC_Team_Generation\VGC_Team_Generation.csproj", "{957E9DFC-7ACE-41E9-B75B-33FD20860E9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VGC_Team_Generation", "VGC_Team_Generation\VGC_Team_Generation.csproj", "{957E9DFC-7ACE-41E9-B75B-33FD20860E9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamAnalysisLogic", "TeamAnalysisLogic\TeamAnalysisLogic.csproj", "{5C4A0ED4-4A22-4E58-9E3A-F1E77CF4CBB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{957E9DFC-7ACE-41E9-B75B-33FD20860E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{957E9DFC-7ACE-41E9-B75B-33FD20860E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{957E9DFC-7ACE-41E9-B75B-33FD20860E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C4A0ED4-4A22-4E58-9E3A-F1E77CF4CBB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C4A0ED4-4A22-4E58-9E3A-F1E77CF4CBB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C4A0ED4-4A22-4E58-9E3A-F1E77CF4CBB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C4A0ED4-4A22-4E58-9E3A-F1E77CF4CBB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
