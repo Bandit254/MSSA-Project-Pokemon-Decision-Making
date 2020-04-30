@@ -7,6 +7,7 @@ namespace TeamAnalysisLogic
         static void Main(string[] args)
         {
             Console.WriteLine("Testing the algorithm to analyze a Pokemon team's strengths and weaknesses.\n");
+            /*
             Console.WriteLine("Enter the first type of the Pokemon you want to analyze:\n");
             string firstType = Console.ReadLine();
             PokemonType typeOne = GetType(firstType);
@@ -38,6 +39,24 @@ namespace TeamAnalysisLogic
                 Console.Write($"{item} - ");
             }
             Console.WriteLine("\n");
+            */
+            TeamBase testBaseTeam = new TeamBase(PokemonType.Bug, PokemonType.Water, PokemonType.Electric, null, PokemonType.Fire, PokemonType.Flying, PokemonType.Grass, PokemonType.Poison, PokemonType.Dragon, null, PokemonType.Fairy, PokemonType.Psychic);
+            testBaseTeam.DisplayTeamID();
+            Console.WriteLine("\n");
+            TeamVGC testVGCTeam = new TeamVGC(PokemonType.Flying, PokemonType.Psychic, PokemonType.Fire, null, PokemonType.Dark, PokemonType.Fighting, PokemonType.Rock, null);
+            testVGCTeam.DisplayTeamID();
+            Console.WriteLine("\n");
+            double[] baseTeamRating = AnalyzeTeam(testBaseTeam);
+            double[] vgcTeamRating = AnalyzeTeam(testVGCTeam);
+            foreach (double x in baseTeamRating)
+            {
+                Console.Write($"{x} ");
+            }
+            Console.WriteLine("\n");
+            foreach (double x in vgcTeamRating)
+            {
+                Console.Write($"{x} ");
+            }
         }
         public enum PokemonType
         {
@@ -163,7 +182,7 @@ namespace TeamAnalysisLogic
             //Fairy
             {1,0.5,1,1,1,1,2,0.5,1,1,1,1,1,1,2,2,0.5,1 }
         };
-        public static double[] PokemonAttackRating(PokemonType typeOne, PokemonType typeTwo)
+        public static double[] PokemonAttackRating(PokemonType typeOne, PokemonType? typeTwo)
         {
             int typeOneIndex = (int)typeOne;
             double[] attackRating = new double[18];
@@ -171,7 +190,7 @@ namespace TeamAnalysisLogic
             {
                 attackRating[i] = TypeChart[typeOneIndex, i];
             }
-            if (typeTwo!=PokemonType.TypeNull)
+            if (typeTwo!=null)
             {
                 int typeTwoIndex = (int)typeTwo;
                 for (int i = 0; i < 18; i++)
@@ -181,7 +200,7 @@ namespace TeamAnalysisLogic
             }
             return attackRating;
         }
-        public static double[] PokemonDefenseRating(PokemonType typeOne, PokemonType typeTwo)
+        public static double[] PokemonDefenseRating(PokemonType typeOne, PokemonType? typeTwo)
         {
             int typeOneIndex = (int)typeOne;
             double[] defenseRating = new double[18];
@@ -189,7 +208,7 @@ namespace TeamAnalysisLogic
             {
                 defenseRating[i] = TypeChart[i, typeOneIndex];
             }
-            if (typeTwo != PokemonType.TypeNull)
+            if (typeTwo != null)
             {
                 int typeTwoIndex = (int)typeTwo;
                 for (int i = 0; i < 18; i++)
@@ -199,7 +218,7 @@ namespace TeamAnalysisLogic
             }
             return defenseRating;
         }
-        public static double[] PokemonOverallRating(PokemonType typeOne, PokemonType typeTwo)
+        public static double[] PokemonOverallRating(PokemonType typeOne, PokemonType? typeTwo)
         {
             double[] overallRating = new double[18];
             double[] attackRating = PokemonAttackRating(typeOne, typeTwo);
@@ -209,6 +228,110 @@ namespace TeamAnalysisLogic
                 overallRating[i] = attackRating[i] - defenseRating[i];
             }
             return overallRating;
+        }
+        public struct TeamBase
+        {
+            private int teamID;
+            public PokemonType pkmOneTypeOne;
+            public PokemonType? pkmOneTypeTwo;
+
+            public PokemonType pkmTwoTypeOne;
+            public PokemonType? pkmTwoTypeTwo;
+
+            public PokemonType pkmThreeTypeOne;
+            public PokemonType? pkmThreeTypeTwo;
+
+            public PokemonType pkmFourTypeOne;
+            public PokemonType? pkmFourTypeTwo;
+
+            public PokemonType pkmFiveTypeOne;
+            public PokemonType? pkmFiveTypeTwo;
+
+            public PokemonType pkmSixTypeOne;
+            public PokemonType? pkmSixTypeTwo;
+            public void DisplayTeamID()
+            {
+                Console.WriteLine($"This team's ID number is: {teamID}");
+            }
+            public TeamBase(PokemonType pkmOneTypeOne, PokemonType? pkmOneTypeTwo, PokemonType pkmTwoTypeOne, PokemonType? pkmTwoTypeTwo, PokemonType pkmThreeTypeOne, PokemonType pkmThreeTypeTwo, PokemonType pkmFourTypeOne, PokemonType? pkmFourTypeTwo, PokemonType pkmFiveTypeOne, PokemonType? pkmFiveTypeTwo, PokemonType pkmSixTypeOne, PokemonType? pkmSixTypeTwo)
+            {
+                Random tR = new Random();
+                teamID = tR.Next(1000, 10001);
+                this.pkmOneTypeOne = pkmOneTypeOne;
+                this.pkmOneTypeTwo = pkmOneTypeTwo;
+                this.pkmTwoTypeOne = pkmTwoTypeOne;
+                this.pkmTwoTypeTwo = pkmTwoTypeTwo;
+                this.pkmThreeTypeOne = pkmThreeTypeOne;
+                this.pkmThreeTypeTwo = pkmThreeTypeTwo;
+                this.pkmFourTypeOne = pkmFourTypeOne;
+                this.pkmFourTypeTwo = pkmFourTypeTwo;
+                this.pkmFiveTypeOne = pkmFiveTypeOne;
+                this.pkmFiveTypeTwo = pkmFiveTypeTwo;
+                this.pkmSixTypeOne = pkmSixTypeOne;
+                this.pkmSixTypeTwo = pkmSixTypeTwo;
+            }
+        }
+        public struct TeamVGC
+        {
+            private int teamID;
+            public PokemonType pkmOneTypeOne;
+            public PokemonType? pkmOneTypeTwo;
+
+            public PokemonType pkmTwoTypeOne;
+            public PokemonType? pkmTwoTypeTwo;
+
+            public PokemonType pkmThreeTypeOne;
+            public PokemonType? pkmThreeTypeTwo;
+
+            public PokemonType pkmFourTypeOne;
+            public PokemonType? pkmFourTypeTwo;
+            public void DisplayTeamID()
+            {
+                Console.WriteLine($"This team's ID number is: {teamID}");
+            }
+
+            public TeamVGC(PokemonType pkmOneTypeOne, PokemonType? pkmOneTypeTwo, PokemonType pkmTwoTypeOne, PokemonType? pkmTwoTypeTwo, PokemonType pkmThreeTypeOne, PokemonType pkmThreeTypeTwo, PokemonType pkmFourTypeOne, PokemonType? pkmFourTypeTwo)
+            {
+                Random tR = new Random();
+                teamID = tR.Next(1000, 10001);
+                this.pkmOneTypeOne = pkmOneTypeOne;
+                this.pkmOneTypeTwo = pkmOneTypeTwo;
+                this.pkmTwoTypeOne = pkmTwoTypeOne;
+                this.pkmTwoTypeTwo = pkmTwoTypeTwo;
+                this.pkmThreeTypeOne = pkmThreeTypeOne;
+                this.pkmThreeTypeTwo = pkmThreeTypeTwo;
+                this.pkmFourTypeOne = pkmFourTypeOne;
+                this.pkmFourTypeTwo = pkmFourTypeTwo;
+            }
+        }
+
+        public static double[] AnalyzeTeam(TeamBase teamBase)
+        {
+            double[] pkmnOneRating = PokemonOverallRating(teamBase.pkmOneTypeOne, teamBase.pkmOneTypeTwo);
+            double[] pkmnTwoRating = PokemonOverallRating(teamBase.pkmTwoTypeOne, teamBase.pkmTwoTypeTwo);
+            double[] pkmnThreeRating = PokemonOverallRating(teamBase.pkmThreeTypeOne, teamBase.pkmThreeTypeTwo);
+            double[] pkmnFourRating = PokemonOverallRating(teamBase.pkmFourTypeOne, teamBase.pkmFourTypeTwo);
+            double[] pkmnFiveRating = PokemonOverallRating(teamBase.pkmFiveTypeOne, teamBase.pkmFiveTypeTwo);
+            double[] pkmnSixRating = PokemonOverallRating(teamBase.pkmSixTypeOne, teamBase.pkmSixTypeTwo);
+            double[] teamBaseRating = new double[18];
+            for (int i = 0; i < 18; i++)
+            {
+                teamBaseRating[i] = pkmnOneRating[i] + pkmnTwoRating[i] + pkmnThreeRating[i] + pkmnFourRating[i] + pkmnFiveRating[i] + pkmnSixRating[i];
+            }
+            return teamBaseRating;
+        }
+        public static double[] AnalyzeTeam(TeamVGC teamVGC)
+        {
+            double[] pkmnOneRating = PokemonOverallRating(teamVGC.pkmOneTypeOne, teamVGC.pkmOneTypeTwo);
+            double[] pkmnTwoRating = PokemonOverallRating(teamVGC.pkmTwoTypeOne, teamVGC.pkmTwoTypeTwo);
+            double[] pkmnThreeRating = PokemonOverallRating(teamVGC.pkmThreeTypeOne, teamVGC.pkmThreeTypeTwo);
+            double[] pkmnFourRating = PokemonOverallRating(teamVGC.pkmFourTypeOne, teamVGC.pkmFourTypeTwo);
+            double[] teamVGCRating = new double[18];
+            for (int i = 0; i < 18; i++)
+            {
+                teamVGCRating[i] = pkmnOneRating[i] + pkmnTwoRating[i] + pkmnThreeRating[i] + pkmnFourRating[i];
+            }
+            return teamVGCRating;
         }
     }
 }
