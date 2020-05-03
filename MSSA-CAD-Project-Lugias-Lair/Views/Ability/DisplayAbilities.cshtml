@@ -1,8 +1,15 @@
-﻿@model IQueryable<Ability>
+﻿@model List<Ability>
 @{
     ViewBag.Title = "Display Abilities";
 }
 <h3 class="text-center">Abilities</h3>
+<form asp-controller="Ability" asp-action="DisplayAbilities" method="get">
+    <p>
+        Search by Ability Name: <input type="text" name="searchName" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
 <table class="table">
     <thead>
         <tr class="text-center">

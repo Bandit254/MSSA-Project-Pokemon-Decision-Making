@@ -14,9 +14,15 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
         {
             repository = repo;
         }
-        public ViewResult DisplayAbilities()
+        [HttpGet]
+        public ViewResult DisplayAbilities(string searchName)
         {
-            return View(repository.Abilities);
+            var searchResults = repository.Abilities.Select(a => a);
+            if (!String.IsNullOrEmpty(searchName))
+            {
+                searchResults = repository.Abilities.Where(a => a.AbilityName.Contains(searchName));
+            }
+            return View(searchResults.ToList());
         }
     }
 }

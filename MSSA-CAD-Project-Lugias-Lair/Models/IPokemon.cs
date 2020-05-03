@@ -8,5 +8,6 @@ namespace MSSA_CAD_Project_Lugias_Lair.Models
     public interface IPokemon
     {
         IQueryable<Pokemon> Pokemon { get; }
+
     }
 }

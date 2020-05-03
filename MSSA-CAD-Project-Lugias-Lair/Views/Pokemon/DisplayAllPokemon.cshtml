@@ -1,0 +1,54 @@
+﻿@model IQueryable<Pokemon>
+@{
+    ViewBag.Title = "All Pokemon";
+}
+
+<div class="text-center">
+    <h1 >Pokemon</h1>
+</div>
+
+
+<div>
+    <h3 class="text-center">All Pokemon From Every Game</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Pokedex Number</th>
+                <th scope="col">Pokemon Name</th>
+                <th scope="col">1st Type</th>
+                <th scope="col">2nd Type</th>
+                <th scope="col">Base Stat Total</th>
+                <th scope="col">Hit Points</th>
+                <th scope="col">Attack</th>
+                <th scope="col">Defense</th>
+                <th scope="col">Special Attack</th>
+                <th scope="col">Special Defense</th>
+                <th scope="col">Speed</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var p in Model)
+            {
+                <tr>
+                    <td scope="row">@p.PokemonNumber</td>
+                    <td>@p.PokemonName</td>
+                    <td>@p.PokemonTypeOne</td>
+                    <td>@p.PokemonTypeTwo</td>
+                    <td>@p.PokemonStatTotal</td>
+                    <td>@p.PokemonHitPoints</td>
+                    <td>@p.PokemonAttack</td>
+                    <td>@p.PokemonDefense</td>
+                    <td>@p.PokemonSpecialAttack</td>
+                    <td>@p.PokemonSpecialDefense</td>
+                    <td>@p.PokemonSpeed</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a class="btn btn-primary" asp-controller="Pokemon" asp-action="CustomizePokemon">Customize the Selected Pokemon</a>
+</div>
+
+
+<footer>
+    <a class="btn btn-primary" asp-controller="Home" asp-action="ContentHub">Return to Content Hub</a>
+</footer>

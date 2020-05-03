@@ -1,10 +1,17 @@
-﻿@model IQueryable<HeldItem>
+﻿@model List<HeldItem>
 @{
     ViewBag.Title = "Display All Items";
 }
-<head>
-    <h3 class="text-center">Items</h3>
-</head>
+
+<form asp-controller="HeldItem" asp-action="DisplayAllItems" method="get">
+    <p>
+        Search by Item Type (Berries or Hold Items): <input type="text" name="searchType" />
+        Search by Item Name: <input type="text" name="searchName" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+<h3 class="text-center">Items</h3>
 <table class="table">
     <thead>
         <tr>

@@ -6,10 +6,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="TeamAnalysisLogic\**" />
+    <Compile Remove="VGC_Team_Generation\**" />
     <Compile Remove="wwwroot\js\**" />
+    <Content Remove="TeamAnalysisLogic\**" />
+    <Content Remove="VGC_Team_Generation\**" />
     <Content Remove="wwwroot\js\**" />
+    <EmbeddedResource Remove="TeamAnalysisLogic\**" />
+    <EmbeddedResource Remove="VGC_Team_Generation\**" />
     <EmbeddedResource Remove="wwwroot\js\**" />
+    <None Remove="TeamAnalysisLogic\**" />
+    <None Remove="VGC_Team_Generation\**" />
     <None Remove="wwwroot\js\**" />
+    <TypeScriptCompile Remove="TeamAnalysisLogic\**" />
+    <TypeScriptCompile Remove="VGC_Team_Generation\**" />
     <TypeScriptCompile Remove="wwwroot\js\**" />
   </ItemGroup>
 

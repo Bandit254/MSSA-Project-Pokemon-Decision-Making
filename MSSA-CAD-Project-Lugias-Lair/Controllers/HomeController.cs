@@ -18,14 +18,10 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
         {
             repository = repo;
         }
-        public ViewResult Index()
+        public ViewResult VGCOverview()
         {
             return View();
         }
-
-
-
-
         [HttpGet]
         public ViewResult ConditionalTeam()
         {

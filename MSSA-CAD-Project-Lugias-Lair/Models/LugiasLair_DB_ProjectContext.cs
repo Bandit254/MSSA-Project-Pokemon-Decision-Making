@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.DependencyInjection;
 
+
 namespace MSSA_CAD_Project_Lugias_Lair.Models
 {
     public partial class LugiasLair_DB_ProjectContext : DbContext

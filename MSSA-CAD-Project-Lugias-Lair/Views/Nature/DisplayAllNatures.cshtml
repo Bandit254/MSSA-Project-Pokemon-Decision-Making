@@ -1,10 +1,27 @@
-﻿@model IQueryable<Nature>
+﻿@model List<Nature>
 @{
     ViewBag.Title = "Display All Natures";
 }
 <head>
     <h3 class="text-center">Natures</h3>
 </head>
+<form asp-controller="Nature" asp-action="DisplayAllNatures" method="get">
+    <p>
+        Search by Nature Name: <input type="text" name="searchName" />
+        Search by Boosted Stat: <input type="text" name="boostedStat" />
+        Search by Decreased Stat: <input type="text" name="decreasedStat" />
+        Search by Disliked Berry Flavor: <input type="text" name="dislikedBerry" />
+        <input type="submit" value="Filter" />
+    </p>
+    <p class="text-center">
+        <h6 class="text-center">Stats Affected by Natures</h6>
+        Attack | Defense | Sp. Attack | Sp. Defense | Speed
+    </p>
+    <p class="text-center">
+        <h6 class="text-center">Berry Flavors</h6>
+        Dry | Sour | Spicy | Bitter | Sweet
+    </p>
+</form>
 <table class="table">
     <thead>
         <tr>

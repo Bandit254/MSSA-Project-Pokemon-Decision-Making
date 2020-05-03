@@ -1,10 +1,21 @@
-﻿@model IQueryable<Characteristic>
+﻿@model List<Characteristic>
 @{
     ViewBag.Title = "Display Characteristics";
 }
 <head>
     <h3 class="text-center">Characteristics</h3>
 </head>
+<form asp-controller="Characteristic" asp-action="DisplayCharacteristics" method="get">
+    <p>
+        Search by Characteristic Description: <input type="text" name="searchDescription" />
+        Search by Boosted Stat: <input type="text" name="boostedStat" />
+        <input type="submit" value="Filter" />
+    </p>
+    <p class="text-center">
+        <h6 class="text-center">Stats Boosted by Characteristics</h6>
+        Attack | Defense | Sp. Attack | Sp. Defense | Speed | HP
+    </p>
+</form>
 <table class="table">
     <thead>
         <tr>
