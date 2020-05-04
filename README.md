@@ -20,6 +20,7 @@ Competitive Pokémon, while based on a children's game, is an extremely complex 
  15. [Sprint Reviews](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#sprint-reviews)
  16. [Project Work Backlog](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#project-work-backlog)
  17. [Most Current Source Code (located on dev branch)](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/dev/MSSA-CAD-Project-Lugias-Lair)
+ 18. [Live Website](https://lugias-lair.azurewebsites.net)
 
 ## Project Motivation / Background
 I have been playing Pokémon on-and-off since 5th grade. I came to the game late compared to my friends who were immediately swept up by the first generation of games in the late 1990s, but it has stuck with me longer.
@@ -265,11 +266,11 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM0MzY5OTYzLC0zMjU3Mjk3NTMsLTE3ND
-g5MDEyMTQsLTExMjA3MTkxMjIsLTEzMTUxMzA2NzcsOTkwNDUz
-NTU2LDE4MzQyMzMyMDAsMzY5OTM0NzUyLC0yNDU4MTc1MjEsLT
-ExMzM1NzgzOSwtMjkxNTcwNDA0LC0xNzgxMDg5Njg5LC0xMDA1
-NDAyOTM3LC0yMDM2ODYzMTkwLC0xOTUwNzMzMzQ2LC0xNDc5Mj
-Q5MjU4LC0xNjI3ODc1NDU4LC0xMTI0MzU2NDk3LC01NDEzNjMz
-NDgsLTEwNDUzNTkzNjBdfQ==
+eyJoaXN0b3J5IjpbLTkzNTI1Mjg3Nyw3MzQzNjk5NjMsLTMyNT
+cyOTc1MywtMTc0ODkwMTIxNCwtMTEyMDcxOTEyMiwtMTMxNTEz
+MDY3Nyw5OTA0NTM1NTYsMTgzNDIzMzIwMCwzNjk5MzQ3NTIsLT
+I0NTgxNzUyMSwtMTEzMzU3ODM5LC0yOTE1NzA0MDQsLTE3ODEw
+ODk2ODksLTEwMDU0MDI5MzcsLTIwMzY4NjMxOTAsLTE5NTA3Mz
+MzNDYsLTE0NzkyNDkyNTgsLTE2Mjc4NzU0NTgsLTExMjQzNTY0
+OTcsLTU0MTM2MzM0OF19
 -->
