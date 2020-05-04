@@ -17,7 +17,7 @@ Competitive Pokémon, while based on a children's game, is an extremely complex 
  12. [Entity Framework and Initial Model Scaffolding](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#entity-framework-and-initial-model-scaffolding)
  13. [Connecting to the DB to Display/Modify Data](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#connecting-to-the-db-to-displaymodify-data)
  14. [Initial Sprint Planning](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#initial-sprint-planning)
- 15. [Sprint Reviews](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#sprint-reviews)
+ 15. [Sprint Reviews](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/11.%20Sprint%20Planning%20and%20Review)
  16. [Project Work Backlog](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#project-work-backlog)
  17. [Most Current Source Code (located on dev branch)](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/dev/MSSA-CAD-Project-Lugias-Lair)
  18. [Live Website](https://lugias-lair.azurewebsites.net)
@@ -266,11 +266,11 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNTI1Mjg3Nyw3MzQzNjk5NjMsLTMyNT
-cyOTc1MywtMTc0ODkwMTIxNCwtMTEyMDcxOTEyMiwtMTMxNTEz
-MDY3Nyw5OTA0NTM1NTYsMTgzNDIzMzIwMCwzNjk5MzQ3NTIsLT
-I0NTgxNzUyMSwtMTEzMzU3ODM5LC0yOTE1NzA0MDQsLTE3ODEw
-ODk2ODksLTEwMDU0MDI5MzcsLTIwMzY4NjMxOTAsLTE5NTA3Mz
-MzNDYsLTE0NzkyNDkyNTgsLTE2Mjc4NzU0NTgsLTExMjQzNTY0
-OTcsLTU0MTM2MzM0OF19
+eyJoaXN0b3J5IjpbLTE2NDQyODk0OTUsLTkzNTI1Mjg3Nyw3Mz
+QzNjk5NjMsLTMyNTcyOTc1MywtMTc0ODkwMTIxNCwtMTEyMDcx
+OTEyMiwtMTMxNTEzMDY3Nyw5OTA0NTM1NTYsMTgzNDIzMzIwMC
+wzNjk5MzQ3NTIsLTI0NTgxNzUyMSwtMTEzMzU3ODM5LC0yOTE1
+NzA0MDQsLTE3ODEwODk2ODksLTEwMDU0MDI5MzcsLTIwMzY4Nj
+MxOTAsLTE5NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2Mjc4NzU0
+NTgsLTExMjQzNTY0OTddfQ==
 -->
