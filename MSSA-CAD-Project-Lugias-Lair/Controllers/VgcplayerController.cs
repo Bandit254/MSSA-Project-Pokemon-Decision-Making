@@ -24,7 +24,8 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
         [HttpPost]
         public IActionResult SignIn(Vgcplayer vgcplayer)//
         {
-            Vgcplayer authUser = repository.Vgcplayers.Where(authUser => authUser.UserEmail == vgcplayer.UserEmail && authUser.UserPassword == vgcplayer.UserPassword).FirstOrDefault();
+            Vgcplayer authUser = repository.Vgcplayers.Where(
+                authUser => authUser.UserEmail == vgcplayer.UserEmail && authUser.UserPassword == vgcplayer.UserPassword).FirstOrDefault();
             if (authUser == null)
             {
                 return View("SignIn");

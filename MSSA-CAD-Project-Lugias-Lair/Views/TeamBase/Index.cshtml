@@ -1,0 +1,149 @@
+﻿@model TeamBase
+@{ 
+    ViewBag.Title = "Current Team";
+}
+
+<div class="container align-content-center">
+   
+       <h3 class="text-center">Current Team</h3>
+       <div class="row text-align-center">
+           <div class="col-4">
+               <p>User Name: @Context.Session.GetString("User Name")</p>
+               <p>(Username only appears for users who are logged in with an account)</p>
+           </div>
+           <div class="col-4">
+               <form asp-controller="TeamBase" asp-action="SetTeamBaseName" method="post">
+                  Update / Set Team Name: <input type="text" name="teamBaseName" />
+                   <input type="submit" value="Save Name" />
+               </form>
+           </div>
+           <div class="col-4">
+               <form id="@Model.TeamPublic" asp-controller="TeamBase" asp-action="MarkTeamBasePublic" method="post">
+                   Make team Public to All Users: <input type="checkbox" name="teamPublic" />
+                   <input type="submit" value="Save Public/Private" />
+               </form>
+           </div>
+       </div>
+       <div class="row">
+           @if (@Model.TeamBaseName != null)
+           {
+               <h4 class="text-align-center">@Model.TeamBaseName</h4>
+           }
+           <div class="col">
+               <table class="table-bordered text-align-center">
+                   <thead>
+                       <tr>
+                           <th scope="col">Slot #</th>
+                           <th scope="col">Pokemon</th>
+                           <th scope="col">Remove From Team</th>
+                       </tr>
+                   </thead>
+                   <tbody>
+                       @{ if (@Model.PokemonOneId != 0)
+                           {
+                               <tr>
+                                   <td scope="row">1</td>
+                                   <td>@Model.PokemonOne.PokemonName</td>
+                                   <td>
+                                       <form id="@Model.PokemonOneId" asp-action="RemoveFromTeamBase"
+                                             asp-controller="TeamBase" method="post">
+                                           <input type="hidden" value="@Model.PokemonOneId" name="pokemonId" />
+                                           <button type="submit" class="btn-danger">Remove</button>
+                                       </form>
+                                   </td>
+                               </tr>
+                           }
+                       }
+                       @{ if (@Model.PokemonTwoId != 0)
+                           {
+                               <tr>
+                                   <td scope="row">2</td>
+                                   <td>@Model.PokemonTwo.PokemonName</td>
+                                   <td>
+                                       <form id="@Model.PokemonTwoId" asp-action="RemoveFromTeamBase"
+                                             asp-controller="TeamBase" method="post">
+                                           <input type="hidden" value="@Model.PokemonTwoId" name="pokemonId" />
+                                           <button type="submit" class="btn-danger">Remove</button>
+                                       </form>
+                                   </td>
+                               </tr>
+                           }
+                       }
+                       @{ if (@Model.PokemonThreeId !=0)
+                           {
+                               <tr>
+                                   <td scope="row">3</td>
+                                   <td>@Model.PokemonThree.PokemonName</td>
+                                   <td>
+                                       <form id="@Model.PokemonThreeId" asp-action="RemoveFromTeamBase"
+                                             asp-controller="TeamBase" method="post">
+                                           <input type="hidden" value="@Model.PokemonThreeId" name="pokemonId" />
+                                           <button type="submit" class="btn-danger">Remove</button>
+                                       </form>
+                                   </td>
+                               </tr>
+                           }
+                       }
+                       @{ if (@Model.PokemonFourId != 0)
+                           {
+                               <tr>
+                                   <td scope="row">4</td>
+                                   <td>@Model.PokemonFour.PokemonName</td>
+                                   <td>
+                                       <form id="@Model.PokemonFourId" asp-action="RemoveFromTeamBase"
+                                             asp-controller="TeamBase" method="post">
+                                           <input type="hidden" value="@Model.PokemonFourId" name="pokemonId" />
+                                           <button type="submit" class="btn-danger">Remove</button>
+                                       </form>
+                                   </td>
+                               </tr>
+                           }
+                       }
+                       @{ if (@Model.PokemonFiveId != 0)
+                           {
+                               <tr>
+                                   <td scope="row">5</td>
+                                   <td>@Model.PokemonFive.PokemonName</td>
+                                   <td>
+                                       <form id="@Model.PokemonFiveId" asp-action="RemoveFromTeamBase"
+                                             asp-controller="TeamBase" method="post">
+                                           <input type="hidden" value="@Model.PokemonFiveId" name="pokemonId" />
+                                           <button type="submit" class="btn-danger">Remove</button>
+                                       </form>
+                                   </td>
+                               </tr>
+                           }
+                       }
+                       @{ if (@Model.PokemonSixId != 0)
+                           {
+                               <tr>
+                                   <td scope="row">6</td>
+                                   <td>@Model.PokemonSix.PokemonName</td>
+                                   <td>
+                                       <form id="@Model.PokemonSixId" asp-action="RemoveFromTeamBase"
+                                             asp-controller="TeamBase" method="post">
+                                           <input type="hidden" value="@Model.PokemonSixId" name="pokemonId" />
+                                           <button type="submit" class="btn-danger">Remove</button>
+                                       </form>
+                                   </td>
+                               </tr>
+                           }
+                       }
+                   </tbody>
+               </table>
+           </div>
+       </div>
+        <div class="row text-align-center">
+            <div class="col-4 align-content-center">
+                <form asp-controller="TeamBase" asp-action="SaveTeamBase" method="post">
+                    <input class="btn btn-primary" type="submit" value="Save Team" />
+                </form>
+            </div>
+            <div class="col-4 align-content-center">
+                <a class="btn btn-primary" asp-controller="Pokemon" asp-action="SearchPokemon">Add Another Pokemon</a>
+            </div>
+            <div class="col-4 align-content-center">
+                <a class="btn btn-danger" asp-controller="TeamBase" asp-action="ClearTeamBase">Clear Team</a>
+            </div>
+        </div>
+</div>

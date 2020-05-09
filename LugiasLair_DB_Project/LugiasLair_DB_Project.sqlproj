@@ -71,7 +71,7 @@
     <Build Include="CreatePokedexEntryTable.sql" />
     <Build Include="CreatePokemonHasAbilityTable.sql" />
     <Build Include="CreatePokemonLearnsMoveTable.sql" />
-    <Build Include="CreatePokemonTable.sql" />
+    <None Include="CreatePokemonTable.sql" />
     <Build Include="CreateTeamBaseTable.sql" />
     <Build Include="CreateTeamVGCTable.sql" />
     <Build Include="CreateTypeTable.sql" />

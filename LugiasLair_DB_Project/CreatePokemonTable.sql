@@ -1042,6 +1042,20 @@ VALUES
 (998,866, 'Mr. Rime',11,6,520,80,85,75,110,100,70),
 (999,867, 'Runerigus',9,14,483,58,95,145,50,105,30),
 (1000,868, 'Milcery',18,null,270,45,40,40,50,61,34),
+
+GO
+
+SELECT * FROM Pokemon;
+GO
+--
+
+*/
+SET IDENTITY_INSERT [dbo].[Pokemon] ON;
+GO
+INSERT INTO [dbo].[Pokemon] (pokemonID, pokemonNumber, pokemonName, pokemonTypeOne,
+pokemonTypeTwo, pokemonStatTotal, pokemonHitPoints, pokemonAttack, 
+pokemonDefense, pokemonSpecialAttack, pokemonSpecialDefense, pokemonSpeed)
+VALUES
 (1001,869, 'Alcremie',18,null,495,65,60,75,110,121,64),
 (1002,870, 'Falinks',7,null,470,65,100,100,70,60,75),
 (1003,871, 'Pincurchin',4,null,435,48,101,95,91,85,15),
@@ -1071,9 +1085,5 @@ VALUES
 (1027,890, 'Eternatus',8,15,690,140,85,95,145,95,130),
 (1028,890, 'Eternatus (Eternamax)',8,15,1125,255,115,250,125,250,130);
 GO
-
-SELECT * FROM Pokemon;
+SET IDENTITY_INSERT [dbo].[Pokemon] OFF
 GO
---SET IDENTITY_INSERT Pokemon OFF;
-
-*/

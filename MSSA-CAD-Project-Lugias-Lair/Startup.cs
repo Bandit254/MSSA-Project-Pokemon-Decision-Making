@@ -20,9 +20,9 @@ namespace MSSA_CAD_Project_Lugias_Lair
         public IConfiguration Configuration { get; }
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDistributedMemoryCache();//
-            services.AddSession();//
-            services.AddTransient<IAbility,EFAbilityRepository>();
+            services.AddDbContext<LugiasLair_DB_ProjectContext>
+                (options => options.UseSqlServer(Configuration["Data:LugiasLairDB:ConnectionString"]));
+            services.AddTransient<IAbility, EFAbilityRepository>();
             services.AddTransient<ICharacteristic, EFCharacteristicRepository>();
             services.AddTransient<ICustomPokemon, EFCustomPokemonRepository>();
             services.AddTransient<IHeldItem, EFHeldItemRepository>();
@@ -39,8 +39,10 @@ namespace MSSA_CAD_Project_Lugias_Lair
             services.AddTransient<ITeamBase, EFTeamBaseRepository>();
             services.AddTransient<ITeamVgc, EFTeamVgcRepository>();
             services.AddTransient<IVgcplayer, EFVgcplayerRepository>();
-            services.AddDbContext<LugiasLair_DB_ProjectContext>
-                (options => options.UseSqlServer(Configuration["Data:LugiasLairDB:ConnectionString"]));
+            services.AddDistributedMemoryCache();//
+            services.AddSession();//
+            services.AddScoped<TeamBase>(tB => TeamBaseSession.GetTeamBase(tB));//
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddMvc(option => option.EnableEndpointRouting = false);
         }
 
@@ -59,7 +61,7 @@ namespace MSSA_CAD_Project_Lugias_Lair
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Vgcplayer}/{action=SignIn}");
+                    template: "{controller=Home}/{action=ContentHub}");
             });
 
         }

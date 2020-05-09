@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Duplicate Pokemon Error";
+}
+    <div class="container">
+        <h5 class="text-align-center">No Duplicates!</h5>
+        <p class="text-align-center">To be valid according to VGC rules, a Base Team cannot have more than one of each species of Pokemon; it looks like you tried to add two of the same Pokemon!</p>
+        <div class="row">
+            <div class="col-6">
+                <a class="btn btn-primary" asp-controller="TeamBase" asp-action="Index">Return to the Team</a>
+            </div>
+            <div class="col-6">
+                <a class="btn btn-primary" asp-controller="Pokemon" asp-action="SearchPokemon">Add a Different Pokemon</a>
+            </div>
+        </div>
+    </div>

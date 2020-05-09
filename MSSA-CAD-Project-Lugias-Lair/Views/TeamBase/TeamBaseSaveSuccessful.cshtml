@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Titel = "Team Saved";
+}
+    <div class="container">
+        <h5 class="text-align-center">Team Saved!</h5>
+        <p class="text-align-center">Your team was saved successfully. You can now view the team in the list of all other Base Teams or make return to the Pokemon Search page to start a new team.</p>
+        <div class="row">
+            <div class="col-6">
+                <a class="btn btn-primary" asp-controller="TeamBase" asp-action="DisplayAllBaseteams">View all Teams</a>
+            </div>
+            <div class="col-6">
+                <a class="btn btn-primary" asp-controller="Pokemon" asp-action="SearchPokemon">Add Pokemon to a New team</a>
+            </div>
+        </div>
+    </div>

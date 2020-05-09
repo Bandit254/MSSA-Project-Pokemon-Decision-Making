@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -25,17 +26,19 @@ namespace MSSA_CAD_Project_Lugias_Lair.Models
                 if (dbEntry!=null)
                 {
                     dbEntry.TeamBaseName = teamBase.TeamBaseName;
-                    dbEntry.UserId = teamBase.UserId;
                     dbEntry.PokemonOneId = teamBase.PokemonOneId;
                     dbEntry.PokemonTwoId = teamBase.PokemonTwoId;
                     dbEntry.PokemonThreeId = teamBase.PokemonThreeId;
                     dbEntry.PokemonFourId = teamBase.PokemonFourId;
                     dbEntry.PokemonFiveId = teamBase.PokemonFiveId;
                     dbEntry.PokemonSixId = teamBase.PokemonSixId;
+                    dbEntry.UserId = teamBase.UserId;
                     dbEntry.TeamPublic = teamBase.TeamPublic;
                 }
             }
+            //context.Database.ExecuteSqlRaw("SET IDENTITY_INSERT dbo.Pokemon ON");
             context.SaveChanges();
+            //context.Database.ExecuteSqlRaw("SET IDENTITY_INSERT dbo.TeamBase OFF");
         }
         public TeamBase DeleteTeamBase(int teamBaseId)
         {

@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Team Save Error";
+}
+<div class="container">
+    <h5 class="text-align-center">Someone's Missing!</h5>
+    <p class="text-align-center">A Base Team must have 6 Pokemon assigned to it before it can be saved; looks like you still need to add one or more Pokemon before you have a full team!</p>
+    <div class="row">
+        <div class="col-6">
+            <a class="btn btn-primary" asp-controller="TeamBase" asp-action="Index">Return to the Team</a>
+        </div>
+        <div class="col-6">
+            <a class="btn btn-primary" asp-controller="Pokemon" asp-action="SearchPokemon">Add Another Pokemon</a>
+        </div>
+    </div>
+</div>

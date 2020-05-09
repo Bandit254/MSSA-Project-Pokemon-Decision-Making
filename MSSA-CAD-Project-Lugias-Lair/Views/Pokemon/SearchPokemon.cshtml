@@ -4,63 +4,65 @@
 }
 
 
+    <h1 class="text-center">Pokemon Lookup</h1>
+    <p>Search for Pokemon Based on Various Criteria</p>
 
-
-
-
-            <h1 class="text-center">Pokemon Lookup</h1>
-            <p>Search for Pokemon Based on Various Criteria</p>
-
-        <form asp-controller="Pokemon" asp-action="SearchPokemon" method="get">
-            <p>
-                Search by Pokemon Name: <input type="text" name="searchName" />
-                Search by Pokemon Type (1/2): <input type="number" name="searchType" />
-                Search by Pokemon Type (2/2): <input type="number" name="searchType2" />
-                <input type="submit" value="Filter" />
-            </p>
-            <p class="text-center">
-                <h6 class="text-center">Pokemon Types</h6>
-            1 = Normal, 2 = Fire, 3 = Water, 4 = Grass, 5 = Electric, 6 = Ice, 7 = Fighting, 8 = Poison, 9 = Ground, 10 = Flying, 11 = Psychic, 12 = Bug, 13 = Rock, 14 = Ghost, 15 = Dragon, 16 = Dark, 17 = Steel, 18 = Fairy
-            </p>
-        </form>
-        <h3 class="text-center">Search Results</h3>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">Pokedex Number</th>
-                    <th scope="col">Pokemon Name</th>
-                    <th scope="col">1st Type</th>
-                    <th scope="col">2nd Type</th>
-                    <th scope="col">Base Stat Total</th>
-                    <th scope="col">Hit Points</th>
-                    <th scope="col">Attack</th>
-                    <th scope="col">Defense</th>
-                    <th scope="col">Special Attack</th>
-                    <th scope="col">Special Defense</th>
-                    <th scope="col">Speed</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var p in Model)
-                {
-                    <tr>
-                        <td scope="row">@p.PokemonNumber</td>
-                        <td>@p.PokemonName</td>
-                        <td>@p.PokemonTypeOne</td>
-                        <td>@p.PokemonTypeTwo</td>
-                        <td>@p.PokemonStatTotal</td>
-                        <td>@p.PokemonHitPoints</td>
-                        <td>@p.PokemonAttack</td>
-                        <td>@p.PokemonDefense</td>
-                        <td>@p.PokemonSpecialAttack</td>
-                        <td>@p.PokemonSpecialDefense</td>
-                        <td>@p.PokemonSpeed</td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-        <a class="btn btn-primary" asp-controller="Pokemon" asp-action="CustomizePokemon">Customize the Selected Pokemon</a>
-
+<form asp-controller="Pokemon" asp-action="SearchPokemon" method="get">
+    <p>
+        Search by Pokemon Name: <input type="text" name="searchName" />
+        Search by Pokemon Type (1/2): <input type="number" name="searchType" />
+        Search by Pokemon Type (2/2): <input type="number" name="searchType2" />
+        <input type="submit" value="Filter" />
+    </p>
+    <p class="text-center">
+        <h6 class="text-center">Pokemon Types</h6>
+    1 = Normal, 2 = Fire, 3 = Water, 4 = Grass, 5 = Electric, 6 = Ice, 7 = Fighting, 8 = Poison, 9 = Ground, 10 = Flying, 11 = Psychic, 12 = Bug, 13 = Rock, 14 = Ghost, 15 = Dragon, 16 = Dark, 17 = Steel, 18 = Fairy
+    </p>
+</form>
+<h3 class="text-center">Search Results</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Pokedex Number</th>
+            <th scope="col">Pokemon Name</th>
+            <th scope="col">1st Type</th>
+            <th scope="col">2nd Type</th>
+            <th scope="col">Base Stat Total</th>
+            <th scope="col">Hit Points</th>
+            <th scope="col">Attack</th>
+            <th scope="col">Defense</th>
+            <th scope="col">Special Attack</th>
+            <th scope="col">Special Defense</th>
+            <th scope="col">Speed</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td scope="row">@p.PokemonNumber</td>
+                <td>@p.PokemonName</td>
+                <td>@p.PokemonTypeOne</td>
+                <td>@p.PokemonTypeTwo</td>
+                <td>@p.PokemonStatTotal</td>
+                <td>@p.PokemonHitPoints</td>
+                <td>@p.PokemonAttack</td>
+                <td>@p.PokemonDefense</td>
+                <td>@p.PokemonSpecialAttack</td>
+                <td>@p.PokemonSpecialDefense</td>
+                <td>@p.PokemonSpeed</td>
+                <td>
+                    <form id="@p.PokemonId" asp-controller="TeamBase" asp-action="AddToTeamBase" method="post">
+                        <input type="hidden" value="@p.PokemonId" name="pokemonId" />
+                        <input class="btn btn-primary" type="submit" value="Add to Current Team" />
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a class="btn btn-primary" asp-controller="Pokemon" asp-action="CustomizePokemon">Customize the Selected Pokemon</a>
 
 <footer>
     <a class="btn btn-primary" asp-controller="Home" asp-action="ContentHub">Return to Content Hub</a>
