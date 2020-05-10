@@ -41,5 +41,10 @@ namespace MSSA_CAD_Project_Lugias_Lair.Models
             base.SetTeamBaseName(teamBaseName);
             Session.SetJson("TeamBase", this);
         }
+        public override void MarkTeamBasePublic(int teamPublic)
+        {
+            base.MarkTeamBasePublic(teamPublic);
+            Session.SetJson("TeamBase", this);
+        }
     }
 }

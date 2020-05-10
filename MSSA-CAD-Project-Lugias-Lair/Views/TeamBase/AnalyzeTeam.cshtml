@@ -1,4 +1,5 @@
-﻿@{
+﻿@model TeamBaseAnalysisViewModel 
+@{
     ViewBag.Title = "Base Team Analysis";
 }
 
@@ -8,163 +9,113 @@
     <h1>Team Analysis</h1>
     <p>This is the page where players analyze the strengths/weaknesses of their teams</p>
 </header>
-<div>
-    <h3>Team Name</h3>
-    <h4>Team ID</h4>
-    <div>
-        <p>Pokemon 1</p>
-        <img src="~/Images/Lugia_025.jpg" alt="Pokemon Name" />
-    </div>
-    <div>
-        <p>Pokemon 2</p>
-        <img src="" alt="Pokemon Name" />
-    </div>
-    <div>
-        <p>Pokemon 3</p>
-        <img src="" alt="Pokemon Name" />
-    </div>
-    <div>
-        <p>Pokemon 4</p>
-        <img src="" alt="Pokemon Name" />
-    </div>
-    <div>
-        <p>Pokemon 5</p>
-        <img src="" alt="Pokemon Name" />
-    </div>
-    <div>
-        <p>Pokemon 6</p>
-        <img src="" alt="Pokemon Name" />
-    </div>
+<div class="container">
+    <h2 class="text-align-center">Base Team Analysis</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Team Name</th>
+                <th scope="col">User ID</th>
+                <th scope="col">Pokémon One</th>
+                <th scope="col">Pokémon Two</th>
+                <th scope="col">Pokémon Three</th>
+                <th scope="col">Pokémon Four</th>
+                <th scope="col">Pokémon Five</th>
+                <th scope="col">Pokémon Six</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">@Model.TeamBase.TeamBaseName</td>
+                <td>@Model.TeamBase.UserId</td>
+                <td>@Model.TeamBase.PokemonOne.PokemonName</td>
+                <td>@Model.TeamBase.PokemonTwo.PokemonName</td>
+                <td>@Model.TeamBase.PokemonThree.PokemonName</td>
+                <td>@Model.TeamBase.PokemonFour.PokemonName</td>
+                <td>@Model.TeamBase.PokemonFive.PokemonName</td>
+                <td>@Model.TeamBase.PokemonSix.PokemonName</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
-<div>
-    <h3>Analysis Results</h3>
-    <div>
-
-        <table class="table">
-            <caption> Combined Team Type-Weaknesses</caption>
+<div class="container">
+    <table class="table">
+        <h4 class="text-align-center">Team Average Stats</h4>
+        <thead>
             <tr>
-                <th>Type</th>
-                <th># of Pokemon Weak to This Type</th>
+                <th scope="col">Base Stat Total</th>
+                <th scope="col">Hit Points</th>
+                <th scope="col">Attack</th>
+                <th scope="col">Defense</th>
+                <th scope="col">Special Attack</th>
+                <th scope="col">Special Defense</th>
+                <th scope="col">Speed</th>
             </tr>
+        </thead>
+        <tbody>
             <tr>
-                <td> Fire </td>
-                <td> x4 </td>
+                <td scope="row">@Model.TeamStatAverages[0]</td>
+                <td>@Model.TeamStatAverages[1]</td>
+                <td>@Model.TeamStatAverages[2]</td>
+                <td>@Model.TeamStatAverages[3]</td>
+                <td>@Model.TeamStatAverages[4]</td>
+                <td>@Model.TeamStatAverages[5]</td>
+                <td>@Model.TeamStatAverages[6]</td>
             </tr>
-            <tr>
-                <td> Water </td>
-                <td> x1 </td>
-            </tr>
-            <tr>
-                <td> Grass </td>
-                <td> x2 </td>
-            </tr>
-        </table>
-    </div>
-    <div>
-
-        <table class="table">
-            <caption> Combined Team Type-Strengths</caption>
-            <tr>
-                <th>Type</th>
-                <th># of Pokemon Strong Against This Type</th>
-            </tr>
-            <tr>
-                <td> Ground </td>
-                <td> x2 </td>
-            </tr>
-            <tr>
-                <td> Rock </td>
-                <td> x2 </td>
-            </tr>
-            <tr>
-                <td> Ice </td>
-                <td> x1 </td>
-            </tr>
-        </table>
-    </div>
-    <div>
-
-        <table class="table">
-            <caption> Combined Team Type-Resistances</caption>
-            <tr>
-                <th>Type</th>
-                <th># of Pokemon Resistant Against This Type</th>
-            </tr>
-            <tr>
-                <td> Fairy </td>
-                <td> x1 </td>
-            </tr>
-            <tr>
-                <td> Poison </td>
-                <td> x1 </td>
-            </tr>
-            <tr>
-                <td> Flying </td>
-                <td> x0 </td>
-            </tr>
-        </table>
-    </div>
-    <div>
-
-        <table class="table">
-            <caption> Avg. Strength/Weakness to Each Type</caption>
-            <tr>
-                <th>Type</th>
-                <th>Magnitude of Strength/Weakness</th>
-            </tr>
-            <tr>
-                <td> Dragon </td>
-                <td> 0 </td>
-            </tr>
-            <tr>
-                <td> Steel </td>
-                <td> +1 </td>
-            </tr>
-            <tr>
-                <td> Electric </td>
-                <td> -1 </td>
-            </tr>
-        </table>
-    </div>
-    <div>
-
-        <table class="table">
-            <caption> Avg. Team Stats</caption>
-            <tr>
-                <th>Stat</th>
-                <th>Team Avg.</th>
-            </tr>
-            <tr>
-                <td> Base Stat </td>
-                <td> 500 </td>
-            </tr>
-            <tr>
-                <td> Hit Points </td>
-                <td> 84 </td>
-            </tr>
-            <tr>
-                <td> Attack </td>
-                <td> 84 </td>
-            </tr>
-            <tr>
-                <td> Defense </td>
-                <td> 84 </td>
-            </tr>
-            <tr>
-                <td> Special Attack </td>
-                <td> 84 </td>
-            </tr>
-            <tr>
-                <td> Special Defense </td>
-                <td> 84 </td>
-            </tr>
-            <tr>
-                <td> Speed </td>
-                <td> 84 </td>
-            </tr>
-        </table>
-    </div>
+        </tbody>
+    </table>
 </div>
+<div class="container">
+    <h4 class="text-align-center">Type Analysis</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Normal</th>
+                <th>Fire</th>
+                <th>Water</th>
+                <th>Grass</th>
+                <th>Electric</th>
+                <th>Ice</th>
+                <th>Fighting</th>
+                <th>Poison</th>
+                <th>Ground</th>
+                <th>Flying</th>
+                <th>Psychic</th>
+                <th>Bug</th>
+                <th>Rock</th>
+                <th>Ghost</th>
+                <th>Dragon</th>
+                <th>Dark</th>
+                <th>Steel</th>
+                <th>Fairy</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.TeamTypeAnalysis[0]</td>
+                <td>@Model.TeamTypeAnalysis[1]</td>
+                <td>@Model.TeamTypeAnalysis[2]</td>
+                <td>@Model.TeamTypeAnalysis[3]</td>
+                <td>@Model.TeamTypeAnalysis[4]</td>
+                <td>@Model.TeamTypeAnalysis[5]</td>
+                <td>@Model.TeamTypeAnalysis[6]</td>
+                <td>@Model.TeamTypeAnalysis[7]</td>
+                <td>@Model.TeamTypeAnalysis[8]</td>
+                <td>@Model.TeamTypeAnalysis[9]</td>
+                <td>@Model.TeamTypeAnalysis[10]</td>
+                <td>@Model.TeamTypeAnalysis[11]</td>
+                <td>@Model.TeamTypeAnalysis[12]</td>
+                <td>@Model.TeamTypeAnalysis[13]</td>
+                <td>@Model.TeamTypeAnalysis[14]</td>
+                <td>@Model.TeamTypeAnalysis[15]</td>
+                <td>@Model.TeamTypeAnalysis[16]</td>
+                <td>@Model.TeamTypeAnalysis[17]</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
 <div>
     <a class="btn btn-primary" asp-controller="TeamVgc" asp-action="VGCAnalysis">Generate VGC Teams</a>
 </div>

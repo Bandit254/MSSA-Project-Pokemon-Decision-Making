@@ -19,7 +19,7 @@ namespace MSSA_CAD_Project_Lugias_Lair.Models
         public int PokemonSixId { get; set; }
         public int TeamPublic { get; set; }
         public TeamBase() { }
-        public TeamBase(string teamBaseName, int pokemonOneId, int pokemonTwoId, int pokemonThreeId, int pokemonFourId, int pokemonFiveId, int pokemonSixId, int userId = 0, int teamPublic=1)
+        public TeamBase(string teamBaseName, int pokemonOneId, int pokemonTwoId, int pokemonThreeId, int pokemonFourId, int pokemonFiveId, int pokemonSixId, int userId = 0, int? teamPublic=1)
         {
             TeamBaseName = teamBaseName;
             PokemonOneId = pokemonOneId;
@@ -29,7 +29,7 @@ namespace MSSA_CAD_Project_Lugias_Lair.Models
             PokemonFiveId = pokemonFiveId;
             PokemonSixId = pokemonSixId;
             UserId = userId;
-            TeamPublic = teamPublic;
+            TeamPublic = (int)teamPublic;
         }
         
         public virtual Pokemon PokemonFive { get; set; }
@@ -133,6 +133,10 @@ namespace MSSA_CAD_Project_Lugias_Lair.Models
         public virtual void SetTeamBaseName(string teamBaseName)
         {
             this.TeamBaseName = teamBaseName;
+        }
+        public virtual void MarkTeamBasePublic(int teamPublic)
+        {
+            this.TeamPublic = teamPublic;
         }
     }
 }
