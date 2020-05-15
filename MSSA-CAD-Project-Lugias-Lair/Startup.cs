@@ -21,7 +21,7 @@ namespace MSSA_CAD_Project_Lugias_Lair
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<LugiasLair_DB_ProjectContext>
-                (options => options.UseSqlServer(Configuration["Data:LugiasLairDB:ConnectionString"]));
+                (options => options.UseSqlServer(Configuration["Data:LugiasLairDB:AzureConnectionString"]));
             services.AddTransient<IAbility, EFAbilityRepository>();
             services.AddTransient<ICharacteristic, EFCharacteristicRepository>();
             services.AddTransient<ICustomPokemon, EFCustomPokemonRepository>();

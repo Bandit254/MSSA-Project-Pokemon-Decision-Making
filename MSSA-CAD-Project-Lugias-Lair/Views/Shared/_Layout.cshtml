@@ -1,90 +1,97 @@
-﻿@{
-    /*
-    if (Context.Session.GetInt32("User ID") == 0 && Context.Session.GetString("User Name") == "blank")
-    {
-         Response.Redirect("~/Vgcplayer/SignIn");
-    }
-    */
-}
-
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @Html.Partial("_Favicon")
     <title>@ViewBag.Title</title>
-
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
-        <a class="navbar-brand" asp-controller="Home" asp-action="ContentHub">Lugia's Lair</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown02">
-                        <a class="dropdown-item" asp-controller="Vgcplayer" asp-action="AccountOverview">Account Overview</a>
-                        <a class="dropdown-item" asp-controller="Vgcplayer" asp-action="UpdateAccount">Update Account</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pokemon</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" asp-controller="Pokemon" asp-action="SearchPokemon">Search Pokemon</a>
-                        <a class="dropdown-item" asp-controller="Pokemon" asp-action="CustomizePokemon">Customize Pokemon</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Teams</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown07">
-                        <a class="dropdown-item" asp-controller="TeamBase" asp-action="DisplayAllBaseTeams">Display All Base Teams</a>
-                        <a class="dropdown-item" asp-controller="TeamBase" asp-action="SearchTeams">Search Base Teams</a>
-                        <a class="dropdown-item" asp-controller="TeamBase" asp-action="CreateTeam">Create Base Team</a>
-                        <a class="dropdown-item" asp-controller="TeamBase" asp-action="AnalyzeTeam">Analyze Base Team</a>
-                        <a class="dropdown-item" asp-controller="TeamVgc" asp-action="DisplayVgcTeams">Display VGC All Teams</a>
-                        <a class="dropdown-item" asp-controller="TeamVgc" asp-action="VGCTeamPicker">Generate VGC Team</a>
-                        <a class="dropdown-item" asp-controller="TeamVgc" asp-action="VGCAnalysis">Analyze VGC Team</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">General Info</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown07">
-                        <a class="dropdown-item" asp-controller="Ability" asp-action="DisplayAbilities">Abilities</a>
-                        <a class="dropdown-item" asp-controller="Characteristic" asp-action="DisplayCharacteristics">Characteristics</a>
-                        <a class="dropdown-item" asp-controller="HeldItem" asp-action="DisplayAllItems">Items</a>
-                        <a class="dropdown-item" asp-controller="Move" asp-action="DisplayAllMoves">Moves</a>
-                        <a class="dropdown-item" asp-controller="Nature" asp-action="DisplayAllNatures">Natures</a>
-                        <a class="dropdown-item" asp-controller="Pokedex" asp-action="DisplayAllPokedexEntries">Pokedex</a>
-                        <a class="dropdown-item" asp-controller="Type" asp-action="DisplayAllTypes">Types</a>
-                    </div>
-                </li>
-            </ul>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active text-white">
-                    <div class="navbar-text">
-                        <p>User ID: @Context.Session.GetInt32("User ID")</p>
-                    </div>
-                </li>
-                <li class="nav-item active text-white">
-                    <div class="navbar-text">
-                        <p>User Name: @Context.Session.GetString("User Name")</p>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" asp-controller="Vgcplayer" asp-action="LogOut" tabindex="-1" aria-disabled="true">Log Out</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="container mt-5 pt-5">
-        @RenderBody()
+    <header>
+        <nav class="navbar navbar-expand-md navbar-toggleable-sm navbar-dark bg-primary border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-controller="Home" asp-action="ContentHub">
+                    <img src="~/Images/Lugia_004.png" width="40" class="d-inline-block align-top" alt="Lugia's Lair Logo" />
+                    Lugia's Lair
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown02">
+                                <a class="dropdown-item" asp-controller="Vgcplayer" asp-action="AccountOverview">Account Overview</a>
+                                <a class="dropdown-item" asp-controller="Vgcplayer" asp-action="UpdateAccount">Update Account</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pokemon</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" asp-controller="Pokemon" asp-action="SearchPokemon">Search Pokemon</a>
+                                <a class="dropdown-item" asp-controller="Pokemon" asp-action="CustomizePokemon">Customize Pokemon</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Teams</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown07">
+                                <a class="dropdown-item" asp-controller="TeamBase" asp-action="DisplayAllBaseTeams">Display All Base Teams</a>
+                                <a class="dropdown-item" asp-controller="TeamBase" asp-action="SearchTeams">Search Base Teams</a>
+                                <a class="dropdown-item" asp-controller="TeamBase" asp-action="CreateTeam">Create Base Team</a>
+                                <a class="dropdown-item" asp-controller="TeamBase" asp-action="AnalyzeTeam">Analyze Base Team</a>
+                                <a class="dropdown-item" asp-controller="TeamVgc" asp-action="DisplayVgcTeams">Display VGC All Teams</a>
+                                <a class="dropdown-item" asp-controller="TeamVgc" asp-action="VGCTeamPicker">Generate VGC Team</a>
+                                <a class="dropdown-item" asp-controller="TeamVgc" asp-action="VGCAnalysis">Analyze VGC Team</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">General Info</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown07">
+                                <a class="dropdown-item" asp-controller="Ability" asp-action="DisplayAbilities">Abilities</a>
+                                <a class="dropdown-item" asp-controller="Characteristic" asp-action="DisplayCharacteristics">Characteristics</a>
+                                <a class="dropdown-item" asp-controller="HeldItem" asp-action="DisplayAllItems">Items</a>
+                                <a class="dropdown-item" asp-controller="Move" asp-action="DisplayAllMoves">Moves</a>
+                                <a class="dropdown-item" asp-controller="Nature" asp-action="DisplayAllNatures">Natures</a>
+                                <a class="dropdown-item" asp-controller="Pokedex" asp-action="DisplayAllPokedexEntries">Pokedex</a>
+                                <a class="dropdown-item" asp-controller="Type" asp-action="DisplayAllTypes">Types</a>
+                            </div>
+                        </li>
+                        <li class="nav-item active ml-auto text-white">
+                            <div class="navbar-text">
+                                <p>User ID: @Context.Session.GetInt32("User ID")</p>
+                            </div>
+                        </li>
+                        <li class="nav-item active ml-auto text-white">
+                            <div class="navbar-text">
+                                <p>User Name: @Context.Session.GetString("User Name")</p>
+                            </div>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link" asp-controller="Vgcplayer" asp-action="LogOut" tabindex="-1" aria-disabled="true">Log Out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
     </div>
-    <script src="~/lib/jquery/dist/jquery.slim.min.js"></script>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2020 - WebApplication1 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
 </body>
 </html>
