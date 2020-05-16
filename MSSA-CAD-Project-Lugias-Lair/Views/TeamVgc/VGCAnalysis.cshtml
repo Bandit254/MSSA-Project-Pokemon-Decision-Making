@@ -1,4 +1,4 @@
-﻿@model List<string[]>
+﻿@model List<TeamVgc>
 @{
     ViewBag.Title = "Generate VGC Teams";
 }
@@ -42,25 +42,25 @@
 </form>
 @for (int i = 0; i < 15; i++)
 {
-    <table class="table">
-        <thead>
-            <h4 class="text-center">VGC Team Combination #@i</h4>
-            <tr>
-                <th scope="col">Pokemon One</th>
-                <th scope="col">Pokemon Two</th>
-                <th scope="col">Pokemon Three</th>
-                <th scope="col">Pokemon Four</th>
-            </tr>
-        </thead>
-        <tbody>
-                <tr>
-                    <td scope="row">@Model[i][0]</td>
-                    <td>@Model[i][1]</td>
-                    <td>@Model[i][2]</td>
-                    <td>@Model[i][3]</td>
-                </tr>
-        </tbody>
-    </table>
+<table class="table">
+    <h4 class="text-center">VGC Team Combination #@i</h4>
+    <thead>
+        <tr>
+            <th scope="col">Pokemon One</th>
+            <th scope="col">Pokemon Two</th>
+            <th scope="col">Pokemon Three</th>
+            <th scope="col">Pokemon Four</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td scope="row">@Model[i].PkmnVgcone.PokemonName</td>
+            <td>@Model[i].PkmnVgctwo.PokemonName</td>
+            <td>@Model[i].PkmnVgcthree.PokemonName</td>
+            <td>@Model[i].PkmnVgcfour.PokemonName</td>
+        </tr>
+    </tbody>
+</table>
 }
 
 <div>

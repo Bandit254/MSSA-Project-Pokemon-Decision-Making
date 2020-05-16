@@ -117,7 +117,10 @@
 
 
 <div>
-    <a class="btn btn-primary" asp-controller="TeamVgc" asp-action="VGCAnalysis">Generate VGC Teams</a>
+    <form id="@Model.TeamBase.TeamBaseId" asp-controller="TeamVgc" asp-action="VGCAnalysis" method="post">
+        <input type="hidden" value="@Model.TeamBase.TeamBaseId" name="teamBaseId" />
+        <input class="btn btn-primary" type="submit" value="Generate VGC Teams" />
+    </form>
 </div>
 <div>
     <a class="btn btn-primary" asp-controller="TeamBase" asp-action="CreateTeam">Return to Team Builder</a>

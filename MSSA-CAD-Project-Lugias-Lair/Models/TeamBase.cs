@@ -138,5 +138,6 @@ namespace MSSA_CAD_Project_Lugias_Lair.Models
         {
             this.TeamPublic = teamPublic;
         }
+
     }
 }

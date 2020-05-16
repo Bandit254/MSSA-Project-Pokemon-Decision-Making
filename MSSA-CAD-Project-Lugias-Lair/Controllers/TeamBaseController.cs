@@ -81,7 +81,7 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
         public ViewResult TeamBaseSaveError() => View();
         public ViewResult TeamBaseDuplicateError() => View();
         public ViewResult TeamBaseSaveSuccessful() => View();
-        private TeamBase ReassembleTeam(TeamBase teamBase)
+        public TeamBase ReassembleTeam(TeamBase teamBase)
         {
             teamBase.PokemonOne = pokemonRepository.Pokemon.FirstOrDefault(p => p.PokemonId == teamBase.PokemonOneId);
             teamBase.PokemonTwo = pokemonRepository.Pokemon.FirstOrDefault(p => p.PokemonId == teamBase.PokemonTwoId);
@@ -153,7 +153,6 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
             }
             return teamTypeAnalysis;
         }
-
         public static double[,] TypeChart = new double[18, 18] {
             //Normal
             { 1,1,1,1,1,1,1,1,1,1,1,1,0.5,0,1,1,0.5,1},
@@ -239,8 +238,6 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
             }
             return overallRating;
         }
-
-
         [HttpGet]
         public ViewResult SearchTeams()
         {
