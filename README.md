@@ -257,6 +257,10 @@ After completing a sprint, I will perform a sprint review and record the results
 ## End-Of-MSSA Test and Requirements Review
 The MSSA program ends on 22 May 2020, therefore I am including my project's Test Status and Test Readiness Report as of 16 May 2020. However, I will continue to work on this project in my spare time even after completing the MSSA program. 
 
+I started this project with a total of 117 requirements. As of 16 May 2020, I have implemented and have test coverage of 50 requirements, with a resulting requirements coverage of 42.74%. 
+
+I started 
+
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
 
@@ -269,11 +273,11 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1ODc2MjQ5LC0xNjQ0Mjg5NDk1LC05Mz
-UyNTI4NzcsNzM0MzY5OTYzLC0zMjU3Mjk3NTMsLTE3NDg5MDEy
-MTQsLTExMjA3MTkxMjIsLTEzMTUxMzA2NzcsOTkwNDUzNTU2LD
-E4MzQyMzMyMDAsMzY5OTM0NzUyLC0yNDU4MTc1MjEsLTExMzM1
-NzgzOSwtMjkxNTcwNDA0LC0xNzgxMDg5Njg5LC0xMDA1NDAyOT
-M3LC0yMDM2ODYzMTkwLC0xOTUwNzMzMzQ2LC0xNDc5MjQ5MjU4
-LC0xNjI3ODc1NDU4XX0=
+eyJoaXN0b3J5IjpbMjA1MzQ2MjMyMSw2OTU4NzYyNDksLTE2ND
+QyODk0OTUsLTkzNTI1Mjg3Nyw3MzQzNjk5NjMsLTMyNTcyOTc1
+MywtMTc0ODkwMTIxNCwtMTEyMDcxOTEyMiwtMTMxNTEzMDY3Ny
+w5OTA0NTM1NTYsMTgzNDIzMzIwMCwzNjk5MzQ3NTIsLTI0NTgx
+NzUyMSwtMTEzMzU3ODM5LC0yOTE1NzA0MDQsLTE3ODEwODk2OD
+ksLTEwMDU0MDI5MzcsLTIwMzY4NjMxOTAsLTE5NTA3MzMzNDYs
+LTE0NzkyNDkyNThdfQ==
 -->
