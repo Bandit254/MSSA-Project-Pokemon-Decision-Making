@@ -258,9 +258,11 @@ After completing a sprint, I will perform a sprint review and record the results
 The MSSA program ends on 22 May 2020, therefore I am including my project's Test Status and Test Readiness Report as of 16 May 2020. However, I will continue to work on this project in my spare time even after completing the MSSA program. The full, itemized list of both requirements and tests can be found in the following folder: [09. Project Testing](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/09.%20Project%20Testing)
 
 I started this project with a total of 117 requirements. As of 16 May 2020, I have implemented and have test coverage of 50 requirements, with a resulting requirements coverage of 42.74%. 
+
 ![Requirements Implementation Stats](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/09.%20Project%20Testing/Requirements%20Statistics%20%2816MAY2020%29.jpg)
 
 I wrote 102 tests to cover those 117 requirements. As of 16 May 2020, I have 47 passing tests, with the remaining not yet implemented/tested. That means I have a pass rate of 46.08% on my tests. 
+
 ![Test Statistics](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/blob/master/09.%20Project%20Testing/Test%20Statistics%20%2816MAY2020%29.jpg)
 
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
@@ -278,11 +280,11 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTgzMTU0OCwtMTQyMzY1Mzg4LDY5NT
-g3NjI0OSwtMTY0NDI4OTQ5NSwtOTM1MjUyODc3LDczNDM2OTk2
-MywtMzI1NzI5NzUzLC0xNzQ4OTAxMjE0LC0xMTIwNzE5MTIyLC
-0xMzE1MTMwNjc3LDk5MDQ1MzU1NiwxODM0MjMzMjAwLDM2OTkz
-NDc1MiwtMjQ1ODE3NTIxLC0xMTMzNTc4MzksLTI5MTU3MDQwNC
-wtMTc4MTA4OTY4OSwtMTAwNTQwMjkzNywtMjAzNjg2MzE5MCwt
-MTk1MDczMzM0Nl19
+eyJoaXN0b3J5IjpbLTE2NDI4MDA4LC0xNDIzNjUzODgsNjk1OD
+c2MjQ5LC0xNjQ0Mjg5NDk1LC05MzUyNTI4NzcsNzM0MzY5OTYz
+LC0zMjU3Mjk3NTMsLTE3NDg5MDEyMTQsLTExMjA3MTkxMjIsLT
+EzMTUxMzA2NzcsOTkwNDUzNTU2LDE4MzQyMzMyMDAsMzY5OTM0
+NzUyLC0yNDU4MTc1MjEsLTExMzM1NzgzOSwtMjkxNTcwNDA0LC
+0xNzgxMDg5Njg5LC0xMDA1NDAyOTM3LC0yMDM2ODYzMTkwLC0x
+OTUwNzMzMzQ2XX0=
 -->
