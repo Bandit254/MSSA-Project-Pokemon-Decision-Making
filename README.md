@@ -18,9 +18,10 @@ Competitive Pokémon, while based on a children's game, is an extremely complex 
  13. [Connecting to the DB to Display/Modify Data](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#connecting-to-the-db-to-displaymodify-data)
  14. [Initial Sprint Planning](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#initial-sprint-planning)
  15. [Sprint Reviews](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/11.%20Sprint%20Planning%20and%20Review)
- 16. [Project Work Backlog](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#project-work-backlog)
- 17. [Most Current Source Code (located on dev branch)](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/dev/MSSA-CAD-Project-Lugias-Lair)
- 18. [Live Website](https://lugias-lair.azurewebsites.net)
+ 16. End-Of-MSSA Test and Requirements Review
+ 17. [Project Work Backlog](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#project-work-backlog)
+ 18. [Most Current Source Code (located on dev branch)](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/dev/MSSA-CAD-Project-Lugias-Lair)
+ 19. [Live Website](https://lugias-lair.azurewebsites.net)
 
 ## Project Motivation / Background
 I have been playing Pokémon on-and-off since 5th grade. I came to the game late compared to my friends who were immediately swept up by the first generation of games in the late 1990s, but it has stuck with me longer.
@@ -253,12 +254,22 @@ After completing a sprint, I will perform a sprint review and record the results
  - What would you do differently, knowing what you know now?
 
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
+## End-Of-MSSA Test and Requirements Review
+The MSSA program ends on 22 May 2020, therefore I am including my project's Test Status and Test Readiness Report as of 16 May 2020. However, I will continue to work on this project in my spare time even after completing the MSSA program. The full, itemized list of both requirements and tests can be found in the following folder: [09. Project Testing](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/09.%20Project%20Testing)
+
+I started this project with a total of 117 requirements. As of 16 May 2020, I have implemented and have test coverage of 50 requirements, with a resulting requirements coverage of 42.74%. 
+
+I wrote 102 tests to cover those 117 requirements. As of 16 May 2020, I have 47 passing tests, with the remaining not yet implemented/tested. That means I have a pass rate of 46.08% on my tests. 
+
+
+[Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
 
  - [ ] Pokémon Moves Reverse-Lookup Tables
  - [ ] Pokémon Abilities Reverse-Lookup Tables
+ - [ ] Add Pictures
  - [ ] Custom Stat Calculations (EVs, IVs, Base Stats)
  - [ ] Conditional Team Generator (Both Full Teams and VGC Teams)
  - [ ] In-Game Battle Information Dashboard
@@ -266,11 +277,11 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQyODk0OTUsLTkzNTI1Mjg3Nyw3Mz
-QzNjk5NjMsLTMyNTcyOTc1MywtMTc0ODkwMTIxNCwtMTEyMDcx
-OTEyMiwtMTMxNTEzMDY3Nyw5OTA0NTM1NTYsMTgzNDIzMzIwMC
-wzNjk5MzQ3NTIsLTI0NTgxNzUyMSwtMTEzMzU3ODM5LC0yOTE1
-NzA0MDQsLTE3ODEwODk2ODksLTEwMDU0MDI5MzcsLTIwMzY4Nj
-MxOTAsLTE5NTA3MzMzNDYsLTE0NzkyNDkyNTgsLTE2Mjc4NzU0
-NTgsLTExMjQzNTY0OTddfQ==
+eyJoaXN0b3J5IjpbLTE0MjM2NTM4OCw2OTU4NzYyNDksLTE2ND
+QyODk0OTUsLTkzNTI1Mjg3Nyw3MzQzNjk5NjMsLTMyNTcyOTc1
+MywtMTc0ODkwMTIxNCwtMTEyMDcxOTEyMiwtMTMxNTEzMDY3Ny
+w5OTA0NTM1NTYsMTgzNDIzMzIwMCwzNjk5MzQ3NTIsLTI0NTgx
+NzUyMSwtMTEzMzU3ODM5LC0yOTE1NzA0MDQsLTE3ODEwODk2OD
+ksLTEwMDU0MDI5MzcsLTIwMzY4NjMxOTAsLTE5NTA3MzMzNDYs
+LTE0NzkyNDkyNThdfQ==
 -->
