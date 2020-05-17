@@ -261,6 +261,9 @@ I started this project with a total of 117 requirements. As of 16 May 2020, I ha
 
 I wrote 102 tests to cover those 117 requirements. As of 16 May 2020, I have 47 passing tests, with the remaining not yet implemented/tested. That means I have a pass rate of 46.08% on my tests. 
 
+
+[Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
+
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
 
@@ -273,11 +276,11 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MzI0OTgzNiw2OTU4NzYyNDksLTE2ND
-QyODk0OTUsLTkzNTI1Mjg3Nyw3MzQzNjk5NjMsLTMyNTcyOTc1
-MywtMTc0ODkwMTIxNCwtMTEyMDcxOTEyMiwtMTMxNTEzMDY3Ny
-w5OTA0NTM1NTYsMTgzNDIzMzIwMCwzNjk5MzQ3NTIsLTI0NTgx
-NzUyMSwtMTEzMzU3ODM5LC0yOTE1NzA0MDQsLTE3ODEwODk2OD
-ksLTEwMDU0MDI5MzcsLTIwMzY4NjMxOTAsLTE5NTA3MzMzNDYs
-LTE0NzkyNDkyNThdfQ==
+eyJoaXN0b3J5IjpbNzE2MTQ3MTQ3LDY5NTg3NjI0OSwtMTY0ND
+I4OTQ5NSwtOTM1MjUyODc3LDczNDM2OTk2MywtMzI1NzI5NzUz
+LC0xNzQ4OTAxMjE0LC0xMTIwNzE5MTIyLC0xMzE1MTMwNjc3LD
+k5MDQ1MzU1NiwxODM0MjMzMjAwLDM2OTkzNDc1MiwtMjQ1ODE3
+NTIxLC0xMTMzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OS
+wtMTAwNTQwMjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0Niwt
+MTQ3OTI0OTI1OF19
 -->
