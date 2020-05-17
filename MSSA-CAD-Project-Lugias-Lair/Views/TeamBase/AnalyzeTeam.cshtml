@@ -6,11 +6,10 @@
 <!-- This will be where players analyze the strengths/weaknesses of their teams -->
 
 <header>
-    <h1>Team Analysis</h1>
-    <p>This is the page where players analyze the strengths/weaknesses of their teams</p>
+    <h1 class="text-center">Base Team Analysis</h1>
+    <p class="text-center">This is the page where players analyze the strengths/weaknesses of their Base Teams</p>
 </header>
 <div class="container">
-    <h2 class="text-align-center">Base Team Analysis</h2>
     <table class="table">
         <thead>
             <tr>
@@ -39,8 +38,9 @@
     </table>
 </div>
 <div class="container">
+    <h4 class="text-center">Team Average Stats</h4>
+    <p class="text-center">Calculates the average stats for all 6 Pokemon.</p>
     <table class="table">
-        <h4 class="text-align-center">Team Average Stats</h4>
         <thead>
             <tr>
                 <th scope="col">Base Stat Total</th>
@@ -66,33 +66,35 @@
     </table>
 </div>
 <div class="container">
-    <h4 class="text-align-center">Type Analysis</h4>
+    <h4 class="text-center">Type Analysis</h4>
+    <p class="text-center">Analyzes the overall strengths and weaknesses of the team with regards to each Pokemon type. A positive number indicates that the team has an advantage against that particular type, while a negative number indicates a weakness to that type.</p>
+    <p class="text-center text-danger">(Note: The analysis algorithm currently does not account for how some dual-types cancel out one another's weaknesses. This is still a work in progress.)</p>
     <table class="table">
         <thead>
             <tr>
-                <th>Normal</th>
-                <th>Fire</th>
-                <th>Water</th>
-                <th>Grass</th>
-                <th>Electric</th>
-                <th>Ice</th>
-                <th>Fighting</th>
-                <th>Poison</th>
-                <th>Ground</th>
-                <th>Flying</th>
-                <th>Psychic</th>
-                <th>Bug</th>
-                <th>Rock</th>
-                <th>Ghost</th>
-                <th>Dragon</th>
-                <th>Dark</th>
-                <th>Steel</th>
-                <th>Fairy</th>
+                <th scope="col">Normal</th>
+                <th scope="col">Fire</th>
+                <th scope="col">Water</th>
+                <th scope="col">Grass</th>
+                <th scope="col">Electric</th>
+                <th scope="col">Ice</th>
+                <th scope="col">Fighting</th>
+                <th scope="col">Poison</th>
+                <th scope="col">Ground</th>
+                <th scope="col">Flying</th>
+                <th scope="col">Psychic</th>
+                <th scope="col">Bug</th>
+                <th scope="col">Rock</th>
+                <th scope="col">Ghost</th>
+                <th scope="col">Dragon</th>
+                <th scope="col">Dark</th>
+                <th scope="col">Steel</th>
+                <th scope="col">Fairy</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>@Model.TeamTypeAnalysis[0]</td>
+                <td scope="row">@Model.TeamTypeAnalysis[0]</td>
                 <td>@Model.TeamTypeAnalysis[1]</td>
                 <td>@Model.TeamTypeAnalysis[2]</td>
                 <td>@Model.TeamTypeAnalysis[3]</td>
@@ -114,17 +116,17 @@
         </tbody>
     </table>
 </div>
-
-
-<div>
-    <form id="@Model.TeamBase.TeamBaseId" asp-controller="TeamVgc" asp-action="VGCAnalysis" method="post">
-        <input type="hidden" value="@Model.TeamBase.TeamBaseId" name="teamBaseId" />
-        <input class="btn btn-primary" type="submit" value="Generate VGC Teams" />
-    </form>
+<div class="row">
+    <div class="col-md-4">
+        <form id="@Model.TeamBase.TeamBaseId" asp-controller="TeamVgc" asp-action="VGCAnalysis" method="post">
+            <input type="hidden" value="@Model.TeamBase.TeamBaseId" name="teamBaseId" />
+            <input class="btn btn-primary" type="submit" value="Generate VGC Teams" />
+        </form>
+    </div>
+    <div class="col-md-4">
+        <a class="btn btn-primary" asp-controller="TeamBase" asp-action="CreateTeam">Return to Team Builder</a>
+    </div>
+    <div class="col-md-4">
+        <a class="btn btn-primary" asp-controller="Home" asp-action="ContentHub">Return to Content Hub</a>
+    </div>
 </div>
-<div>
-    <a class="btn btn-primary" asp-controller="TeamBase" asp-action="CreateTeam">Return to Team Builder</a>
-</div>
-<footer>
-    <a class="btn btn-primary" asp-controller="Home" asp-action="ContentHub">Return to Content Hub</a>
-</footer>

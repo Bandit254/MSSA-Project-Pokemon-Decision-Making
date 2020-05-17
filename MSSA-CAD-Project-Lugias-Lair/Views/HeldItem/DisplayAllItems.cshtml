@@ -2,7 +2,8 @@
 @{
     ViewBag.Title = "Display All Items";
 }
-
+    
+<h1 class="text-center">Items</h1>
 <form asp-controller="HeldItem" asp-action="DisplayAllItems" method="get">
     <p>
         Search by Item Type (Berries or Hold Items): <input type="text" name="searchType" />
@@ -10,8 +11,6 @@
         <input type="submit" value="Filter" />
     </p>
 </form>
-
-<h3 class="text-center">Items</h3>
 <table class="table">
     <thead>
         <tr>
@@ -31,3 +30,6 @@
         }
     </tbody>
 </table>
+<footer class="align-content-center">
+    <a class="btn btn-primary align-content-center" asp-controller="Home" asp-action="ContentHub">Return to Content Hub</a>
+</footer>

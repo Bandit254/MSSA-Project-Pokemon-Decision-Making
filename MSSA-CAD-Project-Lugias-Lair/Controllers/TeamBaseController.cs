@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 using MSSA_CAD_Project_Lugias_Lair.Models;
 using MSSA_CAD_Project_Lugias_Lair.Models.ViewModels;
 
@@ -71,12 +72,21 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
             {
                 return RedirectToAction("TeamBaseSaveError");
             }
-            TeamBase saveTeamBase = new TeamBase(teamBase.TeamBaseName, teamBase.PokemonOneId, teamBase.PokemonTwoId, teamBase.PokemonThreeId, teamBase.PokemonFourId, teamBase.PokemonFiveId, teamBase.PokemonSixId, teamBase.UserId, teamBase.TeamPublic);
+            int? userIdSession = HttpContext.Session.GetInt32("User ID");
+            int userId;
+            if (userIdSession==null)
+            {
+                userId = 0;
+            }
+            else
+            {
+                userId = (int)userIdSession;
+            }
+            TeamBase saveTeamBase = new TeamBase(teamBase.TeamBaseName, teamBase.PokemonOneId, teamBase.PokemonTwoId, teamBase.PokemonThreeId, teamBase.PokemonFourId, teamBase.PokemonFiveId, teamBase.PokemonSixId, userId, teamBase.TeamPublic);
             repository.SaveTeamBase(saveTeamBase);
             teamBase.ClearPokemonTB();
             return RedirectToAction("TeamBaseSaveSuccessful");
         }
-
         public ViewResult TeamBaseFullError() => View();
         public ViewResult TeamBaseSaveError() => View();
         public ViewResult TeamBaseDuplicateError() => View();
@@ -106,7 +116,6 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
         {
             return View();
         }
-
         [HttpPost]
         public ViewResult AnalyzeTeam(int teamBaseId)
         {
@@ -242,6 +251,15 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
         public ViewResult SearchTeams()
         {
             return View();
+        }
+        public ViewResult SavedTeams()
+        {
+            List<TeamBase> allTrainersTeams = repository.TeamBases.Where(t => t.UserId == HttpContext.Session.GetInt32("User ID")).ToList();
+            for (int i = 0; i < allTrainersTeams.Count; i++)
+            {
+                allTrainersTeams[i] = ReassembleTeam(allTrainersTeams[i]);
+            }
+            return View(allTrainersTeams);
         }
     }
 }

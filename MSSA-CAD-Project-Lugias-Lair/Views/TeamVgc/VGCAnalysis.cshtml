@@ -1,4 +1,4 @@
-﻿@model List<TeamVgc>
+﻿@model TeamVgsAnalysisViewModel
 @{
     ViewBag.Title = "Generate VGC Teams";
 }
@@ -6,69 +6,169 @@
 
 
 <header class="text-center">
-    <h1>VGC Teams Generator</h1>
-    <p>This page is where users will generate combinations of 4-Pokemon teams for a VGC match from a given 6-Pokemon team</p>
-    <p>Note: This page is currently only a demo, and therefore it comes pre-populated with a group of VGC combinations. Enter your own team of 6 Pokemon below in order to generate a fresh set of VGC combinations.</p>
+    <h1>VGC Teams Generation and Analysis</h1>
+    <p>This page is where users can use their selected Base Team to generate combinations of 4-Pokemon teams (VGC Teams) for a VGC match.</p>
+    <p>The statistical and type analysis of each VGC Team is displayed below the team so that users can choose the VGC Team that gives them the best chance of victory against an opponent.</p>
 </header>
-<form asp-controller="TeamVgc" asp-action="VGCAnalysis" method="post">
-    <h3>Enter 6 Pokemon as a Base Team to generate VGC Teams:</h3>
-    <div class="form-group">
-        <label>Pokemon One: </label>
-        <input type="text" name="pokemonOne" />
-    </div>
-    <div class="form-group">
-        <label>Pokemon Two:</label>
-        <input type="text" name="pokemonTwo" />
-    </div>
-    <div class="form-group">
-        <label>Pokemon Three:</label>
-        <input type="text" name="pokemonThree" />
-    </div>
-    <div class="form-group">
-        <label>Pokemon Four:</label>
-        <input type="text" name="pokemonFour" />
-    </div>
-    <div class="form-group">
-        <label>Pokemon Five:</label>
-        <input type="text" name="pokemonFive" />
-    </div>
-    <div class="form-group">
-        <label>Pokemon Six:</label>
-        <input type="text" name="pokemonSix" />
-    </div>
-    <div class="text-center">
-        <input class="btn btn-primary" type="submit" value="Generate VGC Team Combos" />
-    </div>
-</form>
+<div class="container">
+    <h4 class="text-center">Current Base Team</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">User ID</th>
+                <th scope="col">Team Name</th>
+                <th scope="col">Pokemon One</th>
+                <th scope="col">Pokemon Two</th>
+                <th scope="col">Pokemon Three</th>
+                <th scope="col">Pokemon Four</th>
+                <th scope="col">Pokemon Five</th>
+                <th scope="col">Pokemon Six</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">@Model.TeamBase.UserId</td>
+                <td>@Model.TeamBase.TeamBaseName</td>
+                <td>@Model.TeamBase.PokemonOne.PokemonName</td>
+                <td>@Model.TeamBase.PokemonTwo.PokemonName</td>
+                <td>@Model.TeamBase.PokemonThree.PokemonName</td>
+                <td>@Model.TeamBase.PokemonFour.PokemonName</td>
+                <td>@Model.TeamBase.PokemonFive.PokemonName</td>
+                <td>@Model.TeamBase.PokemonSix.PokemonName</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="text-center text-danger">Note that, just like the Base Team analysis, the VGC Team type analyses do not yet account for dual-types.</p>
+</div>
+
 @for (int i = 0; i < 15; i++)
 {
-<table class="table">
+<div class="container-fluid mx-auto mt-md-5 pt-md-5 border">
     <h4 class="text-center">VGC Team Combination #@i</h4>
-    <thead>
-        <tr>
-            <th scope="col">Pokemon One</th>
-            <th scope="col">Pokemon Two</th>
-            <th scope="col">Pokemon Three</th>
-            <th scope="col">Pokemon Four</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td scope="row">@Model[i].PkmnVgcone.PokemonName</td>
-            <td>@Model[i].PkmnVgctwo.PokemonName</td>
-            <td>@Model[i].PkmnVgcthree.PokemonName</td>
-            <td>@Model[i].PkmnVgcfour.PokemonName</td>
-        </tr>
-    </tbody>
-</table>
+    <div class="row">
+        <div class="col">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Pokemon One</th>
+                        <th scope="col">Pokemon Two</th>
+                        <th scope="col">Pokemon Three</th>
+                        <th scope="col">Pokemon Four</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">@Model.TeamVgcs[i].PkmnVgcone.PokemonName</td>
+                        <td>@Model.TeamVgcs[i].PkmnVgctwo.PokemonName</td>
+                        <td>@Model.TeamVgcs[i].PkmnVgcthree.PokemonName</td>
+                        <td>@Model.TeamVgcs[i].PkmnVgcfour.PokemonName</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <table class="table">
+                <h4 class="text-center">Team Average Stats</h4>
+                <thead>
+                    <tr>
+                        <th scope="col">Base Stat Total</th>
+                        <th scope="col">Hit Points</th>
+                        <th scope="col">Attack</th>
+                        <th scope="col">Defense</th>
+                        <th scope="col">Special Attack</th>
+                        <th scope="col">Special Defense</th>
+                        <th scope="col">Speed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">@Model.VgcStatAnalysis[i][0]</td>
+                        <td>@Model.VgcStatAnalysis[i][1]</td>
+                        <td>@Model.VgcStatAnalysis[i][2]</td>
+                        <td>@Model.VgcStatAnalysis[i][3]</td>
+                        <td>@Model.VgcStatAnalysis[i][4]</td>
+                        <td>@Model.VgcStatAnalysis[i][5]</td>
+                        <td>@Model.VgcStatAnalysis[i][6]</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h4 class="text-center">Type Analysis</h4>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Normal</th>
+                        <th scope="col">Fire</th>
+                        <th scope="col">Water</th>
+                        <th scope="col">Grass</th>
+                        <th scope="col">Electric</th>
+                        <th scope="col">Ice</th>
+                        <th scope="col">Fighting</th>
+                        <th scope="col">Poison</th>
+                        <th scope="col">Ground</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">@Model.VgcTypeAnalysis[i][0]</td>
+                        <td>@Model.VgcTypeAnalysis[i][1]</td>
+                        <td>@Model.VgcTypeAnalysis[i][2]</td>
+                        <td>@Model.VgcTypeAnalysis[i][3]</td>
+                        <td>@Model.VgcTypeAnalysis[i][4]</td>
+                        <td>@Model.VgcTypeAnalysis[i][5]</td>
+                        <td>@Model.VgcTypeAnalysis[i][6]</td>
+                        <td>@Model.VgcTypeAnalysis[i][7]</td>
+                        <td>@Model.VgcTypeAnalysis[i][8]</td>
+
+
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Flying</th>
+                        <th scope="col">Psychic</th>
+                        <th scope="col">Bug</th>
+                        <th scope="col">Rock</th>
+                        <th scope="col">Ghost</th>
+                        <th scope="col">Dragon</th>
+                        <th scope="col">Dark</th>
+                        <th scope="col">Steel</th>
+                        <th scope="col">Fairy</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">@Model.VgcTypeAnalysis[i][9]</td>
+                        <td >@Model.VgcTypeAnalysis[i][10]</td>
+                        <td>@Model.VgcTypeAnalysis[i][11]</td>
+                        <td>@Model.VgcTypeAnalysis[i][12]</td>
+                        <td>@Model.VgcTypeAnalysis[i][13]</td>
+                        <td>@Model.VgcTypeAnalysis[i][14]</td>
+                        <td>@Model.VgcTypeAnalysis[i][15]</td>
+                        <td>@Model.VgcTypeAnalysis[i][16]</td>
+                        <td>@Model.VgcTypeAnalysis[i][17]</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+     </div>
+  </div>
+
 }
-
-<div>
-    <a class="btn btn-primary" asp-controller="TeamVgc" asp-action="VGCTeamPicker">Conditional VGC Battle Teams</a>
-</div>
-<footer>
-    <a class="btn btn-primary"asp-controller="Home" asp-action="ContentHub">Return to Content Hub</a>
-</footer>
-
-
+    <div class="row mx-auto">
+        <div class="col-md-6">
+            <a class="btn btn-primary" asp-controller="TeamVgc" asp-action="VGCTeamPicker">Conditional VGC Battle Teams</a>
+        </div>
+        <div class="col-md-6">
+            <a class="btn btn-primary" asp-controller="Home" asp-action="ContentHub">Return to Content Hub</a>
+        </div>
+    </div>
 

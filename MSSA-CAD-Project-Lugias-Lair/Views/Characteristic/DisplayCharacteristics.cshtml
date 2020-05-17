@@ -2,17 +2,17 @@
 @{
     ViewBag.Title = "Display Characteristics";
 }
-<head>
-    <h3 class="text-center">Characteristics</h3>
-</head>
+
+<h1 class="text-center">Characteristics</h1>
+
 <form asp-controller="Characteristic" asp-action="DisplayCharacteristics" method="get">
     <p>
         Search by Characteristic Description: <input type="text" name="searchDescription" />
         Search by Boosted Stat: <input type="text" name="boostedStat" />
         <input type="submit" value="Filter" />
     </p>
+    <h6 class="text-center">Stats Boosted by Characteristics</h6>
     <p class="text-center">
-        <h6 class="text-center">Stats Boosted by Characteristics</h6>
         Attack | Defense | Sp. Attack | Sp. Defense | Speed | HP
     </p>
 </form>
@@ -33,3 +33,6 @@
         }
     </tbody>
 </table>
+<footer class="align-content-center">
+    <a class="btn btn-primary align-content-center" asp-controller="Home" asp-action="ContentHub">Return to Content Hub</a>
+</footer>

@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Titel = "VGC Team Saved";
+}
+<div class="container">
+    <h5 class="text-align-center">VGC Team Saved!</h5>
+    <p class="text-align-center">Your VGC Team was saved successfully. You can now view the team in the list of all other VGC Teams for future reference.</p>
+    <div class="row">
+        <div class="col-6">
+            <a class="btn btn-primary" asp-controller="TeamVgc" asp-action="DisplayVgcTeams">View all Saved VGC Teams</a>
+        </div>
+        <div class="col-6">
+            <a class="btn btn-primary" asp-controller="TeamBase" asp-action="DisplayAllBaseTeams">Return to Base Team List</a>
+        </div>
+    </div>
+</div>

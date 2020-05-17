@@ -1,4 +1,32 @@
-﻿@model IQueryable<TeamVgc>
+﻿@model List<TeamVgc>
 @{
     ViewBag.Title = "Display All VGC Teams";
 }
+<div class="container">
+    <h3 class="text-center">List of All Saved VGC teams</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">User ID of Creator</th>
+                <th scope="col">Associated Base Team ID</th>
+                <th scope="col">Pokemon One</th>
+                <th scope="col">Pokemon Two</th>
+                <th scope="col">Pokemon Three</th>
+                <th scope="col">Pokemon Four</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var vgcTeam in Model)
+            {
+            <tr>
+                <td scope="row">@vgcTeam.UserId</td>
+                <td>@vgcTeam.TeamBaseId</td>
+                <td>@vgcTeam.PkmnVgcone.PokemonName</td>
+                <td>@vgcTeam.PkmnVgctwo.PokemonName</td>
+                <td>@vgcTeam.PkmnVgcthree.PokemonName</td>
+                <td>@vgcTeam.PkmnVgcfour.PokemonName</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>

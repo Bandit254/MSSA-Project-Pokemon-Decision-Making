@@ -10,5 +10,7 @@ namespace MSSA_CAD_Project_Lugias_Lair.Models.ViewModels
     {
         public TeamBase TeamBase { get; set; }
         public List<TeamVgc> TeamVgcs { get; set; }
+        public List<int[]> VgcStatAnalysis { get; set; }
+        public List<double[]> VgcTypeAnalysis { get; set; }
     }
 }

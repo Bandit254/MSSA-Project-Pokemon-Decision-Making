@@ -3,111 +3,43 @@
 }
 
 <header>
-    <h1 class="text-center">
-        Trainer's Lair</h1class="text-center">
-        <h3 class="text-center">Trainer Name</h3>
-        <p>Overall battle Record / Other Stats</p>
+    <h1 class="text-center">Trainer's Lair</h1>
+        <h3 class="text-center">Welcome, @Context.Session.GetString("User Name")</h3>
         <img src="~/Images/Gen_1_Trainer.png" alt="Trainer Icon" />
 </header>
-<div>
+ <div class="container">
+    <div class="row align-content-center">
+        <h4 class="text-center">Base Teams</h4>
+        
+            <a class="btn btn-primary" asp-controller="TeamBase" asp-action="SavedTeams">Your Saved Teams</a>
+        
+    </div>
+    <div class="row align-content-center">
+        <h4 class="text-center">Favorite Base Teams</h4>
+        <div class="align-items-center">
+        <p class="text-center">Currently Unavailable</p>
+        </div>
+    </div>
+    <div class="row align-content-center">
+        <h4 class="text-center">Customized Pokemon</h4>
+        <div class="align-items-center">
+             <p class="text-center">Currently Unavailable</p>
+        </div>
+    </div>
+    <div class="row align-content-center">
+    <h4 class="text-center">Favorite Pokemon</h4>
+        <div class="align-items-center">
+            <p class="text-center">Currently Unavailable</p>
+        </div>
+    </div>
+    <div class="row align-content-center">
+        <div class="col-6">
+            <a class="btn btn-primary" asp-controller="Vgcplayer" asp-action="UpdateAccount">Update Account</a>
+        </div>
+        <div class="col-6">
+            <a class="btn btn-primary" asp-controller="Home" asp-action="ContentHub">Return to Content Hub</a>
+        </div>
+    </div>
+</div>
 
-    <table class="table">
-        <caption> Saved Teams</caption>
-        <tr>
-            <th> Team Number</th>
-            <th> Team Name</th>
-        </tr>
-        <tr>
-            <td> 1 </td>
-            <td> Team 1 </td>
-        </tr>
-        <tr>
-            <td> 2 </td>
-            <td> Team 2 </td>
-        </tr>
-        <tr>
-            <td> 3 </td>
-            <td> Team 3 </td>
-        </tr>
-    </table>
-</div>
-<div>
-
-    <table class="table">
-        <caption> Favorite Teams</caption>
-        <tr>
-            <th> Team Number</th>
-            <th> Team Name</th>
-        </tr>
-        <tr>
-            <td> 1 </td>
-            <td> Team 1 </td>
-        </tr>
-        <tr>
-            <td> 2 </td>
-            <td> Team 2 </td>
-        </tr>
-        <tr>
-            <td> 3 </td>
-            <td> Team 3 </td>
-        </tr>
-    </table>
-</div>
-<div>
-
-    <table class="table">
-        <caption> Saved Pokemon</caption>
-        <tr>
-            <th> Pokemon ID Number</th>
-            <th> Pokemon Name</th>
-            <th> Pokemon Nickname</th>
-        </tr>
-        <tr>
-            <td> 1 </td>
-            <td> Bulbasaur </td>
-            <td> Sprout </td>
-        </tr>
-        <tr>
-            <td> 2 </td>
-            <td> Squirtle </td>
-            <td> Bubbles </td>
-        </tr>
-        <tr>
-            <td> 3 </td>
-            <td> Charmander </td>
-            <td> Spicy </td>
-        </tr>
-    </table>
-</div>
-<div>
-    <table class="table">
-        <caption> Favorite Pokemon</caption>
-        <tr>
-            <th> Pokemon ID Number</th>
-            <th> Pokemon Name</th>
-            <th> Pokemon Nickname</th>
-        </tr>
-        <tr>
-            <td> 1 </td>
-            <td> Bulbasaur </td>
-            <td> Sprout </td>
-        </tr>
-        <tr>
-            <td> 2 </td>
-            <td> Squirtle </td>
-            <td> Bubbles </td>
-        </tr>
-        <tr>
-            <td> 3 </td>
-            <td> Charmander </td>
-            <td> Spicy </td>
-        </tr>
-    </table>
-</div>
-<div>
-    <a class="btn btn-primary" asp-controller="Vgcplayer" asp-action="UpdateAccount">Update Account</a>
-</div>
-<footer>
-    <a class="btn btn-primary" asp-controller="Home" asp-action="ContentHub">Return to Content Hub</a>
-</footer>
 

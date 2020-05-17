@@ -34,7 +34,7 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
             {
                 HttpContext.Session.SetInt32(UserID, authUser.UserId);
                 HttpContext.Session.SetString(UserName, authUser.UserName);
-                return RedirectToAction("ContentHub","Home");
+                return RedirectToAction("AccountOverview","VgcPlayer");
             }
         }
         public ViewResult NewUserSignUp()
@@ -58,15 +58,56 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
             HttpContext.Session.Remove("User Name");
             return RedirectToAction(nameof(SignIn));
         }
-        public ViewResult AccountOverview()
+        public RedirectToActionResult DirectToAccountOverview()
         {
-            return View();
+            if (HttpContext.Session.GetInt32("User ID")==null)
+            {
+                return RedirectToAction("SignIn");
+            }
+            return RedirectToAction("AccountOverview");
         }
+        [HttpGet]
         public ViewResult UpdateAccount()
         {
-            return View();
+            Vgcplayer currentUser = repository.Vgcplayers.FirstOrDefault(u => u.UserId == HttpContext.Session.GetInt32("User ID"));
+            if (currentUser==null)
+            {
+                return View("SignIn");
+            }
+            return View(currentUser);
         }
-
+        [HttpPost]
+        public IActionResult UpdateAccount(string newUserName, string currentPassword, string newPasswordV1, string newPasswordV2)
+        {
+            Vgcplayer currentUser = repository.Vgcplayers.FirstOrDefault(u => u.UserId == HttpContext.Session.GetInt32("User ID"));
+            if (!String.Equals(currentUser.UserPassword, currentPassword))
+            {
+                return RedirectToAction("IncorrectPassword");
+            }
+            else if (newPasswordV1!=null && newPasswordV2 != null && !String.Equals(newPasswordV1, newPasswordV2))
+            {
+                return RedirectToAction("NewPasswordsDontMatch");
+            }
+            else
+            {
+                if (newPasswordV1 != null && newPasswordV2 != null && String.Equals(newPasswordV1, newPasswordV2))
+                {
+                    currentUser.UserPassword = newPasswordV2;
+                }
+                if (newUserName!=null)
+                {
+                    currentUser.UserName = newUserName;
+                }
+            }
+            HttpContext.Session.SetString(UserName, currentUser.UserName);
+            repository.SaveVgcplayer(currentUser);
+            return RedirectToAction("AccountUpdateSuccessful");
+        }
+        public ViewResult IncorrectPassword() => View();
+        public ViewResult NewPasswordsDontMatch() => View();
+        public ViewResult AccountUpdateSuccessful() => View();
+        [HttpGet]
+        public ViewResult AccountOverview() => View();
 
     }
 }

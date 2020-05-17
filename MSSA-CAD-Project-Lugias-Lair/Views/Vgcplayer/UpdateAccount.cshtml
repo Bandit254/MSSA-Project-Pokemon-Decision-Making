@@ -1,11 +1,54 @@
-﻿@{
+﻿@model Vgcplayer
+@{
     ViewBag.Title = "Update Account";
 }
 
 <header>
-    <h1>Update Account Information</h1>
-    <p>This will be where users can change the details of their account/profile</p>
+    <h1 class="text-center">Update Account Information</h1>
+    <p class="text-center">This will be where users can change the details of their account/profile</p>
 </header>
+<div class="container">
+    <h3 class="text-center">Current User Information</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">User ID</th>
+                <th scope="col">User Name</th>
+                <th scope="col">User Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">@Model.UserId</td>
+                <td>@Model.UserName</td>
+                <td>@Model.UserEmail</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="container align-items-center">
+    <form asp-controller="VgcPlayer" asp-action="UpdateAccount" method="post">
+        <div class="form-group">
+            <label>New User Name: </label>
+            <input type="text" name="newUserName" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Current Password: </label>
+            <input type="password" name="currentPassword" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>New Password: </label>
+            <input type="password" name="newPasswordV1" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Confirm New Password: </label>
+            <input type="password" name="newPasswordV2" class="form-control" />
+        </div>
+        <div class="text-center">
+            <input class="btn btn-primary" type="submit" value="Update Account Information" />
+        </div>
+    </form>
+</div>
 <div>
     <p>Username:</p>
     <p>Update Email Address:</p>

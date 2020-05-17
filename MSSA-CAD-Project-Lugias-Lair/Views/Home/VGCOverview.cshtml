@@ -1,199 +1,197 @@
 ﻿@{
     ViewBag.Title = "VGC Overview";
 }
-
-
-    <div class="container">
-        <h2 class="text-center">Pokemon Video Game Championship (VGC) Overview</h2>
-        <div class="text-center">
-            <h3>Tournament Structure</h3>
-            <p class="text-center">
-                A Pokemon VGC tournament occurs over 2 - 3 days. The first day or two of a tournament consists of "Swiss" rounds. During each round of Swiss competition, players are paired up and compete in a VGC match. Each match consists is a best-of-three series.
-                Whichever player wins the best of three series wins the match. The total number of players in the tournament determines the number of rounds of Swiss - typically there are between 7 and 9 rounds of Swiss.
-                A player's record at the end of the swiss rounds is equal to the number of matches he or she won/lost, regardless if they won some matches by going 2-1 in the set. (Therefore going "undefeated" in the Swiss rounds does not necessarily mean the player did not lose a game, it just means that they did not lose a set).
-            </p>
-            <p class="text-center">
-                At the conclusion of all Swiss rounds (sometimes there are two days of Swiss play), the players with the best records begin a single-elimination bracket. The size of the bracket also depends on the total number of players, but it usually consists of 16 players. And just like the Swiss rounds, whether a player wins or gets eliminated depends on a best-of-three set of games.
-                The player that makes it to the end of the bracket without losing a match is crowned the winner.
-            </p>
-        </div>
-        <div class="text-center">
-            <h3 class="text-center">Team Constraints</h3>
-            <p class="text-center">
-                Just like in the single-player mode of a Pokemon game, the maximum number of Pokemon a player can have on his/her team is 6. This is what I refer to as the "Base Team" throughout this site.
-                However, unlike the regular video game, VGC players can only have one of each type of Pokemon on their Base Team (so you cannot have a team of 6 Lugias, no matter how awesome that would be).
-                Players must use the same Base Team throughout a tournament, and all of the Pokemon must have originated from the most current version/generation of the Pokemon video games;
-                this means that players must rebuild their teams after each new Pokemon generation comes out (typically every three years).
-            </p>
-            <p class="text-center">
-                At the start of each game in a VGC match, players can see their opponent's Base Team and vice versa. However, only 4 of the 6 Pokemon can be brought into a VGC game, so players never know exactly which 4 Pokemon they will face.
-                This subset of 4 Pokemon chosen from the Base Team is what I refer to as the "VGC Team." And unlike the Base Team, players may change which 4 Pokemon they bring into battle after each game.
-                This means that VGC players may have to confront 3 different VGC Teams in the course of a match. There is also a 90 second time-limit for players to analyze their opponent's Base Team before a match and select which 4
-                Pokemon they want to bring to the next game.
-            </p>
-        </div>
-        <div>
-            <h3 class="text-center">Building a Team</h3>
-            <h4 class="text-center">Types</h4>
-            <p>
-                Each Pokemon has between 1 and 2 types. There are a total of 18 types:
-                <ol>
-                    <li>
-                        Normal
-                    </li>
-                    <li>
-                        Fire
-                    </li>
-                    <li>
-                        Water
-                    </li>
-                    <li>
-                        Grass
-                    </li>
-                    <li>
-                        Electric
-                    </li>
-                    <li>
-                        Ice
-                    </li>
-                    <li>
-                        Fighting
-                    </li>
-                    <li>
-                        Poison
-                    </li>
-                    <li>
-                        Ground
-                    </li>
-                    <li>
-                        Flying
-                    </li>
-                    <li>
-                        Psychic
-                    </li>
-                    <li>
-                        Bug
-                    </li>
-                    <li>
-                        Rock
-                    </li>
-                    <li>
-                        Ghost
-                    </li>
-                    <li>
-                        Dragon
-                    </li>
-                    <li>
-                        Dark
-                    </li>
-                    <li>
-                        Steel
-                    </li>
-                    <li>
-                        Fairy
-                    </li>
-                </ol>
-                Each type has unique strengths/weaknesses in comparison to the other types, similar to rock-paper-scissors (but on a much larger scale).
-            </p>
-            <h4 class="text-center">Stats</h4>
-            <p>
-                Each Pokemon has a set of six statistical categories:
-                <ul>
-                    <li>
-                        Hit Points (determines how much damage a Pokemon can take before it faints, or is defeated)
-                    </li>
-                    <li>
-                        Attack (determines the strength of a Pokemon's physical attacks)
-                    </li>
-                    <li>
-                        Defense (determines how well a Pokemon can resist physical attacks)
-                    </li>
-                    <li>
-                        Special Attack (determines the strength of a Pokemon's special attacks)
-                    </li>
-                    <li>
-                        Special Defense (determines how well a Pokemon resists special attacks)
-                    </li>
-                    <li>
-                        Speed (determines whether or not a Pokemon will move before its opponent)
-                    </li>
-                </ul>
-            </p>
-            <h4 class="text-center">Abilities</h4>
-            <p class="text-center">
-                Each Pokemon has an ability that grants it a unique advantage in certain situations. Although a Pokemon can only have one ability at a time, each species of Pokemon has between 1 and 3 available abilities.
-            </p>
-            <h4 class="text-center">Moves</h4>
-            <p>
-                Each Pokemon can learn 4 moves. During each turn of a Pokemon battle the player selects 1 of the 4 moves for the Pokemon to execute. All moves have the following characteristics:
-                <ul>
-                    <li>
-                        Type (matches one of the 18 Pokemon types)
-                    </li>
-                    <li>
-                        Power Points (The maximum number of times a Pokemon can execute a move in a given battle)
-                    </li>
-                    <li>
-                        Strength (determines the amount of damage an attacking move will inflict)
-                    </li>
-                    <li>
-                        Accuracy (determines the probability that a move will connect with the opponent)
-                    </li>
-                    <li>
-                        Secondary Effect (some moves have additional effects beyond just damage, such as inflicting a status condition or lowering an opponent's stats)
-                    </li>
-                    <li>
-                        Secondary Effect Probability (determines the likelihood of a move's secondary effect activating)
-                    </li>
-                </ul>
-                Moves are also grouped into three broad categories:
-                <ul>
-                    <li>
-                        Physical (moves that make direct contact with the opponent and rely on the Attack and Defense stats for calculating total damage)
-                    </li>
-                    <li>
-                        Special (moves that do not make direct contact with the opponent and rely on the Special Attack and Special Defense stats for calculating total damage)
-                    </li>
-                    <li>
-                        Non-Damage Dealing (moves that do not deal damage but instead alter stats, recover health, or inflict status conditions)
-                    </li>
-                </ul>
-            </p>
-            <h4 class="text-center">Items</h4>
-            <p class="text-center">
-                The final thing a VGC player needs to consider when building a team is which items to give each Pokemon. A Pokemon can hold one item at a time, and no two Pokemon on a Base team can hold the same item.
-                Furthermore, items must remain the same throughout a tournament.
-            </p>
-        </div>
-        <div class="text-center">
-            <h3 class="text-center">Analyzing Base and VGC Teams</h3>
-            <p class="text-center">
-                As you can see, there is an enormous amount of information that VGC players must consider and track during a VGC match, and they must do so in a time-constrained environment.
-                The goal of Lugia's Lair is to provide tools to help VGC players systematically analyze a few key aspects of the VGC game and help them build intuition that will benefit them in an actual match.
-            </p>
-            <h4 class="text-center">VGC Team Combinations</h4>
-            <p class="text-center">
-                From a given Base Team, a player can create 15 unique VGC Teams. But how easy is it to think through all 15 combinations of 4 Pokemon that you can make from a set of 6?
-                How much harder is it to do that when you only have 90 seconds to decide both what 4 Pokemon your opponent is likely to bring and which 4 of your own Pokemon are the best counters to your opponent's expected team?
-                This is the first area that Lugia's Lair will provide additional insight to VGC players - giving them a tool that will automatically generate and display all possible VGC teams from a given Base Team.
-                This way players will get used to thinking through a full range of options instead of simply sticking to 1 or 2 combinations that have worked well for them in the past. The number of viable VGC Teams generated from a
-                Base Team should influence how players build their Base Teams - if one Base Team can generate only 2 good VGC Teams out of 15, while another Base Team yields 5 good VGC Teams out of 15, then the second Base Team will
-                give the VGC player a higher chance of victory.
-            </p>
-            <h4 class="text-center">Base and VGC Team Stat Evaluations</h4>
-            <p class="text-center">
-                All else equal, higher stat values make for a better Pokemon. However, stat values are typically evaluated on an individual-Pokemon basis and rarely calculated for the overall team.
-                It is important to know not only how each Pokemon contributes to the team's average stats but also how those stats are distributed across the team. For example, a team with Pokemon that all have high attack stats and low defense stats
-                might have an advantage in a short battle, but if the battle drags on then they are susceptible to being knocked out. Furthermore, a team of extremely fast Pokemon is vulnerable to a team
-                that makes use of the move Trick Room, which reverses speed stats and causes slower Pokemon to move first. Lugia's Lair will provide the ability to quickly judge each Pokemon's stats and each team's stats so that players can build a balanced team.
-            </p>
-            <h4 class="text-center">Type Analysis</h4>
-            <p class="text-center">
-                The final unique feature that Lugia's Lair provides to VGC players is a way to evaluate the cumulative type advantages/disadvantages of their teams. This is relatively simple to do on an individual-Pokemon basis, but much harder to generalize to 
-                the team level in a quick and consistent manner. The results of Lugia's Lair's analysis will show against which types a given team has particular strengths/weaknesses.
-            </p>
-        </div>
+<div class="container">
+    <h2 class="text-center">Pokemon Video Game Championship (VGC) Overview</h2>
+    <div class="text-center">
+        <h3>Tournament Structure</h3>
+        <p class="text-center">
+            A Pokemon VGC tournament occurs over 2 - 3 days. The first day or two of a tournament consists of "Swiss" rounds. During each round of Swiss competition, players are paired up and compete in a VGC match. Each match consists is a best-of-three series.
+            Whichever player wins the best of three series wins the match. The total number of players in the tournament determines the number of rounds of Swiss - typically there are between 7 and 9 rounds of Swiss.
+            A player's record at the end of the swiss rounds is equal to the number of matches he or she won/lost, regardless if they won some matches by going 2-1 in the set. (Therefore going "undefeated" in the Swiss rounds does not necessarily mean the player did not lose a game, it just means that they did not lose a set).
+        </p>
+        <p class="text-center">
+            At the conclusion of all Swiss rounds (sometimes there are two days of Swiss play), the players with the best records begin a single-elimination bracket. The size of the bracket also depends on the total number of players, but it usually consists of 16 players. And just like the Swiss rounds, whether a player wins or gets eliminated depends on a best-of-three set of games.
+            The player that makes it to the end of the bracket without losing a match is crowned the winner.
+        </p>
     </div>
-    <footer>
-        <a class="btn btn-primary" asp-controller="Home" asp-action="ContentHub">Return to Content Hub</a>
-    </footer>
+    <div class="text-center">
+        <h3 class="text-center">Team Constraints</h3>
+        <p class="text-center">
+            Just like in the single-player mode of a Pokemon game, the maximum number of Pokemon a player can have on his/her team is 6. This is what I refer to as the "Base Team" throughout this site.
+            However, unlike the regular video game, VGC players can only have one of each type of Pokemon on their Base Team (so you cannot have a team of 6 Lugias, no matter how awesome that would be).
+            Players must use the same Base Team throughout a tournament, and all of the Pokemon must have originated from the most current version/generation of the Pokemon video games;
+            this means that players must rebuild their teams after each new Pokemon generation comes out (typically every three years).
+        </p>
+        <p class="text-center">
+            At the start of each game in a VGC match, players can see their opponent's Base Team and vice versa. However, only 4 of the 6 Pokemon can be brought into a VGC game, so players never know exactly which 4 Pokemon they will face.
+            This subset of 4 Pokemon chosen from the Base Team is what I refer to as the "VGC Team." And unlike the Base Team, players may change which 4 Pokemon they bring into battle after each game.
+            This means that VGC players may have to confront 3 different VGC Teams in the course of a match. There is also a 90 second time-limit for players to analyze their opponent's Base Team before a match and select which 4
+            Pokemon they want to bring to the next game.
+        </p>
+    </div>
+    <div>
+        <h3 class="text-center">Building a Team</h3>
+        <h4 class="text-center">Types</h4>
+        <p>
+            Each Pokemon has between 1 and 2 types. There are a total of 18 types:
+            <ol>
+                <li>
+                    Normal
+                </li>
+                <li>
+                    Fire
+                </li>
+                <li>
+                    Water
+                </li>
+                <li>
+                    Grass
+                </li>
+                <li>
+                    Electric
+                </li>
+                <li>
+                    Ice
+                </li>
+                <li>
+                    Fighting
+                </li>
+                <li>
+                    Poison
+                </li>
+                <li>
+                    Ground
+                </li>
+                <li>
+                    Flying
+                </li>
+                <li>
+                    Psychic
+                </li>
+                <li>
+                    Bug
+                </li>
+                <li>
+                    Rock
+                </li>
+                <li>
+                    Ghost
+                </li>
+                <li>
+                    Dragon
+                </li>
+                <li>
+                    Dark
+                </li>
+                <li>
+                    Steel
+                </li>
+                <li>
+                    Fairy
+                </li>
+            </ol>
+            Each type has unique strengths/weaknesses in comparison to the other types, similar to rock-paper-scissors (but on a much larger scale).
+        </p>
+        <h4 class="text-center">Stats</h4>
+        <p>
+            Each Pokemon has a set of six statistical categories:
+            <ul>
+                <li>
+                    Hit Points (determines how much damage a Pokemon can take before it faints, or is defeated)
+                </li>
+                <li>
+                    Attack (determines the strength of a Pokemon's physical attacks)
+                </li>
+                <li>
+                    Defense (determines how well a Pokemon can resist physical attacks)
+                </li>
+                <li>
+                    Special Attack (determines the strength of a Pokemon's special attacks)
+                </li>
+                <li>
+                    Special Defense (determines how well a Pokemon resists special attacks)
+                </li>
+                <li>
+                    Speed (determines whether or not a Pokemon will move before its opponent)
+                </li>
+            </ul>
+        </p>
+        <h4 class="text-center">Abilities</h4>
+        <p class="text-center">
+            Each Pokemon has an ability that grants it a unique advantage in certain situations. Although a Pokemon can only have one ability at a time, each species of Pokemon has between 1 and 3 available abilities.
+        </p>
+        <h4 class="text-center">Moves</h4>
+        <p>
+            Each Pokemon can learn 4 moves. During each turn of a Pokemon battle the player selects 1 of the 4 moves for the Pokemon to execute. All moves have the following characteristics:
+            <ul>
+                <li>
+                    Type (matches one of the 18 Pokemon types)
+                </li>
+                <li>
+                    Power Points (The maximum number of times a Pokemon can execute a move in a given battle)
+                </li>
+                <li>
+                    Strength (determines the amount of damage an attacking move will inflict)
+                </li>
+                <li>
+                    Accuracy (determines the probability that a move will connect with the opponent)
+                </li>
+                <li>
+                    Secondary Effect (some moves have additional effects beyond just damage, such as inflicting a status condition or lowering an opponent's stats)
+                </li>
+                <li>
+                    Secondary Effect Probability (determines the likelihood of a move's secondary effect activating)
+                </li>
+            </ul>
+            Moves are also grouped into three broad categories:
+            <ul>
+                <li>
+                    Physical (moves that make direct contact with the opponent and rely on the Attack and Defense stats for calculating total damage)
+                </li>
+                <li>
+                    Special (moves that do not make direct contact with the opponent and rely on the Special Attack and Special Defense stats for calculating total damage)
+                </li>
+                <li>
+                    Non-Damage Dealing (moves that do not deal damage but instead alter stats, recover health, or inflict status conditions)
+                </li>
+            </ul>
+        </p>
+        <h4 class="text-center">Items</h4>
+        <p class="text-center">
+            The final thing a VGC player needs to consider when building a team is which items to give each Pokemon. A Pokemon can hold one item at a time, and no two Pokemon on a Base team can hold the same item.
+            Furthermore, items must remain the same throughout a tournament.
+        </p>
+    </div>
+    <div class="text-center">
+        <h3 class="text-center">Analyzing Base and VGC Teams</h3>
+        <p class="text-center">
+            As you can see, there is an enormous amount of information that VGC players must consider and track during a VGC match, and they must do so in a time-constrained environment.
+            The goal of Lugia's Lair is to provide tools to help VGC players systematically analyze a few key aspects of the VGC game and help them build intuition that will benefit them in an actual match.
+        </p>
+        <h4 class="text-center">VGC Team Combinations</h4>
+        <p class="text-center">
+            From a given Base Team, a player can create 15 unique VGC Teams. But how easy is it to think through all 15 combinations of 4 Pokemon that you can make from a set of 6?
+            How much harder is it to do that when you only have 90 seconds to decide both what 4 Pokemon your opponent is likely to bring and which 4 of your own Pokemon are the best counters to your opponent's expected team?
+            This is the first area that Lugia's Lair will provide additional insight to VGC players - giving them a tool that will automatically generate and display all possible VGC teams from a given Base Team.
+            This way players will get used to thinking through a full range of options instead of simply sticking to 1 or 2 combinations that have worked well for them in the past. The number of viable VGC Teams generated from a
+            Base Team should influence how players build their Base Teams - if one Base Team can generate only 2 good VGC Teams out of 15, while another Base Team yields 5 good VGC Teams out of 15, then the second Base Team will
+            give the VGC player a higher chance of victory.
+        </p>
+        <h4 class="text-center">Base and VGC Team Stat Evaluations</h4>
+        <p class="text-center">
+            All else equal, higher stat values make for a better Pokemon. However, stat values are typically evaluated on an individual-Pokemon basis and rarely calculated for the overall team.
+            It is important to know not only how each Pokemon contributes to the team's average stats but also how those stats are distributed across the team. For example, a team with Pokemon that all have high attack stats and low defense stats
+            might have an advantage in a short battle, but if the battle drags on then they are susceptible to being knocked out. Furthermore, a team of extremely fast Pokemon is vulnerable to a team
+            that makes use of the move Trick Room, which reverses speed stats and causes slower Pokemon to move first. Lugia's Lair will provide the ability to quickly judge each Pokemon's stats and each team's stats so that players can build a balanced team.
+        </p>
+        <h4 class="text-center">Type Analysis</h4>
+        <p class="text-center">
+            The final unique feature that Lugia's Lair provides to VGC players is a way to evaluate the cumulative type advantages/disadvantages of their teams. This is relatively simple to do on an individual-Pokemon basis, but much harder to generalize to
+            the team level in a quick and consistent manner. The results of Lugia's Lair's analysis will show against which types a given team has particular strengths/weaknesses.
+        </p>
+    </div>
+</div>
+<footer class="align-content-center">
+    <a class="btn btn-primary align-content-center" asp-controller="Home" asp-action="ContentHub">Return to Content Hub</a>
+</footer>

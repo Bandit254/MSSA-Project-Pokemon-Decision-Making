@@ -33,7 +33,10 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
         {
             return View();
         }
-
+        public ViewResult CopyRight()
+        {
+            return View();
+        }
 
         [HttpGet]
         public ViewResult InGameTracker()

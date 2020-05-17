@@ -3,27 +3,24 @@
 }
 
 <main role="main">
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
         <div class="container">
             <h1 class="display-3">Lugia's Lair</h1>
-            <p>Welcome to Lugia's Lair! Have you been wondering how to become a better Pokemon battler? Do you want to compete in the Pokemon Video Game Championships (VGC)? Have you even wished for a tool that would help you objectively rank your VGC teams? Or maybe you desire a method to predict which Pokemon your opponent will bring into a VGC match? Whatever your motivation is, Lugia's Lair is the resource you've been looking for!</p>
+            <p>Welcome to Lugia's Lair! Have you been wondering how to become a better Pokemon battler? Do you want to compete in the Pokemon Video Game Championships (VGC)? Have you ever wished for a tool that would help you objectively analyze and rank your VGC teams? Or maybe you desire a method to predict which Pokemon your opponent will bring into a VGC match? Whatever your motivation is, Lugia's Lair is the resource you've been looking for!</p>
             <p><a class="btn btn-primary btn-lg" asp-controller="Home" asp-action="VGCOverview" role="button">Learn More About VGC &raquo;</a></p>
         </div>
     </div>
 
     <div class="container">
-        <!-- Example row of columns -->
         <div class="row">
             <div class="col-md-3">
                 <h2>Account Overview</h2>
                 <p>Update your username / password, change trainer icon photo, and view your customized Pokemon and Teams.</p>
-                <p><a class="btn btn-primary" asp-controller="Vgcplayer" asp-action="AccountOverview">Account Overview</a></p>
+                <p><a class="btn btn-primary" asp-controller="Vgcplayer" asp-action="DirectToAccountOverview">Account Overview</a></p>
             </div>
             <div class="col-md-3">
                 <h2>Search Pokemon</h2>
-                <p>Search for Pokemon to customize or add to a team based on a number of search criteria.</p>
+                <p>Search for Pokemon to customize or add to a team based on various search criteria.</p>
                 <p><a class="btn btn-primary" asp-controller="Pokemon" asp-action="SearchPokemon">Search for Pokemon</a></p>
             </div>
             <div class="col-md-3">
@@ -37,14 +34,11 @@
                 <p><a class="btn btn-primary" asp-controller="TeamBase" asp-action="CreateTeam">Create Pokemon Team</a></p>
             </div>
         </div>
-
-        <hr>
-
-    </div> <!-- /container -->
+    </div> 
 
 </main>
 <div class="container">
-    <p>Links to external Resources</p>
+    <p class="text-center">Links to external Resources</p>
     <table class="table">
         <thead>
             <tr>
@@ -67,6 +61,3 @@
         </thead>
     </table>
 </div>
-<footer class="container">
-    <p>&copy; Zachary Silvis 2020</p>
-</footer>

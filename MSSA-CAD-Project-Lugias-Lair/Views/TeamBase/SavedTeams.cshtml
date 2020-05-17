@@ -1,0 +1,48 @@
+﻿@model List<TeamBase>
+@{
+    ViewBag.Title = "Trainer's Saved Teams";
+}
+<div class="container align-content-center">
+    <h3 class="text-center">@Context.Session.GetString("User Name")'s Base Teams</h3>
+    <p class="text-center">This table displays all Base Teams created by you. Any team with a "1" in the Team Public field will also be available for other users.</p>
+    <table class="table">
+        <thead>
+            <tr class="text-center">
+                <th scope="col">Team Name</th>
+                <th scope="col">User ID</th>
+                <th scope="col">Team Public</th>
+                <th scope="col">Pokemon One</th>
+                <th scope="col">Pokemon Two</th>
+                <th scope="col">Pokemon Three</th>
+                <th scope="col">Pokemon Four</th>
+                <th scope="col">Pokemon Five</th>
+                <th scope="col">Pokemon Six</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var t in Model)
+            {
+                <tr>
+                    <td scope="row">@t.TeamBaseName</td>
+                    <td>@t.UserId</td>
+                    <td>@t.TeamPublic</td>
+                    <td>@t.PokemonOne.PokemonName</td>
+                    <td>@t.PokemonTwo.PokemonName</td>
+                    <td>@t.PokemonThree.PokemonName</td>
+                    <td>@t.PokemonFour.PokemonName</td>
+                    <td>@t.PokemonFive.PokemonName</td>
+                    <td>@t.PokemonSix.PokemonName</td>
+                    <td>
+                        <form id="@t.TeamBaseId" asp-controller="TeamBase" asp-action="AnalyzeTeam" method="post">
+                            <input type="hidden" value="@t.TeamBaseId" name="teamBaseId" />
+                            <input class="btn btn-primary" type="submit" value="Analyze Team" />
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<footer class="align-content-center">
+    <a class="btn btn-primary align-content-center" asp-controller="Home" asp-action="ContentHub">Return to Content Hub</a>
+</footer>
