@@ -18,7 +18,7 @@ Competitive Pokémon, while based on a children's game, is an extremely complex 
  13. [Connecting to the DB to Display/Modify Data](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#connecting-to-the-db-to-displaymodify-data)
  14. [Initial Sprint Planning](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#initial-sprint-planning)
  15. [Sprint Reviews](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/11.%20Sprint%20Planning%20and%20Review)
- 16. End-Of-
+ 16. End-Of-MSSA Test and Requirements Review
  17. [Project Work Backlog](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#project-work-backlog)
  18. [Most Current Source Code (located on dev branch)](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/dev/MSSA-CAD-Project-Lugias-Lair)
  19. [Live Website](https://lugias-lair.azurewebsites.net)
@@ -254,6 +254,8 @@ After completing a sprint, I will perform a sprint review and record the results
  - What would you do differently, knowing what you know now?
 
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
+## End-Of-MSSA Test and Requirements Review
+The MSSA program ends on 22 May 2020, therefore I am including my project's 
 
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
@@ -267,11 +269,11 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NzIwNDUzNSwtMTY0NDI4OTQ5NSwtOT
-M1MjUyODc3LDczNDM2OTk2MywtMzI1NzI5NzUzLC0xNzQ4OTAx
-MjE0LC0xMTIwNzE5MTIyLC0xMzE1MTMwNjc3LDk5MDQ1MzU1Ni
-wxODM0MjMzMjAwLDM2OTkzNDc1MiwtMjQ1ODE3NTIxLC0xMTMz
-NTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OSwtMTAwNTQwMj
-kzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0NiwtMTQ3OTI0OTI1
-OCwtMTYyNzg3NTQ1OF19
+eyJoaXN0b3J5IjpbMjExMTEyOTI5LC0xNjQ0Mjg5NDk1LC05Mz
+UyNTI4NzcsNzM0MzY5OTYzLC0zMjU3Mjk3NTMsLTE3NDg5MDEy
+MTQsLTExMjA3MTkxMjIsLTEzMTUxMzA2NzcsOTkwNDUzNTU2LD
+E4MzQyMzMyMDAsMzY5OTM0NzUyLC0yNDU4MTc1MjEsLTExMzM1
+NzgzOSwtMjkxNTcwNDA0LC0xNzgxMDg5Njg5LC0xMDA1NDAyOT
+M3LC0yMDM2ODYzMTkwLC0xOTUwNzMzMzQ2LC0xNDc5MjQ5MjU4
+LC0xNjI3ODc1NDU4XX0=
 -->
