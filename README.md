@@ -269,6 +269,7 @@ A list of items that I may not be able to complete before the end of the MSSA pr
 
  - [ ] Pokémon Moves Reverse-Lookup Tables
  - [ ] Pokémon Abilities Reverse-Lookup Tables
+ - [ ] Add Pictures
  - [ ] Custom Stat Calculations (EVs, IVs, Base Stats)
  - [ ] Conditional Team Generator (Both Full Teams and VGC Teams)
  - [ ] In-Game Battle Information Dashboard
@@ -276,11 +277,11 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE2MTQ3MTQ3LDY5NTg3NjI0OSwtMTY0ND
-I4OTQ5NSwtOTM1MjUyODc3LDczNDM2OTk2MywtMzI1NzI5NzUz
-LC0xNzQ4OTAxMjE0LC0xMTIwNzE5MTIyLC0xMzE1MTMwNjc3LD
-k5MDQ1MzU1NiwxODM0MjMzMjAwLDM2OTkzNDc1MiwtMjQ1ODE3
-NTIxLC0xMTMzNTc4MzksLTI5MTU3MDQwNCwtMTc4MTA4OTY4OS
-wtMTAwNTQwMjkzNywtMjAzNjg2MzE5MCwtMTk1MDczMzM0Niwt
-MTQ3OTI0OTI1OF19
+eyJoaXN0b3J5IjpbLTE0MjM2NTM4OCw2OTU4NzYyNDksLTE2ND
+QyODk0OTUsLTkzNTI1Mjg3Nyw3MzQzNjk5NjMsLTMyNTcyOTc1
+MywtMTc0ODkwMTIxNCwtMTEyMDcxOTEyMiwtMTMxNTEzMDY3Ny
+w5OTA0NTM1NTYsMTgzNDIzMzIwMCwzNjk5MzQ3NTIsLTI0NTgx
+NzUyMSwtMTEzMzU3ODM5LC0yOTE1NzA0MDQsLTE3ODEwODk2OD
+ksLTEwMDU0MDI5MzcsLTIwMzY4NjMxOTAsLTE5NTA3MzMzNDYs
+LTE0NzkyNDkyNThdfQ==
 -->
