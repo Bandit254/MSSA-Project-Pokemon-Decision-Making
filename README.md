@@ -18,7 +18,7 @@ Competitive Pokémon, while based on a children's game, is an extremely complex 
  13. [Connecting to the DB to Display/Modify Data](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#connecting-to-the-db-to-displaymodify-data)
  14. [Initial Sprint Planning](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#initial-sprint-planning)
  15. [Sprint Reviews](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/master/11.%20Sprint%20Planning%20and%20Review)
- 16. End-Of-MSSA Test and Requirements Review
+ 16. [End-Of-MSSA Test and Requirements Review](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#end-of-mssa-test-and-requirements-review)
  17. [Project Work Backlog](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#project-work-backlog)
  18. [Most Current Source Code (located on dev branch)](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making/tree/dev/MSSA-CAD-Project-Lugias-Lair)
  19. [Live Website](https://lugias-lair.azurewebsites.net)
@@ -277,11 +277,11 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjM2NTM4OCw2OTU4NzYyNDksLTE2ND
-QyODk0OTUsLTkzNTI1Mjg3Nyw3MzQzNjk5NjMsLTMyNTcyOTc1
-MywtMTc0ODkwMTIxNCwtMTEyMDcxOTEyMiwtMTMxNTEzMDY3Ny
-w5OTA0NTM1NTYsMTgzNDIzMzIwMCwzNjk5MzQ3NTIsLTI0NTgx
-NzUyMSwtMTEzMzU3ODM5LC0yOTE1NzA0MDQsLTE3ODEwODk2OD
-ksLTEwMDU0MDI5MzcsLTIwMzY4NjMxOTAsLTE5NTA3MzMzNDYs
-LTE0NzkyNDkyNThdfQ==
+eyJoaXN0b3J5IjpbOTE1NDcwODg2LC0xNDIzNjUzODgsNjk1OD
+c2MjQ5LC0xNjQ0Mjg5NDk1LC05MzUyNTI4NzcsNzM0MzY5OTYz
+LC0zMjU3Mjk3NTMsLTE3NDg5MDEyMTQsLTExMjA3MTkxMjIsLT
+EzMTUxMzA2NzcsOTkwNDUzNTU2LDE4MzQyMzMyMDAsMzY5OTM0
+NzUyLC0yNDU4MTc1MjEsLTExMzM1NzgzOSwtMjkxNTcwNDA0LC
+0xNzgxMDg5Njg5LC0xMDA1NDAyOTM3LC0yMDM2ODYzMTkwLC0x
+OTUwNzMzMzQ2XX0=
 -->
