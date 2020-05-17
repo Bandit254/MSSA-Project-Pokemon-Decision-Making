@@ -259,7 +259,7 @@ The MSSA program ends on 22 May 2020, therefore I am including my project's Test
 
 I started this project with a total of 117 requirements. As of 16 May 2020, I have implemented and have test coverage of 50 requirements, with a resulting requirements coverage of 42.74%. 
 
-I started 
+I wrote 102 tests to cover those 117 requirements. As of 16 May 2020, I have 47 passing tests, with the remainign not yet implmented/tested. 
 
 ## Project Work Backlog
 A list of items that I may not be able to complete before the end of the MSSA program, but which I will continue working on once the core functionality of the web application is complete. 
@@ -273,11 +273,11 @@ A list of items that I may not be able to complete before the end of the MSSA pr
        already, and is essentially an entire project in and of itself)
 [Return to Top](https://github.com/Bandit254/MSSA-Project-Pokemon-Decision-Making#mssa-project-pok%C3%A9mon-decision-making)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MzQ2MjMyMSw2OTU4NzYyNDksLTE2ND
-QyODk0OTUsLTkzNTI1Mjg3Nyw3MzQzNjk5NjMsLTMyNTcyOTc1
-MywtMTc0ODkwMTIxNCwtMTEyMDcxOTEyMiwtMTMxNTEzMDY3Ny
-w5OTA0NTM1NTYsMTgzNDIzMzIwMCwzNjk5MzQ3NTIsLTI0NTgx
-NzUyMSwtMTEzMzU3ODM5LC0yOTE1NzA0MDQsLTE3ODEwODk2OD
-ksLTEwMDU0MDI5MzcsLTIwMzY4NjMxOTAsLTE5NTA3MzMzNDYs
-LTE0NzkyNDkyNThdfQ==
+eyJoaXN0b3J5IjpbLTEyODkzMzA0NTcsNjk1ODc2MjQ5LC0xNj
+Q0Mjg5NDk1LC05MzUyNTI4NzcsNzM0MzY5OTYzLC0zMjU3Mjk3
+NTMsLTE3NDg5MDEyMTQsLTExMjA3MTkxMjIsLTEzMTUxMzA2Nz
+csOTkwNDUzNTU2LDE4MzQyMzMyMDAsMzY5OTM0NzUyLC0yNDU4
+MTc1MjEsLTExMzM1NzgzOSwtMjkxNTcwNDA0LC0xNzgxMDg5Nj
+g5LC0xMDA1NDAyOTM3LC0yMDM2ODYzMTkwLC0xOTUwNzMzMzQ2
+LC0xNDc5MjQ5MjU4XX0=
 -->
