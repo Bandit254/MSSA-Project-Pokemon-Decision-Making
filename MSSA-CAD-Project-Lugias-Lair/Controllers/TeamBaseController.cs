@@ -162,6 +162,7 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
             }
             return teamTypeAnalysis;
         }
+        //Base Type Chart
         public static double[,] TypeChart = new double[18, 18] {
             //Normal
             { 1,1,1,1,1,1,1,1,1,1,1,1,0.5,0,1,1,0.5,1},
@@ -176,7 +177,7 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
             //Ice
             {1,0.5,0.5,2,1,0.5,1,1,2,2,1,1,1,1,2,1,0.5,1 },
             //Fighting
-            { 2,1,1,1,1,2,1,0.5,1,0.5,0.5,0.5,1,0,1,2,2,0.5},
+            { 2,1,1,1,1,2,1,0.5,1,0.5,0.5,0.5,2,0,1,2,2,0.5},
             //Poison
             {1,1,1,2,1,1,1,0.5,0.5,1,1,1,0.5,0.5,1,1,0,2 },
             //Ground
@@ -209,12 +210,15 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
                 attackRating[i] = TypeChart[typeOneIndex, i];
             }
             if (typeTwo != null)
-            {
+            {//Since moves can only have a single type, only one of a Pokemon's types matters for any given attack (even if the Pokemon is a dual type).
+                //Therefore, the composite damage multiplier is the expected value (average) of both of the attacking Pokemon's types for a given defending type.
                 int typeTwoIndex = (int)typeTwo-1;
+                double[] avgAttackRating = new double[18];
                 for (int i = 0; i < 18; i++)
                 {
-                    attackRating[i] *= TypeChart[typeTwoIndex, i];
+                    avgAttackRating[i] = ((TypeChart[typeTwoIndex, i]+attackRating[i])/2);
                 }
+                return avgAttackRating;
             }
             return attackRating;
         }
@@ -227,7 +231,7 @@ namespace MSSA_CAD_Project_Lugias_Lair.Controllers
                 defenseRating[i] = TypeChart[i, typeOneIndex];
             }
             if (typeTwo != null)
-            {
+            {//Weaknesses in Pokemon compound, therefore the defensive ratings are multiplied together to create the composite defensive rating for a dual-type Pokemon
                 int typeTwoIndex = (int)typeTwo-1;
                 for (int i = 0; i < 18; i++)
                 {
